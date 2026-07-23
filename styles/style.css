@@ -100,8 +100,9 @@ main{
     padding-inline: 20px;
     display: flex;
     flex-direction: column;
--
 }
+
+/*ÖNERİ BARI */
 
 #oneriler {
     list-style: none;

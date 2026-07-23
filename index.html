@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ne Diyo' Bu?</title>
-    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="styles/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">
@@ -49,7 +49,7 @@
         <p id="foot-yazi"> <b>© 2026 <a href="">Ne Diyo' Bu?</a>.  Tüm hakları saklıdır.</b> </p>
     </footer>
 
-    <script src="../js/sozluk-core.js"></script>
+    <script src="js/sozluk-core.js"></script>
 <script>
     const kutu = document.querySelector('.arama-bari');
     const oneriListesi = document.getElementById('oneriler');
@@ -70,7 +70,7 @@
                 const li = document.createElement('li');
                 li.innerHTML = `${item.sozcuk}${item.okunus ? ` <span class="okunus">(${item.okunus})</span>` : ''}`;
                 li.addEventListener('click', () => {
-                    window.location.href = `sozluk.html?id=${item.id}`;
+                    window.location.href = `../pages/sozluk.html?id=${item.id}`;
                 });
                 oneriListesi.appendChild(li);
             });

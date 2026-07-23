@@ -62,7 +62,8 @@ header a{
     display: flex;
     justify-content: center;
     align-items: center;
-
+    flex-direction: column;
+    position: relative;
 }
 
 #arama p{
@@ -103,6 +104,53 @@ header a{
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
     background-color: hsl(174, 72%, 70%);
+}
+
+
+
+/*ÖNERİLER*/
+
+
+
+#oneriler {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: inherit;
+    width: 100%;
+    height: fit-content;
+    overflow-y: auto;
+    z-index: 10;
+    position: absolute;
+    top: 90px;
+    background-color: #0b1d20;
+}
+
+
+
+#oneriler li {
+    padding: 12px 16px;
+    font-size: 1rem;
+    line-height: 1.4;
+    cursor: pointer;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    transition: background-color 0.15s ease;
+}
+
+#oneriler li:hover{
+    background-color: #0f262a;
+}
+
+#oneriler li:last-child {
+    border-bottom: none;
+}
+
+
+#oneriler .okunus {
+    font-size: 0.85rem;
+    font-style: italic;
+    margin-left: 8px;
+    opacity: 0.7;
 }
 
 
@@ -286,6 +334,7 @@ footer{
     .kullanimlar, .benzerler, .sozlukce{
         width: 70%;
     }
+
 } 
 
 @media (max-width: 900px){
@@ -337,6 +386,10 @@ footer{
 
     .foot-links{
         margin-inline: 8%;
+    }
+
+        #oneri{
+        top: 20px
     }
 }
 
