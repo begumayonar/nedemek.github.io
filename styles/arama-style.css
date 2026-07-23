@@ -1,0 +1,387 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #40e0d0;
+    font-family: "Source Serif 4", serif;
+
+}
+
+::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+
+body{
+    display: grid;
+    grid-template-areas: 
+    "header sidebar"
+    "main sidebar"
+    "footer sidebar";
+
+    grid-template-columns: 1fr 200px;
+    grid-template-rows: auto 1fr auto;
+
+    min-height: 104.3vh;
+    background-color: #081617;
+    overflow-x: hidden;
+    scrollbar-color: transparent transparent;
+    
+}
+
+/*HEADER*/
+
+header{
+    grid-area: header;
+    background-color: #0c2123;
+    display: flex;
+    align-items: center;
+    padding: 15px 0 0 20px; 
+}
+
+header h2{
+    font-size: clamp(2.5rem, 5vw, 5rem);
+    padding-top: 5px;
+    color: hsl(174, 72%, 70%);
+    line-height: 1.05;
+    text-align: center;
+}
+
+
+header a{
+    text-decoration: none;
+}
+
+/*ARAMA ÇUBUĞU*/
+
+
+#arama{
+    height: 100%;
+    width: min(870px, calc(100vw - 260px));
+    max-width: 100%;
+    padding-inline: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#arama p{
+    margin-top: 15px;
+    color: #40e0d0b0;
+}
+
+.arama-container-2{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.arama-bari{
+    height: 100%;
+    width: auto;
+    flex: 1 1 auto;
+    min-width: 0;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-color: hsl(174, 72%, 70%);
+    border-width: 3px;
+    background-color: transparent;
+    font-size: 1rem;
+}
+
+.arama-bari::placeholder{
+    color: #40e0d051;
+}
+
+.arama-buton{
+    height: 60px;
+    width: 70px;
+    flex: 0 0 70px;
+    border: 5px solid transparent;
+
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: hsl(174, 72%, 70%);
+}
+
+
+
+/*YAN BAR*/
+
+aside{
+    grid-area: sidebar;
+    display: flex;
+    background-color: #0c2123;
+    margin-left: auto;
+    width: 100%;
+    border-left: 1px solid #40e0d0;
+    box-sizing: border-box;
+}
+
+.links-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 100%;
+    font-size: 130%;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+    padding: 24px 12px;
+}
+
+.links-container a{
+    overflow-wrap: anywhere;
+}
+
+.links-container a:hover{
+    color: aliceblue;
+}
+
+/* ANA */
+
+main{
+    grid-area: main;
+    /* background-color: #0c2123; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: auto;
+
+
+
+
+    background-image:
+        linear-gradient(#1b3a3d 1px, transparent 1px),
+        linear-gradient(90deg, #1b3a3d 1px, transparent 1px);
+
+    background-size: 30px 30px;
+
+}
+
+/*SÖZLÜKÇE*/
+
+
+.sozlukce{
+    width: 40%;
+    min-height: 150px;
+    margin-bottom: 200px;
+    margin-top: 20px;
+}
+
+
+.kullanimlar{
+    width: 40%;
+    min-height: 150px;
+    margin-bottom:70px;
+}
+
+.benzerler{
+    width: 40%;
+    min-height: 100px;
+}
+
+
+
+.ust-bolum{
+    background-color: #0e191b;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.anlam-karti{
+    height: fit-content;
+    background-color: #102023e2;
+    min-height: 100%;
+    overflow-y: scroll;
+}
+
+#h1-sozlukce{
+    font-size: 3rem;
+    color: #93fff4;
+    margin-bottom: 1%;
+}
+
+.okunus-yazi{
+    color: #ffbeaf;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+
+.wordTitle{
+    color: #ff937b;
+    font-size: 4rem;
+}
+
+#definition, #usage, #benzer{
+    margin-left: 10px;
+    margin-top: 15px;
+    font-size: 1.2rem;
+}
+
+main h2{
+    color: #91fff4;
+}
+
+main ol{
+    padding-left: 20px;
+}
+/*KULLANIMLAR*/
+
+
+
+/*ALT BAR*/
+
+footer{
+    grid-area: footer;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(
+        to bottom, #0b1d20, #081617
+    );
+}
+
+.foot-links{
+    height: 60px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-inline: 20%;
+    gap: 14px;
+    text-align: center;
+}
+
+.foot-links a,
+#foot-yazi{
+    overflow-wrap: anywhere;
+}
+
+#foot-yazi{
+    margin-inline: 30px;
+    margin-bottom: 30px;
+    width: fit-content;
+    align-self: center;
+    font-size: 18px;
+}
+
+#cizgi{
+    border: none;
+    border-top: 3px solid rgba(255, 255, 255, 0.458);
+    margin-block: 20px;
+
+}
+
+@media (max-width: 1080px){
+    body{
+        grid-template-columns: 1fr 180px;
+    }
+
+    .kullanimlar, .benzerler, .sozlukce{
+        width: 70%;
+    }
+} 
+
+@media (max-width: 900px){
+    header h2{
+        font-size: clamp(2rem, 5vw, 4rem);
+
+    }
+} 
+
+@media (max-width: 760px){
+    body{
+        grid-template-areas:
+        "header"
+        "sidebar"
+        "main"
+        "footer";
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto 1fr auto;
+    }
+
+    header{
+        padding-block: 20px;
+    }
+
+    aside{
+        border-left: none;
+        border-top: 1px solid #40e0d0;
+        border-bottom: 1px solid #40e0d0;
+    }
+
+    .links-container{
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 14px 16px;
+        font-size: 110%;
+    }
+
+    #arama{
+        width: min(870px, 100%);
+        height: fit-content;
+        
+    }
+
+    .arama-container-2{
+        margin: 0;
+    }
+
+
+    .foot-links{
+        margin-inline: 8%;
+    }
+}
+
+@media (max-width: 480px){
+    header{
+        padding-inline: 16px;
+        padding-block: 20px;
+    }
+
+    header h2{
+        font-size: clamp(1.3rem, 3vw, 3.4rem);
+
+    }
+
+    #arama{
+        width: 300px;
+    }
+
+    .arama-container-2{
+        height: 40px;
+        margin: 0;
+        padding-top: 5px;
+    }
+
+    .arama-buton{
+        height: 40px;
+        width: 56px;
+    }
+
+    .arama-bari{
+        height: 40px;
+    }
+
+    .foot-links{
+        height: auto;
+        min-height: 60px;
+        flex-wrap: wrap;
+        padding-block: 12px;
+        margin-inline: 16px;
+        font-size: 18px;
+    }
+
+    #foot-yazi{
+        text-align: center;
+        font-size: 16px;
+        margin-inline: 18px;
+    }
+}

@@ -1,0 +1,6350 @@
+[
+  {
+    "id": 1,
+    "sozcuk": "Absolute Cinema",
+    "okunus": "Absölüt Sinema",
+    "anlam": "Salt sinema, öz sinema, sinemanın özü, salt yapıt, sanat, başyapıt."
+  },
+  {
+    "id": 2,
+    "sozcuk": "Absolute Comedy",
+    "okunus": "Absölüt Komedi",
+    "anlam": "Salt komedi, salt güldürü, öz komedi, öz güldürü, komedinin özü, güldürünün özü."
+  },
+  {
+    "id": 3,
+    "sozcuk": "Absorbe",
+    "okunus": "",
+    "anlam": "Soğurma, emilim, emiş."
+  },
+  {
+    "id": 4,
+    "sozcuk": "Absorbe Etmek",
+    "okunus": "",
+    "anlam": "Soğurmak, emmek, emilimlemek."
+  },
+  {
+    "id": 5,
+    "sozcuk": "Absorbe Olmak",
+    "okunus": "",
+    "anlam": "Soğrulmak, emilmek, emilimlenmek."
+  },
+  {
+    "id": 6,
+    "sozcuk": "Abuse",
+    "okunus": "",
+    "anlam": "Sömürme, kötüye kullanma, istismar."
+  },
+  {
+    "id": 7,
+    "sozcuk": "Abuse Etmek",
+    "okunus": "",
+    "anlam": "Sömürmek, kötüye kullanmak, istismar etmek."
+  },
+  {
+    "id": 8,
+    "sozcuk": "Adaptasyon",
+    "okunus": "Adaptation",
+    "anlam": "Uyum."
+  },
+  {
+    "id": 9,
+    "sozcuk": "Adapte Etmek",
+    "okunus": "",
+    "anlam": "Uydurmak, uyum sağlatmak, ayak uydurtmak."
+  },
+  {
+    "id": 10,
+    "sozcuk": "Adapte Olmak",
+    "okunus": "",
+    "anlam": "Uymak, uyum sağlamak, ayak uydurmak."
+  },
+  {
+    "id": 11,
+    "sozcuk": "Admin",
+    "okunus": "",
+    "anlam": "Yönetici."
+  },
+  {
+    "id": 12,
+    "sozcuk": "After Credit",
+    "okunus": "Aftır Kıredit",
+    "anlam": ""
+  },
+  {
+    "id": 13,
+    "sozcuk": "Airpods",
+    "okunus": "Eyırpods",
+    "anlam": "Kablosuz kulaklık, bluetooth kulaklık."
+  },
+  {
+    "id": 14,
+    "sozcuk": "Aksiyon",
+    "okunus": "",
+    "anlam": "Eylem."
+  },
+  {
+    "id": 15,
+    "sozcuk": "Aksiyon Almak",
+    "okunus": "",
+    "anlam": "Eyleme geçmek."
+  },
+  {
+    "id": 16,
+    "sozcuk": "Aktif",
+    "okunus": "Active",
+    "anlam": "Etkin."
+  },
+  {
+    "id": 17,
+    "sozcuk": "Aktif Etmek",
+    "okunus": "",
+    "anlam": "Etkinleştirmek, etkin kılmak, etkin etmek."
+  },
+  {
+    "id": 18,
+    "sozcuk": "Aktif Olmak",
+    "okunus": "",
+    "anlam": "Etkin olmak, etkinlemek."
+  },
+  {
+    "id": 19,
+    "sozcuk": "Aktivasyon",
+    "okunus": "Activation",
+    "anlam": "Etkinleştirme."
+  },
+  {
+    "id": 20,
+    "sozcuk": "Aktive Etmek",
+    "okunus": "Active",
+    "anlam": "Etkinleştirmek."
+  },
+  {
+    "id": 21,
+    "sozcuk": "Aktive Olmak",
+    "okunus": "",
+    "anlam": "Etkinleşmek."
+  },
+  {
+    "id": 22,
+    "sozcuk": "Aktivist",
+    "okunus": "",
+    "anlam": "Gösterici."
+  },
+  {
+    "id": 23,
+    "sozcuk": "Aktivite",
+    "okunus": "Activity",
+    "anlam": "Etkinlik."
+  },
+  {
+    "id": 24,
+    "sozcuk": "Aktivizm",
+    "okunus": "",
+    "anlam": "Göstericilik."
+  },
+  {
+    "id": 25,
+    "sozcuk": "Aktroll",
+    "okunus": "",
+    "anlam": "AKP yaltakçısı, AKP'li yaltakçı, AKP dalkavuğu, AKP'li dalkavuk."
+  },
+  {
+    "id": 26,
+    "sozcuk": "Aktüel",
+    "okunus": "Actual",
+    "anlam": "Güncel."
+  },
+  {
+    "id": 27,
+    "sozcuk": "Alfa",
+    "okunus": "Alpha",
+    "anlam": "Baskın, doğal lider, doğal önder, kutlu, yönetici ruhlu, başat."
+  },
+  {
+    "id": 28,
+    "sozcuk": "Alloseksüel",
+    "okunus": "Allosexual",
+    "anlam": ""
+  },
+  {
+    "id": 29,
+    "sozcuk": "Ambiyans",
+    "okunus": "",
+    "anlam": "Ortam, çevre."
+  },
+  {
+    "id": 30,
+    "sozcuk": "Amorte",
+    "okunus": "",
+    "anlam": "Çıkarma, karşılama, kurtarma."
+  },
+  {
+    "id": 31,
+    "sozcuk": "Amorte Etmek",
+    "okunus": "",
+    "anlam": "Çıkarmak, karşılamak, kurtarmak."
+  },
+  {
+    "id": 32,
+    "sozcuk": "Amorte Olmak",
+    "okunus": "",
+    "anlam": "Çıkmak, karşılanmak, kurtarmak."
+  },
+  {
+    "id": 33,
+    "sozcuk": "Analitik",
+    "okunus": "",
+    "anlam": "Çözümleyici."
+  },
+  {
+    "id": 34,
+    "sozcuk": "Androjen",
+    "okunus": "",
+    "anlam": ""
+  },
+  {
+    "id": 35,
+    "sozcuk": "Anksiyete",
+    "okunus": "",
+    "anlam": "Kaygı."
+  },
+  {
+    "id": 36,
+    "sozcuk": "Anksiyetesi Azmak",
+    "okunus": "",
+    "anlam": "Kaygılanmak, kaygı duymak, kaygısı kabarmak."
+  },
+  {
+    "id": 37,
+    "sozcuk": "Anksiyetelenmek",
+    "okunus": "",
+    "anlam": "Kaygılanmak, kaygı duymak, kaygısı kabarmak."
+  },
+  {
+    "id": 38,
+    "sozcuk": "Annex",
+    "okunus": "Anneks",
+    "anlam": "Yutma, yutuş, yutum."
+  },
+  {
+    "id": 39,
+    "sozcuk": "Annexlemek",
+    "okunus": "",
+    "anlam": "Yutmak."
+  },
+  {
+    "id": 40,
+    "sozcuk": "Antihero",
+    "okunus": "",
+    "anlam": "Yansız üstün, yansız süper, ülküsüz, ülküsüz üstün, ülküsüz süper."
+  },
+  {
+    "id": 41,
+    "sozcuk": "Aplikasyon",
+    "okunus": "Application",
+    "anlam": "Uygulama."
+  },
+  {
+    "id": 42,
+    "sozcuk": "App",
+    "okunus": "Ep",
+    "anlam": "Uygulama."
+  },
+  {
+    "id": 43,
+    "sozcuk": "Aranje",
+    "okunus": "",
+    "anlam": "1. Yorum, yorumlama 2. Düzenleme. 3. Uyarlama."
+  },
+  {
+    "id": 44,
+    "sozcuk": "Aromantik",
+    "okunus": "",
+    "anlam": "Saltcinsel, odun (Argo)."
+  },
+  {
+    "id": 45,
+    "sozcuk": "Art",
+    "okunus": "",
+    "anlam": "Sanat."
+  },
+  {
+    "id": 46,
+    "sozcuk": "Aseksüel",
+    "okunus": "Asexual",
+    "anlam": "Cinselsiz."
+  },
+  {
+    "id": 47,
+    "sozcuk": "Asset",
+    "okunus": "Aset",
+    "anlam": "Nesne, öğe, varlık."
+  },
+  {
+    "id": 48,
+    "sozcuk": "Assign Etmek",
+    "okunus": "",
+    "anlam": "Atamak."
+  },
+  {
+    "id": 49,
+    "sozcuk": "Astronomik",
+    "okunus": "",
+    "anlam": "Uçuk, kazık, göksel."
+  },
+  {
+    "id": 50,
+    "sozcuk": "Aura",
+    "okunus": "",
+    "anlam": "Alım, albeni, çekim."
+  },
+  {
+    "id": 51,
+    "sozcuk": "Aura Farming",
+    "okunus": "",
+    "anlam": "Albeni kasma, alım kasma, çekim kasma."
+  },
+  {
+    "id": 52,
+    "sozcuk": "Aura Farmlamak",
+    "okunus": "",
+    "anlam": "Albeni kasmak, albeni kasılmak, alım kasmak, alım kasılmak, çekim kasmak, çekim kasılmak."
+  },
+  {
+    "id": 53,
+    "sozcuk": "Aurası Güçlü",
+    "okunus": "",
+    "anlam": "Alımlı, albenili, çekici."
+  },
+  {
+    "id": 54,
+    "sozcuk": "Aura Maxxing",
+    "okunus": "",
+    "anlam": ""
+  },
+  {
+    "id": 55,
+    "sozcuk": "Aurası Zayıf",
+    "okunus": "",
+    "anlam": "Alımsız, albenisiz, çekimsiz."
+  },
+  {
+    "id": 56,
+    "sozcuk": "Backrooms'a Düşmek",
+    "okunus": "Bekruğms",
+    "anlam": "Ortadan kaybolmak"
+  },
+  {
+    "id": 57,
+    "sozcuk": "Bait",
+    "okunus": "Beyt",
+    "anlam": "Tuzak, yem, yemleme, kapan."
+  },
+  {
+    "id": 58,
+    "sozcuk": "Baitlemek",
+    "okunus": "",
+    "anlam": "Tuzağa düşürmek."
+  },
+  {
+    "id": 59,
+    "sozcuk": "Ban",
+    "okunus": "",
+    "anlam": "Yasaklama, sürgün."
+  },
+  {
+    "id": 60,
+    "sozcuk": "Ban Açmak",
+    "okunus": "",
+    "anlam": "Yasak kaldırmak, yasaklama kaldırmak, sürgün bitirmek."
+  },
+  {
+    "id": 61,
+    "sozcuk": "Banal",
+    "okunus": "",
+    "anlam": "Bayağı, iğrenç, itici."
+  },
+  {
+    "id": 62,
+    "sozcuk": "Banlamak",
+    "okunus": "",
+    "anlam": "Yasaklamak, sürmek, sürgüne yollamak."
+  },
+  {
+    "id": 63,
+    "sozcuk": "Banner",
+    "okunus": "Benır",
+    "anlam": "1. Sancak, bayrak, tuğ. 2. Arkalık."
+  },
+  {
+    "id": 64,
+    "sozcuk": "Base",
+    "okunus": "Beyz",
+    "anlam": "İn, üs."
+  },
+  {
+    "id": 65,
+    "sozcuk": "Base Kurmak",
+    "okunus": "",
+    "anlam": "İn kurmak, üs kurmak, yuvalanmak."
+  },
+  {
+    "id": 66,
+    "sozcuk": "Base Yapmak",
+    "okunus": "",
+    "anlam": "İn yapmak, üs yapmak, yuvalanmak."
+  },
+  {
+    "id": 67,
+    "sozcuk": "Basic",
+    "okunus": "Beyzik",
+    "anlam": "Yalın, basit, temel, kolay."
+  },
+  {
+    "id": 68,
+    "sozcuk": "Battle Royale",
+    "okunus": "Betıl Royel",
+    "anlam": ""
+  },
+  {
+    "id": 69,
+    "sozcuk": "Beach",
+    "okunus": "Bi:ç",
+    "anlam": "Kumsal."
+  },
+  {
+    "id": 70,
+    "sozcuk": "Beat",
+    "okunus": "Biğt",
+    "anlam": "Ritim, tempo."
+  },
+  {
+    "id": 71,
+    "sozcuk": "Benching",
+    "okunus": "Bençing",
+    "anlam": "Yedekleme, yedekçilik, yedeklem, yedme, yedekte tutma, cepte görme, oltada görme."
+  },
+  {
+    "id": 72,
+    "sozcuk": "Benching Yapmak",
+    "okunus": "",
+    "anlam": "Yedekleme yapmak, yedeklemek, yedek yapmak, yedekçilik yapmak, yedeklem yapmak, yedme yapmak, yedmek."
+  },
+  {
+    "id": 73,
+    "sozcuk": "Benchlemek",
+    "okunus": "",
+    "anlam": "Yedeklemek, yedekleme yapmak, yedek yapmak, yedekçilik yapmak, yedeklem yapmak,, yedmek, yedme yapmak, yedekte tutmak."
+  },
+  {
+    "id": 74,
+    "sozcuk": "Best",
+    "okunus": "",
+    "anlam": "Gözde, en iyi, en güzel, en gözde."
+  },
+  {
+    "id": 75,
+    "sozcuk": "Bet",
+    "okunus": "",
+    "anlam": "Şans oyunları, bahis."
+  },
+  {
+    "id": 76,
+    "sozcuk": "Beta",
+    "okunus": "",
+    "anlam": "1. Deneme sürümü. 2. Yetersiz, beceriksiz, işe yaramaz."
+  },
+  {
+    "id": 77,
+    "sozcuk": "Big Event",
+    "okunus": "",
+    "anlam": "Büyük olay, büyük gelişme."
+  },
+  {
+    "id": 78,
+    "sozcuk": "Billboard",
+    "okunus": "Bilbord",
+    "anlam": "Duyuru panosu, ilan panosu."
+  },
+  {
+    "id": 79,
+    "sozcuk": "Biseksüel",
+    "okunus": "Bisexual",
+    "anlam": "Çiftcinsel."
+  },
+  {
+    "id": 80,
+    "sozcuk": "Blur",
+    "okunus": "Bulur",
+    "anlam": "Buğu, bulanıklık."
+  },
+  {
+    "id": 81,
+    "sozcuk": "Blurlamak",
+    "okunus": "",
+    "anlam": "Buzlamak, bulandırmak, buğulamak."
+  },
+  {
+    "id": 82,
+    "sozcuk": "Blurlanmış",
+    "okunus": "",
+    "anlam": "Buzlu, buzlanmış, bulanık, bulandırılmış, buğulu, buğulanmış."
+  },
+  {
+    "id": 83,
+    "sozcuk": "Blurlu",
+    "okunus": "",
+    "anlam": "Buzlu, buzlanmış, bulanık, bulandırılmış, buğulu, buğulanmış."
+  },
+  {
+    "id": 84,
+    "sozcuk": "Blok",
+    "okunus": "Block",
+    "anlam": "1. Kalkanlama, soğurma, önleç, önleyim, engel, engelleyim. 2. Küp, yapıtaş."
+  },
+  {
+    "id": 85,
+    "sozcuk": "Bloklamak",
+    "okunus": "",
+    "anlam": "Kalkanlamak, soğurmak, önlemek, engellemek, kalkanlama yapmak, soğurma yapmak, önleme yapmak, engelleme yapmak."
+  },
+  {
+    "id": 86,
+    "sozcuk": "Blok Yapmak",
+    "okunus": "",
+    "anlam": "Kalkanlama yapmak, kalkanlamak, soğurma yapmak, soğurmak, önleme yapmak, önlemek, engelleme yapmak, engellemek."
+  },
+  {
+    "id": 87,
+    "sozcuk": "Bloke",
+    "okunus": "",
+    "anlam": "Dondurulmuş."
+  },
+  {
+    "id": 88,
+    "sozcuk": "Bloke Etmek",
+    "okunus": "",
+    "anlam": "Dondurmak."
+  },
+  {
+    "id": 89,
+    "sozcuk": "Bloke Konmak",
+    "okunus": "",
+    "anlam": "Dondurulmak."
+  },
+  {
+    "id": 90,
+    "sozcuk": "Bodybuilding",
+    "okunus": "Badibuğilding",
+    "anlam": "Vücut geliştirme."
+  },
+  {
+    "id": 91,
+    "sozcuk": "Bodyguard",
+    "okunus": "Badigard",
+    "anlam": "Koruma, koruyucu."
+  },
+  {
+    "id": 92,
+    "sozcuk": "Boomer",
+    "okunus": "Buğmır",
+    "anlam": "Bunak, geri kafalı, eski kafalı."
+  },
+  {
+    "id": 93,
+    "sozcuk": "Boss",
+    "okunus": "Bos",
+    "anlam": "Elebaşı, bölüm sonu canavarı."
+  },
+  {
+    "id": 94,
+    "sozcuk": "Boss Fight",
+    "okunus": "Bos Fayt",
+    "anlam": "Bölüm sonu dövüşü."
+  },
+  {
+    "id": 95,
+    "sozcuk": "Boost",
+    "okunus": "Buğst",
+    "anlam": "Berkitme, güçlendirme."
+  },
+  {
+    "id": 96,
+    "sozcuk": "Boostlamak",
+    "okunus": "",
+    "anlam": "Berkitmek, güçlendirmek."
+  },
+  {
+    "id": 97,
+    "sozcuk": "Boost Atmak",
+    "okunus": "",
+    "anlam": "Berkitmek, güçlendirmek."
+  },
+  {
+    "id": 98,
+    "sozcuk": "Break",
+    "okunus": "Bırek",
+    "anlam": "Ara."
+  },
+  {
+    "id": 99,
+    "sozcuk": "Break Time",
+    "okunus": "",
+    "anlam": "Ara zamanı, ara vakti."
+  },
+  {
+    "id": 100,
+    "sozcuk": "Brifing",
+    "okunus": "Briefing",
+    "anlam": "Bilgilendirme."
+  },
+  {
+    "id": 101,
+    "sozcuk": "Bro",
+    "okunus": "Bıro",
+    "anlam": "Kanka, aga, oğlum."
+  },
+  {
+    "id": 102,
+    "sozcuk": "Brunch",
+    "okunus": "Bıranç",
+    "anlam": "Geç kahvaltı."
+  },
+  {
+    "id": 103,
+    "sozcuk": "Brunch Yapmak",
+    "okunus": "",
+    "anlam": "Geç kahvaltı yapmak, geç kahvaltı etmek."
+  },
+  {
+    "id": 104,
+    "sozcuk": "Buff",
+    "okunus": "Baf",
+    "anlam": "Güçlendirme, berkitme."
+  },
+  {
+    "id": 105,
+    "sozcuk": "Bufflamak",
+    "okunus": "",
+    "anlam": "Güçlendirmek, berkitmek."
+  },
+  {
+    "id": 106,
+    "sozcuk": "Buff Yemek",
+    "okunus": "",
+    "anlam": "Güçlenmek, güçlendirilmek, berkitilmek."
+  },
+  {
+    "id": 107,
+    "sozcuk": "Bug",
+    "okunus": "Bag",
+    "anlam": "Bozukluk, sorun, aksaklık, gedik, açık."
+  },
+  {
+    "id": 108,
+    "sozcuk": "Buga Girmek",
+    "okunus": "",
+    "anlam": "Takılmak, takılıp kalmak."
+  },
+  {
+    "id": 109,
+    "sozcuk": "Bugda Kalmak",
+    "okunus": "",
+    "anlam": "Takılmak, takılıp kalmak."
+  },
+  {
+    "id": 110,
+    "sozcuk": "Buglanmak",
+    "okunus": "",
+    "anlam": "Takılmak, takılıp kalmak."
+  },
+  {
+    "id": 111,
+    "sozcuk": "Buglı",
+    "okunus": "",
+    "anlam": "Sorunlu, bozuk, bozukluklu, aksak, aksaklıklı, açıklı."
+  },
+  {
+    "id": 112,
+    "sozcuk": "Build",
+    "okunus": "",
+    "anlam": "1. Yapı, bina. 2. Sürüm."
+  },
+  {
+    "id": 113,
+    "sozcuk": "Builder",
+    "okunus": "Buildır",
+    "anlam": "Yapıcı, mimar."
+  },
+  {
+    "id": 114,
+    "sozcuk": "Build Yapmak",
+    "okunus": "",
+    "anlam": "Yapı yapmak, yapı dikmek."
+  },
+  {
+    "id": 115,
+    "sozcuk": "Bully",
+    "okunus": "Buli",
+    "anlam": "Zorba, kabadayı."
+  },
+  {
+    "id": 116,
+    "sozcuk": "Bullylemek",
+    "okunus": "",
+    "anlam": "Zorbalamak, zorbalık etmek, zorbalık yapmak, kabadayılık etmek, kabadayılık yapmak."
+  },
+  {
+    "id": 117,
+    "sozcuk": "Bump",
+    "okunus": "Bamp",
+    "anlam": "Öne çıkartma, üste çıkartma."
+  },
+  {
+    "id": 118,
+    "sozcuk": "Bump Atmak",
+    "okunus": "",
+    "anlam": "Öne çıkartmak, üste çıkartmak."
+  },
+  {
+    "id": 119,
+    "sozcuk": "Bump Basmak",
+    "okunus": "",
+    "anlam": "Öne çıkartmak, üste çıkartmak."
+  },
+  {
+    "id": 120,
+    "sozcuk": "Bumplamak",
+    "okunus": "",
+    "anlam": "Öne çıkartmak, üste çıkartmak."
+  },
+  {
+    "id": 121,
+    "sozcuk": "Busniess",
+    "okunus": "",
+    "anlam": "1. İş. 2. İş insanları."
+  },
+  {
+    "id": 122,
+    "sozcuk": "Cafe",
+    "okunus": "Kafe",
+    "anlam": "Kafe, kahve evi."
+  },
+  {
+    "id": 123,
+    "sozcuk": "Cam",
+    "okunus": "",
+    "anlam": "Kamera."
+  },
+  {
+    "id": 124,
+    "sozcuk": "Cam Açmak",
+    "okunus": "",
+    "anlam": "Kamera açmak."
+  },
+  {
+    "id": 125,
+    "sozcuk": "Canon",
+    "okunus": "Kanon",
+    "anlam": "Kural, belirlenmiş, onaylanmış, yükümlülük, yasa, geleneksel."
+  },
+  {
+    "id": 126,
+    "sozcuk": "Canon Event",
+    "okunus": "",
+    "anlam": "Kural olay, yükümlü olay, yasa olay, geleneksel olay."
+  },
+  {
+    "id": 127,
+    "sozcuk": "Caps",
+    "okunus": "Keps",
+    "anlam": "Büyük harf, büyükçe, büyücek."
+  },
+  {
+    "id": 128,
+    "sozcuk": "Casino",
+    "okunus": "Kasiğno",
+    "anlam": "Gazino, pavyon, meyhane."
+  },
+  {
+    "id": 129,
+    "sozcuk": "Cast",
+    "okunus": "Kast",
+    "anlam": "Oyuncular, oynayanlar."
+  },
+  {
+    "id": 130,
+    "sozcuk": "Casting",
+    "okunus": "",
+    "anlam": "Oyuncu bulma."
+  },
+  {
+    "id": 131,
+    "sozcuk": "Cast Seçimi",
+    "okunus": "",
+    "anlam": "Oyuncu seçimi."
+  },
+  {
+    "id": 132,
+    "sozcuk": "Chacra",
+    "okunus": "Çakra",
+    "anlam": "Algı."
+  },
+  {
+    "id": 133,
+    "sozcuk": "Challenge",
+    "okunus": "Çalınç",
+    "anlam": "Sınama, meydan okuma."
+  },
+  {
+    "id": 134,
+    "sozcuk": "Challenge Etmek",
+    "okunus": "",
+    "anlam": "Sınamak, denemek, ölçmek, değerlendirmek."
+  },
+  {
+    "id": 135,
+    "sozcuk": "Challengelamak",
+    "okunus": "",
+    "anlam": "Sınamak, meydan okumak."
+  },
+  {
+    "id": 136,
+    "sozcuk": "Chapter",
+    "okunus": "Çeptır",
+    "anlam": "Bölüm."
+  },
+  {
+    "id": 137,
+    "sozcuk": "Char",
+    "okunus": "Çar",
+    "anlam": "1. Kişilik, karakter. 2. Hesap."
+  },
+  {
+    "id": 138,
+    "sozcuk": "Chat",
+    "okunus": "Çet",
+    "anlam": "Sohbet, söyleşme."
+  },
+  {
+    "id": 139,
+    "sozcuk": "Chatleşmek",
+    "okunus": "",
+    "anlam": "Söyleşmek, konuşmak."
+  },
+  {
+    "id": 140,
+    "sozcuk": "Check Etmek",
+    "okunus": "Çek",
+    "anlam": "Gözden geçirmek, sağlama yapmak, sağlamasını yapmak, denetlemek, denetim yapmak."
+  },
+  {
+    "id": 141,
+    "sozcuk": "Chill",
+    "okunus": "çil",
+    "anlam": "Dingin, sakin."
+  },
+  {
+    "id": 142,
+    "sozcuk": "Clean Girl",
+    "okunus": "Kıliğn Görl",
+    "anlam": "Temiz kız, sanki makyajsız kız."
+  },
+  {
+    "id": 143,
+    "sozcuk": "Clickbait",
+    "okunus": "Kılikbeyt",
+    "anlam": "Tıktuzağı, etkileşim tuzağı, tıklama yemi, etkileşim yemi."
+  },
+  {
+    "id": 144,
+    "sozcuk": "Club",
+    "okunus": "Kılab",
+    "anlam": "Kulüp, mekan."
+  },
+  {
+    "id": 145,
+    "sozcuk": "Crush",
+    "okunus": "Kıraş",
+    "anlam": "Hoşlantı."
+  },
+  {
+    "id": 146,
+    "sozcuk": "Collab",
+    "okunus": "Kolab",
+    "anlam": "Ortak çalışma, işbirliği, ortaklaşa."
+  },
+  {
+    "id": 147,
+    "sozcuk": "Comeback",
+    "okunus": "Kambek",
+    "anlam": "Geri dönüş, geriden gelip yenme."
+  },
+  {
+    "id": 148,
+    "sozcuk": "Comeback Atmak",
+    "okunus": "",
+    "anlam": "Geri dönmek, geriden gelip yenmek."
+  },
+  {
+    "id": 149,
+    "sozcuk": "Comeback Yapmak",
+    "okunus": "",
+    "anlam": "Geri dönmek, geriden gelip yenmek."
+  },
+  {
+    "id": 150,
+    "sozcuk": "Community",
+    "okunus": "Komuniti",
+    "anlam": "Topluluk."
+  },
+  {
+    "id": 151,
+    "sozcuk": "Cookie",
+    "okunus": "Kuki",
+    "anlam": "Kurabiye."
+  },
+  {
+    "id": 152,
+    "sozcuk": "Cool",
+    "okunus": "Kuğl",
+    "anlam": "Kıyak, ulaşılmaz, havalı."
+  },
+  {
+    "id": 153,
+    "sozcuk": "Copy Paste",
+    "okunus": "Kopi Peyst",
+    "anlam": "Kopyala yapıştır, geçirme, aparma, birebir, birebir alma, birebir aktarma, birebir geçirme, birebirleme, söküp götürme, söküp getirme."
+  },
+  {
+    "id": 154,
+    "sozcuk": "Copy Paste Yapmak",
+    "okunus": "",
+    "anlam": "Kopyalamak, kopyala yapıştır yapmak, geçirmek, geçirme yapmak, aparmak, aparma yapmak, birebirlemek, birebir yapmak, birebir aktarmak, birebir almak, birebir geçirmek, söküp götürmek, söküp getirmek."
+  },
+  {
+    "id": 155,
+    "sozcuk": "Cosplay",
+    "okunus": "Kospıley",
+    "anlam": "Bürünme, giyinme oyunu."
+  },
+  {
+    "id": 156,
+    "sozcuk": "Cosplay Yapmak",
+    "okunus": "",
+    "anlam": "Bürünmek."
+  },
+  {
+    "id": 157,
+    "sozcuk": "Counter",
+    "okunus": "",
+    "anlam": "Avcı."
+  },
+  {
+    "id": 158,
+    "sozcuk": "Counterlamak",
+    "okunus": "",
+    "anlam": "Sönümlendirmek, bitirmek, kurutmak, sonlandırmak."
+  },
+  {
+    "id": 159,
+    "sozcuk": "Cover",
+    "okunus": "Kavır",
+    "anlam": "1. Yorum, yorumlama. 2. -nın ağzından, ... söylüyor."
+  },
+  {
+    "id": 160,
+    "sozcuk": "Crack",
+    "okunus": "Kırek",
+    "anlam": "Kırma."
+  },
+  {
+    "id": 161,
+    "sozcuk": "Crack Etmek",
+    "okunus": "",
+    "anlam": "Kırmak."
+  },
+  {
+    "id": 162,
+    "sozcuk": "Cracklemek",
+    "okunus": "",
+    "anlam": "Kırmak."
+  },
+  {
+    "id": 163,
+    "sozcuk": "Crackli",
+    "okunus": "",
+    "anlam": "Kırık."
+  },
+  {
+    "id": 164,
+    "sozcuk": "Crack Yapmak",
+    "okunus": "",
+    "anlam": "Kırmak."
+  },
+  {
+    "id": 165,
+    "sozcuk": "Craft",
+    "okunus": "Kıraft",
+    "anlam": "Üretim, üretme."
+  },
+  {
+    "id": 166,
+    "sozcuk": "Craft Etmek",
+    "okunus": "",
+    "anlam": "Üretmek."
+  },
+  {
+    "id": 167,
+    "sozcuk": "Craftlamak",
+    "okunus": "",
+    "anlam": "Üretmek."
+  },
+  {
+    "id": 168,
+    "sozcuk": "Crash",
+    "okunus": "Kıreş",
+    "anlam": "Çökme."
+  },
+  {
+    "id": 169,
+    "sozcuk": "Crash Vermek",
+    "okunus": "",
+    "anlam": "Çökmek."
+  },
+  {
+    "id": 170,
+    "sozcuk": "Crash Yemek",
+    "okunus": "",
+    "anlam": "Çökmek."
+  },
+  {
+    "id": 171,
+    "sozcuk": "Creative",
+    "okunus": "Kıreativ",
+    "anlam": "Yaratıcı."
+  },
+  {
+    "id": 172,
+    "sozcuk": "Credit",
+    "okunus": "Kıredit",
+    "anlam": "Emeği geçen, hazırlayan."
+  },
+  {
+    "id": 173,
+    "sozcuk": "Credits",
+    "okunus": "",
+    "anlam": "Emeği geçenler, hazırlayanlar."
+  },
+  {
+    "id": 174,
+    "sozcuk": "Credit Vermek",
+    "okunus": "",
+    "anlam": "Emeği geçenlere eklemek, emeği geçenlere katmak, emeği geçenlere koymak, emeği geçenlere yazmak, hazırlayanlara eklemek, hazırlayanlara katmak, hazırlayanlara koymak, hazırlayanlara yazmak."
+  },
+  {
+    "id": 175,
+    "sozcuk": "Cringe",
+    "okunus": "Kırinç",
+    "anlam": "Utanç verici, utandırıcı, gülünç."
+  },
+  {
+    "id": 176,
+    "sozcuk": "Cringe Olmak",
+    "okunus": "",
+    "anlam": "1. Utanmak, yerine utanmak. 2. Utandırmak, gülünç kılmak."
+  },
+  {
+    "id": 177,
+    "sozcuk": "Customize",
+    "okunus": "Kastımayz",
+    "anlam": "Özelleştirme, özgünleştirme."
+  },
+  {
+    "id": 178,
+    "sozcuk": "Customize Etmek",
+    "okunus": "",
+    "anlam": "Özelleştirmek, özgünleştirmek."
+  },
+  {
+    "id": 179,
+    "sozcuk": "Cut Etmek",
+    "okunus": "Kat",
+    "anlam": "Kesmek, bölmek."
+  },
+  {
+    "id": 180,
+    "sozcuk": "Cuter",
+    "okunus": "Katır",
+    "anlam": "Keser, kesici."
+  },
+  {
+    "id": 181,
+    "sozcuk": "Damage",
+    "okunus": "Demeyç",
+    "anlam": "Vuruş, hasar."
+  },
+  {
+    "id": 182,
+    "sozcuk": "Damage Atmak",
+    "okunus": "",
+    "anlam": "Vurmak, hasar vermek."
+  },
+  {
+    "id": 183,
+    "sozcuk": "Damage Almak",
+    "okunus": "",
+    "anlam": "Vurulmak, hasar almak."
+  },
+  {
+    "id": 184,
+    "sozcuk": "Damage Vermek",
+    "okunus": "",
+    "anlam": "Vurmak, hasar vermek."
+  },
+  {
+    "id": 185,
+    "sozcuk": "Data",
+    "okunus": "",
+    "anlam": "Veri."
+  },
+  {
+    "id": 186,
+    "sozcuk": "Date",
+    "okunus": "Deyt",
+    "anlam": "Buluşma, çıkma."
+  },
+  {
+    "id": 187,
+    "sozcuk": "Date'e Çıkmak",
+    "okunus": "",
+    "anlam": "Buluşmaya çıkmak, buluşmaya gitmek."
+  },
+  {
+    "id": 188,
+    "sozcuk": "Date'e Gitmek",
+    "okunus": "",
+    "anlam": "Buluşmaya gitmek, buluşmaya çıkmak."
+  },
+  {
+    "id": 189,
+    "sozcuk": "Deadline",
+    "okunus": "Dedlayn",
+    "anlam": "Son gün, son tarih, teslim."
+  },
+  {
+    "id": 190,
+    "sozcuk": "Defo",
+    "okunus": "",
+    "anlam": "Kusur."
+  },
+  {
+    "id": 191,
+    "sozcuk": "Defo Çıkmak",
+    "okunus": "",
+    "anlam": "Kusur çıkmak."
+  },
+  {
+    "id": 192,
+    "sozcuk": "Defolu",
+    "okunus": "",
+    "anlam": "Kusurlu."
+  },
+  {
+    "id": 193,
+    "sozcuk": "Defolu Çıkmak",
+    "okunus": "",
+    "anlam": "Kusurlu çıkmak."
+  },
+  {
+    "id": 194,
+    "sozcuk": "Defosuz",
+    "okunus": "",
+    "anlam": ""
+  },
+  {
+    "id": 195,
+    "sozcuk": "Deformasyon",
+    "okunus": "",
+    "anlam": "Yıpranma."
+  },
+  {
+    "id": 196,
+    "sozcuk": "Deforme Etmek",
+    "okunus": "",
+    "anlam": "Yıpratmak."
+  },
+  {
+    "id": 197,
+    "sozcuk": "Deforme Olmak",
+    "okunus": "",
+    "anlam": "Yıpranmak."
+  },
+  {
+    "id": 198,
+    "sozcuk": "Dejavu",
+    "okunus": "",
+    "anlam": "Anımsıyormuşcalaşma, anımsıyormuşcasınalaşma."
+  },
+  {
+    "id": 199,
+    "sozcuk": "Dejenere",
+    "okunus": "",
+    "anlam": "1. Yoz, yozlaşmış. 2. Aşınmış, aşınık, yıpranmış, yıpranık."
+  },
+  {
+    "id": 200,
+    "sozcuk": "Dejenere Etmek",
+    "okunus": "",
+    "anlam": "1. Yozlaştırmak, yoz kılmak, yoz etmek. 2. Aşındırmak, yıpratmak."
+  },
+  {
+    "id": 201,
+    "sozcuk": "Dejenere Olmak",
+    "okunus": "",
+    "anlam": "1. Yoz olmak, yozlaşmak. 2. Aşınmak, yıpranmak."
+  },
+  {
+    "id": 202,
+    "sozcuk": "Deklarasyon",
+    "okunus": "",
+    "anlam": "Bildirme."
+  },
+  {
+    "id": 203,
+    "sozcuk": "Deklare",
+    "okunus": "",
+    "anlam": "Bildirme."
+  },
+  {
+    "id": 204,
+    "sozcuk": "Deklare Etmek",
+    "okunus": "",
+    "anlam": "Bildirmek."
+  },
+  {
+    "id": 205,
+    "sozcuk": "Delete Etmek",
+    "okunus": "",
+    "anlam": "Silmek."
+  },
+  {
+    "id": 206,
+    "sozcuk": "Deliver Etmek",
+    "okunus": "Delayvır",
+    "anlam": ""
+  },
+  {
+    "id": 207,
+    "sozcuk": "Demagoji",
+    "okunus": "",
+    "anlam": ""
+  },
+  {
+    "id": 208,
+    "sozcuk": "Demagojilenmek",
+    "okunus": "",
+    "anlam": ""
+  },
+  {
+    "id": 209,
+    "sozcuk": "Demagoji Yapmak",
+    "okunus": "",
+    "anlam": ""
+  },
+  {
+    "id": 210,
+    "sozcuk": "Demiseksüel",
+    "okunus": "Demisexual",
+    "anlam": ""
+  },
+  {
+    "id": 211,
+    "sozcuk": "Demo",
+    "okunus": "",
+    "anlam": "Tanıtımlık, denemelik."
+  },
+  {
+    "id": 212,
+    "sozcuk": "Designer",
+    "okunus": "Dizaynır",
+    "anlam": "Tasarımcı."
+  },
+  {
+    "id": 213,
+    "sozcuk": "Development",
+    "okunus": "Developmınt",
+    "anlam": "Geliştirme."
+  },
+  {
+    "id": 214,
+    "sozcuk": "Development Hell",
+    "okunus": "Developmınt Hel",
+    "anlam": "Geliştirme cehennemi, geliştirme batağı, geliştirme bataklığı, geliştirme çıkmazı, geliştirme sarmalı."
+  },
+  {
+    "id": 215,
+    "sozcuk": "Developer",
+    "okunus": "Developır",
+    "anlam": "Geliştirici."
+  },
+  {
+    "id": 216,
+    "sozcuk": "Dezenformasyon",
+    "okunus": "",
+    "anlam": "Çarpıtma, yanlış bilgilendirme, aldatma."
+  },
+  {
+    "id": 217,
+    "sozcuk": "Dezenformatif",
+    "okunus": "",
+    "anlam": "Çarpıtıcı, çarpıtan, aldatıcı."
+  },
+  {
+    "id": 218,
+    "sozcuk": "Dezenformatör",
+    "okunus": "",
+    "anlam": "Çarpıtıcı, çarpıtan, aldatıcı."
+  },
+  {
+    "id": 219,
+    "sozcuk": "Dewamke",
+    "okunus": "Devamke",
+    "anlam": "(Argoda) devam."
+  },
+  {
+    "id": 220,
+    "sozcuk": "Direktif",
+    "okunus": "Directive",
+    "anlam": "Yönerge, komut."
+  },
+  {
+    "id": 221,
+    "sozcuk": "Direktif Vermek",
+    "okunus": "",
+    "anlam": "Yönerge vermek, yönergemek, komut vermek, komutmak."
+  },
+  {
+    "id": 222,
+    "sozcuk": "Dislike",
+    "okunus": "Dislayk",
+    "anlam": "Beğenmeme, beğenmeyi."
+  },
+  {
+    "id": 223,
+    "sozcuk": "Dislike Atmak",
+    "okunus": "",
+    "anlam": "Beğenmemek, beğenmeyi atmak."
+  },
+  {
+    "id": 224,
+    "sozcuk": "Dislike Etmek",
+    "okunus": "",
+    "anlam": "Beğenmemek, beğenmeyi atmak."
+  },
+  {
+    "id": 225,
+    "sozcuk": "Dislikelamak",
+    "okunus": "",
+    "anlam": "Beğenmemek, beğenmeyi atmak."
+  },
+  {
+    "id": 226,
+    "sozcuk": "Dislike Yapmak",
+    "okunus": "",
+    "anlam": "Beğenmemek, beğenmeyi atmak."
+  },
+  {
+    "id": 227,
+    "sozcuk": "Diss",
+    "okunus": "",
+    "anlam": "Çamur, taş, taşlama, sallama, dil uzatmak, laf çakma (Argo)."
+  },
+  {
+    "id": 228,
+    "sozcuk": "Diss Atmak",
+    "okunus": "",
+    "anlam": "Sallamak, çamur atmak, taşlamak, taş atmak, dil uzatmak, laf çakmak (Argo)."
+  },
+  {
+    "id": 229,
+    "sozcuk": "Dizayn Etmek",
+    "okunus": "",
+    "anlam": "Tasarlamak, biçimlendirmek, şekillendirmek, yontmak, biçim vermek, şekil vermek."
+  },
+  {
+    "id": 230,
+    "sozcuk": "Doclamak",
+    "okunus": "",
+    "anlam": "Kalkanlamak, soğurmak, önlemek, engellemek, kalkanlama yapmak, soğurma yapmak, önleme yapmak, engelleme yapmak."
+  },
+  {
+    "id": 231,
+    "sozcuk": "Dokümantasyon",
+    "okunus": "",
+    "anlam": "Belgeleme."
+  },
+  {
+    "id": 232,
+    "sozcuk": "Domain",
+    "okunus": "Domeyin",
+    "anlam": "Alan adı."
+  },
+  {
+    "id": 233,
+    "sozcuk": "Dominant",
+    "okunus": "",
+    "anlam": "Baskın, başat."
+  },
+  {
+    "id": 234,
+    "sozcuk": "Dominasyon",
+    "okunus": "",
+    "anlam": "Üstünlük, egemenlik, baskınlık, bastırma, baskılama, baskınlık kurma, baskın gelme, başatlık, başatlık kurma, başatlaşma."
+  },
+  {
+    "id": 235,
+    "sozcuk": "Domine Etmek",
+    "okunus": "",
+    "anlam": "Üstün olmak, üstün gelmek, üstünlük göstermek, egemen olmak, egemenleşmek, baskılamak, bastırmak, baskınlaşmak, baskınlık kurmak, baskın gelmek, başatlaşmak. başatlık kurmak, başat olmak."
+  },
+  {
+    "id": 236,
+    "sozcuk": "Domine Olmak",
+    "okunus": "",
+    "anlam": "Üstünlüğü yitirmek, egemenliği yitirmek, bastırılmak, baskılanmak."
+  },
+  {
+    "id": 237,
+    "sozcuk": "Donate",
+    "okunus": "Doneyt",
+    "anlam": "Bağış."
+  },
+  {
+    "id": 238,
+    "sozcuk": "Donate Atmak",
+    "okunus": "",
+    "anlam": "Bağış atmak, bağış yapmak, bağışta bulunmak."
+  },
+  {
+    "id": 239,
+    "sozcuk": "Donatelemek",
+    "okunus": "",
+    "anlam": "Bağış atmak, bağış yapmak, bağışta bulunmak."
+  },
+  {
+    "id": 240,
+    "sozcuk": "Donate Yapmak",
+    "okunus": "",
+    "anlam": "Bağış atmak, bağış yapmak, bağışta bulunmak."
+  },
+  {
+    "id": 241,
+    "sozcuk": "Don't",
+    "okunus": "",
+    "anlam": "Yapma, dur, kalkışma, etme, eyleme, sakın."
+  },
+  {
+    "id": 242,
+    "sozcuk": "Double",
+    "okunus": "Dabıl",
+    "anlam": "İki katı, çifte, duble."
+  },
+  {
+    "id": 243,
+    "sozcuk": "Down",
+    "okunus": "Deavn",
+    "anlam": "Bitik, çökük, çökmüş, üzgün, yılgın, dargın."
+  },
+  {
+    "id": 244,
+    "sozcuk": "Download",
+    "okunus": "Davnloğd",
+    "anlam": "İndirme."
+  },
+  {
+    "id": 245,
+    "sozcuk": "Download Etmek",
+    "okunus": "",
+    "anlam": "İndirmek."
+  },
+  {
+    "id": 246,
+    "sozcuk": "Downloadlamak",
+    "okunus": "",
+    "anlam": "İndirmek."
+  },
+  {
+    "id": 247,
+    "sozcuk": "Download Yapmak",
+    "okunus": "",
+    "anlam": "İndirmek."
+  },
+  {
+    "id": 248,
+    "sozcuk": "Down Olmak",
+    "okunus": "",
+    "anlam": "Kurulmak, darılmak, üzülmek."
+  },
+  {
+    "id": 249,
+    "sozcuk": "Drink",
+    "okunus": "Dırink",
+    "anlam": "İçecek, içim, yudum."
+  },
+  {
+    "id": 250,
+    "sozcuk": "Drone",
+    "okunus": "Dıron",
+    "anlam": "Dron."
+  },
+  {
+    "id": 251,
+    "sozcuk": "Drop",
+    "okunus": "Dırop",
+    "anlam": "Düşen, düşme, düşüş."
+  },
+  {
+    "id": 252,
+    "sozcuk": "Drop Düşmesi",
+    "okunus": "",
+    "anlam": ""
+  },
+  {
+    "id": 253,
+    "sozcuk": "Drop Girmek",
+    "okunus": "",
+    "anlam": ""
+  },
+  {
+    "id": 254,
+    "sozcuk": "Drop Olmak",
+    "okunus": "",
+    "anlam": ""
+  },
+  {
+    "id": 255,
+    "sozcuk": "Duo",
+    "okunus": "",
+    "anlam": "İkili, eşli."
+  },
+  {
+    "id": 256,
+    "sozcuk": "Dupe",
+    "okunus": "Düuğp",
+    "anlam": "Çoğaltım, çoğaltma."
+  },
+  {
+    "id": 257,
+    "sozcuk": "Dupe Etmek",
+    "okunus": "",
+    "anlam": "Çoğaltmak."
+  },
+  {
+    "id": 258,
+    "sozcuk": "Dupelamak",
+    "okunus": "",
+    "anlam": "Çoğaltmak."
+  },
+  {
+    "id": 259,
+    "sozcuk": "Düet",
+    "okunus": "",
+    "anlam": "Ortak çalışma."
+  },
+  {
+    "id": 260,
+    "sozcuk": "Easteregg",
+    "okunus": "İğstıreg",
+    "anlam": "Paskalya yumurtası, göz kırpma, saklı ayrıntı, gizli ayrıntı."
+  },
+  {
+    "id": 261,
+    "sozcuk": "Edit",
+    "okunus": "",
+    "anlam": "Düzenleme, biçme, biçimleme."
+  },
+  {
+    "id": 262,
+    "sozcuk": "Editlemek",
+    "okunus": "",
+    "anlam": "Düzenlemek, biçmek, biçimlemek."
+  },
+  {
+    "id": 263,
+    "sozcuk": "Edit Yapmak",
+    "okunus": "",
+    "anlam": "Düzenlemek, düzenleme yapmak, biçmek, biçimlemek."
+  },
+  {
+    "id": 264,
+    "sozcuk": "Efor",
+    "okunus": "Effort",
+    "anlam": "Çaba, uğraş, emek."
+  },
+  {
+    "id": 265,
+    "sozcuk": "Ekarte",
+    "okunus": "",
+    "anlam": ""
+  },
+  {
+    "id": 266,
+    "sozcuk": "Ekarte Etmek",
+    "okunus": "",
+    "anlam": ""
+  },
+  {
+    "id": 267,
+    "sozcuk": "Ekarte Olmak",
+    "okunus": "",
+    "anlam": ""
+  },
+  {
+    "id": 268,
+    "sozcuk": "Ekspert",
+    "okunus": "Expert",
+    "anlam": "Araç uzmanı."
+  },
+  {
+    "id": 269,
+    "sozcuk": "Ekspertiz",
+    "okunus": "Expertis",
+    "anlam": "Araç uzmanı."
+  },
+  {
+    "id": 270,
+    "sozcuk": "E-Mail",
+    "okunus": "İğ Meyil",
+    "anlam": "Elektronik posta, elektronik mektup, e-posta."
+  },
+  {
+    "id": 271,
+    "sozcuk": "Empoze",
+    "okunus": "",
+    "anlam": "Aşılama, aktarma, geçirme, yükleme."
+  },
+  {
+    "id": 272,
+    "sozcuk": "Empoze Etmek",
+    "okunus": "",
+    "anlam": "Aşılamak, aktarmak, geçirmek, yüklemek."
+  },
+  {
+    "id": 273,
+    "sozcuk": "Enforce",
+    "okunus": "",
+    "anlam": "Dayatma."
+  },
+  {
+    "id": 274,
+    "sozcuk": "Enforce Etmek",
+    "okunus": "",
+    "anlam": "Dayatmak."
+  },
+  {
+    "id": 275,
+    "sozcuk": "Enforcelamak",
+    "okunus": "",
+    "anlam": "Dayatmak."
+  },
+  {
+    "id": 276,
+    "sozcuk": "Ensest",
+    "okunus": "",
+    "anlam": "Akraba."
+  },
+  {
+    "id": 277,
+    "sozcuk": "Ensest İlişki",
+    "okunus": "",
+    "anlam": "Akraba evliliği."
+  },
+  {
+    "id": 278,
+    "sozcuk": "Entegrasyon",
+    "okunus": "Entegration",
+    "anlam": "Bütünleşme."
+  },
+  {
+    "id": 279,
+    "sozcuk": "Entegre",
+    "okunus": "",
+    "anlam": "Bütün."
+  },
+  {
+    "id": 280,
+    "sozcuk": "Entegre Etmek",
+    "okunus": "",
+    "anlam": "Bütünleştirmek."
+  },
+  {
+    "id": 281,
+    "sozcuk": "Enternasyonel",
+    "okunus": "International",
+    "anlam": "Uluslararası."
+  },
+  {
+    "id": 282,
+    "sozcuk": "Entertainment",
+    "okunus": "Entırteymınd",
+    "anlam": "Eğlenti."
+  },
+  {
+    "id": 283,
+    "sozcuk": "Entry",
+    "okunus": "Entiri",
+    "anlam": "Girdi, giri, yazı."
+  },
+  {
+    "id": 284,
+    "sozcuk": "Envanter",
+    "okunus": "Inventory",
+    "anlam": "Dağarcık, elde, üst."
+  },
+  {
+    "id": 285,
+    "sozcuk": "Envantere Aktarmak",
+    "okunus": "",
+    "anlam": "Dağarcığa aktarmak, dağarcığa katmak,"
+  },
+  {
+    "id": 286,
+    "sozcuk": "Envartere Almak",
+    "okunus": "",
+    "anlam": "Dağarcığa almak, dağarcığa katmak, dağarcığa aktarmak."
+  },
+  {
+    "id": 287,
+    "sozcuk": "Episode",
+    "okunus": "Epsiğode",
+    "anlam": "Bölüm, kesit."
+  },
+  {
+    "id": 288,
+    "sozcuk": "Era",
+    "okunus": "",
+    "anlam": "Dönem, evre."
+  },
+  {
+    "id": 289,
+    "sozcuk": "Erekte",
+    "okunus": "",
+    "anlam": "Azma."
+  },
+  {
+    "id": 290,
+    "sozcuk": "Erekte Etmek",
+    "okunus": "",
+    "anlam": "Azdırmak."
+  },
+  {
+    "id": 291,
+    "sozcuk": "Erekte Olmak",
+    "okunus": "",
+    "anlam": "Azmak."
+  },
+  {
+    "id": 292,
+    "sozcuk": "Error",
+    "okunus": "",
+    "anlam": ""
+  },
+  {
+    "id": 293,
+    "sozcuk": "Error Vermek",
+    "okunus": "",
+    "anlam": ""
+  },
+  {
+    "id": 294,
+    "sozcuk": "Error Yemek",
+    "okunus": "",
+    "anlam": ""
+  },
+  {
+    "id": 295,
+    "sozcuk": "Event",
+    "okunus": "",
+    "anlam": "Olay, gelişme, girdi, giri."
+  },
+  {
+    "id": 296,
+    "sozcuk": "Evolve",
+    "okunus": "",
+    "anlam": ""
+  },
+  {
+    "id": 297,
+    "sozcuk": "Ex",
+    "okunus": "Eks",
+    "anlam": "Eski sevgili, önceki sevgili, geçmiş sevgili."
+  },
+  {
+    "id": 298,
+    "sozcuk": "Ex Olmak",
+    "okunus": "",
+    "anlam": "Ölmek, yaşamını yitirmek."
+  },
+  {
+    "id": 299,
+    "sozcuk": "Export",
+    "okunus": "Eksport",
+    "anlam": "Aktarma."
+  },
+  {
+    "id": 300,
+    "sozcuk": "Export Etmek",
+    "okunus": "",
+    "anlam": "Aktarmak."
+  },
+  {
+    "id": 301,
+    "sozcuk": "Exportlamak",
+    "okunus": "",
+    "anlam": "Aktarmak."
+  },
+  {
+    "id": 302,
+    "sozcuk": "Export Olmak",
+    "okunus": "",
+    "anlam": "Aktarılmak."
+  },
+  {
+    "id": 303,
+    "sozcuk": "Extra",
+    "okunus": "Ekstra",
+    "anlam": "Ek, ekçe, ek olarak, fazla, fazlaca, fazladan, ayrıca, ayrı olarak, ayrıyeten, yanına, yanında."
+  },
+  {
+    "id": 304,
+    "sozcuk": "Extrem",
+    "okunus": "Ekstirem",
+    "anlam": "Uçlarda, aşırıcı, zorlayıcı, sınayıcı."
+  },
+  {
+    "id": 305,
+    "sozcuk": "Facecam",
+    "okunus": "Feyskem",
+    "anlam": "Yüz kamerası."
+  },
+  {
+    "id": 306,
+    "sozcuk": "Facereveal",
+    "okunus": "Feysreval",
+    "anlam": "Yüz gösterme"
+  },
+  {
+    "id": 307,
+    "sozcuk": "Face To Face",
+    "okunus": "Feys Tu Feys",
+    "anlam": "Yüz yüze."
+  },
+  {
+    "id": 308,
+    "sozcuk": "Fake",
+    "okunus": "Feyk",
+    "anlam": "Çakma, yersen, çarpma, sahte."
+  },
+  {
+    "id": 309,
+    "sozcuk": "Fake Atmak",
+    "okunus": "",
+    "anlam": "Yanıltmak, şaşırtmak, -mAşcAsAnALAşmAk, -Ayormuşcasınalaşmak."
+  },
+  {
+    "id": 310,
+    "sozcuk": "Faktör",
+    "okunus": "",
+    "anlam": "Etken, etmen."
+  },
+  {
+    "id": 311,
+    "sozcuk": "Falan",
+    "okunus": "",
+    "anlam": "Gibi, türevleri, benzeri."
+  },
+  {
+    "id": 312,
+    "sozcuk": "Falan Olmak",
+    "okunus": "",
+    "anlam": "Gibi olmak, gibileşmek, türevi olmak, türevileşmek, -A benzemek, benzeri olmak."
+  },
+  {
+    "id": 313,
+    "sozcuk": "Fan",
+    "okunus": "",
+    "anlam": "1. Sever, seven. 2. Hayran, düşkün."
+  },
+  {
+    "id": 314,
+    "sozcuk": "Fanmade",
+    "okunus": "Fan Meyd",
+    "anlam": "Sever yapımı, hayran yapımı, sever yapıtı, hayran yapıtı."
+  },
+  {
+    "id": 315,
+    "sozcuk": "Fan Art",
+    "okunus": "",
+    "anlam": "Sever yapıtı."
+  },
+  {
+    "id": 316,
+    "sozcuk": "Fanatik",
+    "okunus": "Fanatic",
+    "anlam": "Tutkun."
+  },
+  {
+    "id": 317,
+    "sozcuk": "Fanatizm",
+    "okunus": "",
+    "anlam": "Tutkunluk."
+  },
+  {
+    "id": 318,
+    "sozcuk": "Farm",
+    "okunus": "",
+    "anlam": "Üreteç."
+  },
+  {
+    "id": 319,
+    "sozcuk": "Farmlamak",
+    "okunus": "",
+    "anlam": "Üreteçlemek."
+  },
+  {
+    "id": 320,
+    "sozcuk": "Farm Yapmak",
+    "okunus": "",
+    "anlam": "Üreteç yapmak."
+  },
+  {
+    "id": 321,
+    "sozcuk": "Favori",
+    "okunus": "",
+    "anlam": "En sevilen."
+  },
+  {
+    "id": 322,
+    "sozcuk": "Favorilemek",
+    "okunus": "",
+    "anlam": "Çok sevmek, en sevilenlere katmak."
+  },
+  {
+    "id": 323,
+    "sozcuk": "Feat",
+    "okunus": "",
+    "anlam": "Eşlik, eşlikçi, eşliğinde."
+  },
+  {
+    "id": 324,
+    "sozcuk": "Feedback",
+    "okunus": "Fiğdbek",
+    "anlam": "Geri dönüş, geri bildirim, dönüt."
+  },
+  {
+    "id": 325,
+    "sozcuk": "Feminen",
+    "okunus": "",
+    "anlam": "Dişil."
+  },
+  {
+    "id": 326,
+    "sozcuk": "Fenomen",
+    "okunus": "",
+    "anlam": "İnternet ünlüsü, sanal ünlü."
+  },
+  {
+    "id": 327,
+    "sozcuk": "Festival",
+    "okunus": "",
+    "anlam": "Şenlik, şölen."
+  },
+  {
+    "id": 328,
+    "sozcuk": "Fetiş",
+    "okunus": "",
+    "anlam": "Düşkünlük."
+  },
+  {
+    "id": 329,
+    "sozcuk": "Fetişist",
+    "okunus": "",
+    "anlam": "Düşkün."
+  },
+  {
+    "id": 330,
+    "sozcuk": "Fight",
+    "okunus": "Fayt",
+    "anlam": "Dövüş."
+  },
+  {
+    "id": 331,
+    "sozcuk": "Fight Dönmek",
+    "okunus": "",
+    "anlam": "Dövüş olmak."
+  },
+  {
+    "id": 332,
+    "sozcuk": "Final",
+    "okunus": "",
+    "anlam": "Son."
+  },
+  {
+    "id": 333,
+    "sozcuk": "Finish",
+    "okunus": "Finiş",
+    "anlam": "Bitiş, son."
+  },
+  {
+    "id": 334,
+    "sozcuk": "First Class",
+    "okunus": "Först Kılas",
+    "anlam": "Ayrıcalıklı, birinci sınıf."
+  },
+  {
+    "id": 335,
+    "sozcuk": "First Date",
+    "okunus": "Först Deyt",
+    "anlam": "İlk buluşma."
+  },
+  {
+    "id": 336,
+    "sozcuk": "Fix",
+    "okunus": "Fiks",
+    "anlam": "Düzeltme, düzgünleme, giderme, çözüm, onarma, onarım."
+  },
+  {
+    "id": 337,
+    "sozcuk": "Fixed",
+    "okunus": "Fiksıd",
+    "anlam": "Düzeltilmiş, düzgün, giderilmiş, onarılmış, sabit."
+  },
+  {
+    "id": 338,
+    "sozcuk": "Fix Etmek",
+    "okunus": "",
+    "anlam": "Düzeltmek, düzeltme yapmak, düzgünleme yapmak, düzgünlemek, çözmek, çözümlemek, gidermek, giderme yapmak, onarmak, onarım yapmak, onarma yapmak."
+  },
+  {
+    "id": 339,
+    "sozcuk": "Fix Menü",
+    "okunus": "",
+    "anlam": ""
+  },
+  {
+    "id": 340,
+    "sozcuk": "Fixlemek",
+    "okunus": "",
+    "anlam": "Düzeltmek, düzeltme yapmak, düzgünlemek, düzgünleme yapmak, çözmek, çözümlemek, gidermek, giderme yapmak, onarmak, onarım yapmak, onarma yapmak."
+  },
+  {
+    "id": 341,
+    "sozcuk": "Fix Yapmak",
+    "okunus": "",
+    "anlam": "Düzeltme yapmak, düzeltmek, düzgünleme yapmak, düzgünlemek, çözmek, çözümlemek, giderme yapmak, gidermek, onarım yapmak, onarma yapmak, onarmak."
+  },
+  {
+    "id": 342,
+    "sozcuk": "Flashback",
+    "okunus": "Fılaşbek",
+    "anlam": "Geri dönüş, ışıl dönüş."
+  },
+  {
+    "id": 343,
+    "sozcuk": "Flood",
+    "okunus": "Fıluğd",
+    "anlam": "Ardışık yazı."
+  },
+  {
+    "id": 344,
+    "sozcuk": "Flört",
+    "okunus": "",
+    "anlam": "1. Yürüşme, görüşme. 2. Yürüştük, görüştük."
+  },
+  {
+    "id": 345,
+    "sozcuk": "Flört Etmek",
+    "okunus": "",
+    "anlam": "Fingirdemek, cilve yapmak, çıkmak, yürüşmek, görüşmek."
+  },
+  {
+    "id": 346,
+    "sozcuk": "Flörtleşmek",
+    "okunus": "",
+    "anlam": "Cilveleşmek, fingirdeşmek, çıkmak, yürüşmek, görüşmek."
+  },
+  {
+    "id": 347,
+    "sozcuk": "Flört Olmak",
+    "okunus": "",
+    "anlam": "Yürüştük olmak, görüştük olmak."
+  },
+  {
+    "id": 348,
+    "sozcuk": "Fobi",
+    "okunus": "Phobia",
+    "anlam": "Korku, ürkü, irkilti."
+  },
+  {
+    "id": 349,
+    "sozcuk": "Focus",
+    "okunus": "Fokus",
+    "anlam": "Odak."
+  },
+  {
+    "id": 350,
+    "sozcuk": "Formasyon",
+    "okunus": "Formation",
+    "anlam": "Dizilim, diziliş."
+  },
+  {
+    "id": 351,
+    "sozcuk": "Formasyon Almak",
+    "okunus": "",
+    "anlam": "Dizilmek, dizilim almak, diziliş almak."
+  },
+  {
+    "id": 352,
+    "sozcuk": "Formasyona Girmek",
+    "okunus": "",
+    "anlam": "Dizilmek, dizilim almak, diziliş almak."
+  },
+  {
+    "id": 353,
+    "sozcuk": "Format",
+    "okunus": "",
+    "anlam": "1. Biçim. 2. Uzantı."
+  },
+  {
+    "id": 354,
+    "sozcuk": "Format Atmak",
+    "okunus": "",
+    "anlam": "Biçimlendirme Atmak, biçimlendirmek."
+  },
+  {
+    "id": 355,
+    "sozcuk": "Formatlamak",
+    "okunus": "",
+    "anlam": "Biçimlendirmek."
+  },
+  {
+    "id": 356,
+    "sozcuk": "Format Yapmak",
+    "okunus": "",
+    "anlam": "Biçimlendirme yapmak, biçimlendirmek."
+  },
+  {
+    "id": 357,
+    "sozcuk": "Fraksiyon",
+    "okunus": "Fraction",
+    "anlam": "Oluşum."
+  },
+  {
+    "id": 358,
+    "sozcuk": "Frame",
+    "okunus": "Fıreym",
+    "anlam": "Kare."
+  },
+  {
+    "id": 359,
+    "sozcuk": "Frame By Frame",
+    "okunus": "Fıreym Bay Fıreym",
+    "anlam": "Kare kare."
+  },
+  {
+    "id": 360,
+    "sozcuk": "Freelance",
+    "okunus": "Fıriğlens",
+    "anlam": "Bağımsız çalışma."
+  },
+  {
+    "id": 361,
+    "sozcuk": "Freelance Çalışmak",
+    "okunus": "",
+    "anlam": "Bağımsız çalışmak."
+  },
+  {
+    "id": 362,
+    "sozcuk": "Freelancer",
+    "okunus": "Fıriğlensır",
+    "anlam": "Bağımsız çalışan."
+  },
+  {
+    "id": 363,
+    "sozcuk": "Fuckbuddy",
+    "okunus": "Fakbadi",
+    "anlam": "Oynaş, dost (Argo), haşne fişne (Argo)."
+  },
+  {
+    "id": 364,
+    "sozcuk": "Full",
+    "okunus": "Ful",
+    "anlam": "1. Dolu. 2. Tüm, tam. 3. Sürekli. 4. Baştan sona, baştan ayağa, tümüyle, tümden, toptan, topu, tümü."
+  },
+  {
+    "id": 365,
+    "sozcuk": "Full Çekmek",
+    "okunus": "",
+    "anlam": "Tümlemek, tam yapmak."
+  },
+  {
+    "id": 366,
+    "sozcuk": "Full Focus",
+    "okunus": "Ful Fokus",
+    "anlam": "Tam odak, tümüyle odaklanma, tam yoğunlaşma, tam yoğunluk, tümüyle yoğunlaşma."
+  },
+  {
+    "id": 367,
+    "sozcuk": "Fullemek",
+    "okunus": "",
+    "anlam": "1. Doldurmak. 2. Tam yapmak, tümlemek."
+  },
+  {
+    "id": 368,
+    "sozcuk": "Fulltime",
+    "okunus": "",
+    "anlam": "Tam zamanlı"
+  },
+  {
+    "id": 369,
+    "sozcuk": "Full Yapmak",
+    "okunus": "",
+    "anlam": "1. Tam yapmak, tümlemek. 2. Sürekli yapmak."
+  },
+  {
+    "id": 370,
+    "sozcuk": "Fun Fact",
+    "okunus": "Fan Fekt",
+    "anlam": "Eğlenceli gerçek, eğlenceli bilgi."
+  },
+  {
+    "id": 371,
+    "sozcuk": "Gamer",
+    "okunus": "Geymır",
+    "anlam": "Oyuncu."
+  },
+  {
+    "id": 372,
+    "sozcuk": "Gaming",
+    "okunus": "Geyming",
+    "anlam": "Oyun, oynama, oynayım, oyunculuk."
+  },
+  {
+    "id": 373,
+    "sozcuk": "Gameplay",
+    "okunus": "Geympıley",
+    "anlam": "Oynanış, oynayış."
+  },
+  {
+    "id": 374,
+    "sozcuk": "Gaslighting",
+    "okunus": "Geslayting",
+    "anlam": "Ayakta uyutma, parmağında oynatma, aldatma, eşek başı etme, eşek başı yapma, işletme."
+  },
+  {
+    "id": 375,
+    "sozcuk": "Gaslighting Yapmak",
+    "okunus": "",
+    "anlam": "Ayakta uyutmak, parmağında oynatmak, aldatmak, eşek başı etmek, eşekbaşı yapmak, işletmek."
+  },
+  {
+    "id": 376,
+    "sozcuk": "Gastronomi",
+    "okunus": "",
+    "anlam": "Yemekbilim, yemek bilimi."
+  },
+  {
+    "id": 377,
+    "sozcuk": "Gay",
+    "okunus": "Gey",
+    "anlam": "Eşcinsel erkek, oğlancı (Argo)."
+  },
+  {
+    "id": 378,
+    "sozcuk": "Geek",
+    "okunus": "Giğk",
+    "anlam": "Bilgi kurdu."
+  },
+  {
+    "id": 379,
+    "sozcuk": "Ghosting",
+    "okunus": "Gosting",
+    "anlam": "Görmezden gelme, duyumsamazlık, umursamazlık, sallamazlık, yok sayma, görmezlikten gelme, tınmazlık, tınlamazlık."
+  },
+  {
+    "id": 380,
+    "sozcuk": "Ghosting Yapmak",
+    "okunus": "",
+    "anlam": "Görmezden gelmek, duyumsamamak, umursamamak, sallamamak, yok saymak, görmezlikten gelmek, tınmamak, tınlamamak."
+  },
+  {
+    "id": 381,
+    "sozcuk": "Ghostlamak",
+    "okunus": "",
+    "anlam": "Görmezden gelmek, duyumsamamak, umursamamak, sallamamak, yok saymak, görmezlikten gelmek, tınmamak, tınlamamak."
+  },
+  {
+    "id": 382,
+    "sozcuk": "Googlelamak",
+    "okunus": "",
+    "anlam": "Google'da aratmak, Google'a yazmak."
+  },
+  {
+    "id": 383,
+    "sozcuk": "Gramer",
+    "okunus": "Grammar",
+    "anlam": "Dil yapısı, dil bilgisi."
+  },
+  {
+    "id": 384,
+    "sozcuk": "Group",
+    "okunus": "Guruğp",
+    "anlam": "Grup, birliktelik."
+  },
+  {
+    "id": 385,
+    "sozcuk": "Hack",
+    "okunus": "Hek",
+    "anlam": "Ele geçirme, çökertme."
+  },
+  {
+    "id": 386,
+    "sozcuk": "Hacker",
+    "okunus": "",
+    "anlam": "Bilgisayar korsanı."
+  },
+  {
+    "id": 387,
+    "sozcuk": "Hacklemek",
+    "okunus": "",
+    "anlam": "Ele geçirmek, çökertmek."
+  },
+  {
+    "id": 388,
+    "sozcuk": "Hacklenmek",
+    "okunus": "",
+    "anlam": "Ele geçirilmek, çökertilmek."
+  },
+  {
+    "id": 389,
+    "sozcuk": "Halüsinasyon",
+    "okunus": "",
+    "anlam": "Varsanı."
+  },
+  {
+    "id": 390,
+    "sozcuk": "Hashtag",
+    "okunus": "Heşteg",
+    "anlam": "Etiket."
+  },
+  {
+    "id": 391,
+    "sozcuk": "Head Shot",
+    "okunus": "Hed Çat",
+    "anlam": "Kafadan, kafadan vurma, kafadan vuruş, alnının çatından vurma."
+  },
+  {
+    "id": 392,
+    "sozcuk": "Head Shot Atmak",
+    "okunus": "",
+    "anlam": "Kafadan vurmak, alnının çatından vurmak."
+  },
+  {
+    "id": 393,
+    "sozcuk": "Head Shot Yemek",
+    "okunus": "",
+    "anlam": "Kafadan vurulmak, alnın çatından vurulmak."
+  },
+  {
+    "id": 394,
+    "sozcuk": "Hentai",
+    "okunus": "",
+    "anlam": "+18, sapıkça, cinsel."
+  },
+  {
+    "id": 395,
+    "sozcuk": "Heteroseksüel",
+    "okunus": "Heterosexual",
+    "anlam": "Düzcinsel."
+  },
+  {
+    "id": 396,
+    "sozcuk": "Hırt",
+    "okunus": "",
+    "anlam": "Suça sürüklenmiş çocuk (SSÇ), keko (Argo)."
+  },
+  {
+    "id": 397,
+    "sozcuk": "High",
+    "okunus": "Hayg",
+    "anlam": "Yüksek, çok."
+  },
+  {
+    "id": 398,
+    "sozcuk": "Hiperaktivite",
+    "okunus": "",
+    "anlam": "Yerinde duramama."
+  },
+  {
+    "id": 399,
+    "sozcuk": "Hiperaktif",
+    "okunus": "",
+    "anlam": "Yerine duramayan."
+  },
+  {
+    "id": 400,
+    "sozcuk": "Hit",
+    "okunus": "",
+    "anlam": "Gözde, damga vuran, damgasını vuran."
+  },
+  {
+    "id": 401,
+    "sozcuk": "Hit Olmak",
+    "okunus": "",
+    "anlam": "Gözde olmak, damga vurmak."
+  },
+  {
+    "id": 402,
+    "sozcuk": "Hobi",
+    "okunus": "Hobby",
+    "anlam": "Uğraş, ilgi alanı."
+  },
+  {
+    "id": 403,
+    "sozcuk": "Holding",
+    "okunus": "",
+    "anlam": "Ortaklık."
+  },
+  {
+    "id": 404,
+    "sozcuk": "Homemade",
+    "okunus": "",
+    "anlam": "Ev yapımı."
+  },
+  {
+    "id": 405,
+    "sozcuk": "Homeoffice",
+    "okunus": "Homofis",
+    "anlam": "Evden çalışma, işyersiz çalışma."
+  },
+  {
+    "id": 406,
+    "sozcuk": "Homeoffice Çalışmak",
+    "okunus": "",
+    "anlam": "Evden çalışmak, işyersiz çalışmak."
+  },
+  {
+    "id": 407,
+    "sozcuk": "Homoseksüel",
+    "okunus": "Homosexual",
+    "anlam": "Eşcinsel."
+  },
+  {
+    "id": 408,
+    "sozcuk": "Hub",
+    "okunus": "Hab",
+    "anlam": "Yuva, yer."
+  },
+  {
+    "id": 409,
+    "sozcuk": "Hype",
+    "okunus": "Hayp",
+    "anlam": "1. Yutturmaca, allayıp pullama. 2. Heyecan, beklenti."
+  },
+  {
+    "id": 410,
+    "sozcuk": "Hypelamak",
+    "okunus": "",
+    "anlam": "Yutturmak, heyecan yaratmak, beklenti yaratmak, allayıp pullamak."
+  },
+  {
+    "id": 411,
+    "sozcuk": "Hypelanmak",
+    "okunus": "",
+    "anlam": "Heyecanlanmak, beklentiye girmek."
+  },
+  {
+    "id": 412,
+    "sozcuk": "Hype Etmek",
+    "okunus": "",
+    "anlam": "Heyecan yaratmak, beklenti yaratmak, allayıp pullamak."
+  },
+  {
+    "id": 413,
+    "sozcuk": "Hype Yapmak",
+    "okunus": "",
+    "anlam": "Heyecan yaratmak, beklenti yaratmak, allayıp pullamak."
+  },
+  {
+    "id": 414,
+    "sozcuk": "Hype Yaratmak",
+    "okunus": "",
+    "anlam": "Heyecan yaratmak, beklenti yaratmak, allayıp pullamak."
+  },
+  {
+    "id": 415,
+    "sozcuk": "İdol",
+    "okunus": "",
+    "anlam": "Örnek kişi."
+  },
+  {
+    "id": 416,
+    "sozcuk": "İgnore",
+    "okunus": "İgnor",
+    "anlam": "Görmezden gelme, duyumsamazlık, umursamazlık, sallamazlık, yok sayma, görmezlikten gelme, tınmazlık, tınlamazlık."
+  },
+  {
+    "id": 417,
+    "sozcuk": "İgnore Etmek",
+    "okunus": "",
+    "anlam": "Görmezden gelmek, duyumsamamak, umursamamak, sallamamak, yok saymak, görmezlikten gelmek, tınmamak, tınlamamak."
+  },
+  {
+    "id": 418,
+    "sozcuk": "İgnorlamak",
+    "okunus": "",
+    "anlam": "Görmezden gelmek, duyumsamamak, umursamamak, sallamamak, yok saymak, görmezlikten gelmek, tınmamak, tınlamamak."
+  },
+  {
+    "id": 419,
+    "sozcuk": "İkon",
+    "okunus": "",
+    "anlam": "Simge."
+  },
+  {
+    "id": 420,
+    "sozcuk": "İkonik",
+    "okunus": "Iconic",
+    "anlam": "Çarpıcı, akılda kalıcı, simgesel."
+  },
+  {
+    "id": 421,
+    "sozcuk": "İllegal",
+    "okunus": "",
+    "anlam": "Yasadışı, yasak, kurallara aykırı, kural dışı."
+  },
+  {
+    "id": 422,
+    "sozcuk": "İncel",
+    "okunus": "",
+    "anlam": "İstemsiz bekar, umarsız bekar, sap (Argo)."
+  },
+  {
+    "id": 423,
+    "sozcuk": "İndie",
+    "okunus": "İndi",
+    "anlam": "Bağımsız."
+  },
+  {
+    "id": 424,
+    "sozcuk": "İnfluencer",
+    "okunus": "Infulunsır",
+    "anlam": "Marka elçisi, tanıtıcı, tanıtman, yönlendirici, yönlendirmen."
+  },
+  {
+    "id": 425,
+    "sozcuk": "İnfo",
+    "okunus": "",
+    "anlam": "Bilgi."
+  },
+  {
+    "id": 426,
+    "sozcuk": "İnformasyon",
+    "okunus": "",
+    "anlam": "Bilgi."
+  },
+  {
+    "id": 427,
+    "sozcuk": "İnisiyatif",
+    "okunus": "",
+    "anlam": "Yeğleme."
+  },
+  {
+    "id": 428,
+    "sozcuk": "İnteraktif",
+    "okunus": "Interaktive",
+    "anlam": "Etkileşimli."
+  },
+  {
+    "id": 429,
+    "sozcuk": "İnterseks",
+    "okunus": "Intersex",
+    "anlam": "İkicinsiyetlilik, cinsiyetlerarası."
+  },
+  {
+    "id": 430,
+    "sozcuk": "İntro",
+    "okunus": "",
+    "anlam": "Açılış."
+  },
+  {
+    "id": 431,
+    "sozcuk": "İnvite",
+    "okunus": "İnvayt",
+    "anlam": "Çağrı, çağırma, getirme, davet."
+  },
+  {
+    "id": 432,
+    "sozcuk": "İnvite Etmek",
+    "okunus": "",
+    "anlam": "Çağırmak, davet etmek."
+  },
+  {
+    "id": 433,
+    "sozcuk": "İnvite Yapmak",
+    "okunus": "",
+    "anlam": "Çağırmak, getirmek, davet etmek,"
+  },
+  {
+    "id": 434,
+    "sozcuk": "İrite",
+    "okunus": "",
+    "anlam": "Gıcık, uyuz, kıl, gerici."
+  },
+  {
+    "id": 435,
+    "sozcuk": "İrite Etmek",
+    "okunus": "",
+    "anlam": "Gıcık etmek, uyuz etmek, kıl etmek, germek."
+  },
+  {
+    "id": 436,
+    "sozcuk": "İrite Olmak",
+    "okunus": "",
+    "anlam": "Gıcık olmak, uyuz olmak, kıl olmak, gerilmek."
+  },
+  {
+    "id": 437,
+    "sozcuk": "İtem",
+    "okunus": "Aytım",
+    "anlam": "Öğe."
+  },
+  {
+    "id": 438,
+    "sozcuk": "Jumpscare",
+    "okunus": "Jamp Skeyr",
+    "anlam": "Ani sıçrama."
+  },
+  {
+    "id": 439,
+    "sozcuk": "Jumpscare Yemek",
+    "okunus": "",
+    "anlam": "Ani çullanılmak, ani sıçrama yemek."
+  },
+  {
+    "id": 440,
+    "sozcuk": "Kanalize",
+    "okunus": "",
+    "anlam": "Yönlenmiş, yönelmiş, yönelik."
+  },
+  {
+    "id": 441,
+    "sozcuk": "Kanalize Etmek",
+    "okunus": "",
+    "anlam": "Yönlendirmek, yöneltmek."
+  },
+  {
+    "id": 442,
+    "sozcuk": "Kanalize Olmak",
+    "okunus": "",
+    "anlam": "Yönlenmek, yönelmek."
+  },
+  {
+    "id": 443,
+    "sozcuk": "Kaos",
+    "okunus": "Chaos",
+    "anlam": "Kargaşa, karmaşa."
+  },
+  {
+    "id": 444,
+    "sozcuk": "Kaotik",
+    "okunus": "Chaotic",
+    "anlam": "Karmaşık, karışık, karma karışık, düzensiz, başıboş."
+  },
+  {
+    "id": 445,
+    "sozcuk": "Karma",
+    "okunus": "",
+    "anlam": "Olum."
+  },
+  {
+    "id": 446,
+    "sozcuk": "Kavuştay",
+    "okunus": "",
+    "anlam": "Kavuşma."
+  },
+  {
+    "id": 447,
+    "sozcuk": "Kick",
+    "okunus": "Kik",
+    "anlam": "Atma, kovma."
+  },
+  {
+    "id": 448,
+    "sozcuk": "Kicklemek",
+    "okunus": "",
+    "anlam": "Atmak, kovmak."
+  },
+  {
+    "id": 449,
+    "sozcuk": "Kill",
+    "okunus": "Kil",
+    "anlam": "Öldürme, indirme."
+  },
+  {
+    "id": 450,
+    "sozcuk": "Kill Çalmak",
+    "okunus": "",
+    "anlam": "Öldürme çalmak, indirme çalmak."
+  },
+  {
+    "id": 451,
+    "sozcuk": "Kill Almak",
+    "okunus": "",
+    "anlam": "Öldürmek, indirmek, almak."
+  },
+  {
+    "id": 452,
+    "sozcuk": "Klan",
+    "okunus": "Clan",
+    "anlam": "Uruk, boy."
+  },
+  {
+    "id": 453,
+    "sozcuk": "Klon",
+    "okunus": "",
+    "anlam": "Birebir, özdeş."
+  },
+  {
+    "id": 454,
+    "sozcuk": "Klonlama",
+    "okunus": "",
+    "anlam": "Birebirleme, özdeşleme."
+  },
+  {
+    "id": 455,
+    "sozcuk": "Klonlamak",
+    "okunus": "",
+    "anlam": "Birebirlemek, özdeşlemek."
+  },
+  {
+    "id": 456,
+    "sozcuk": "Kombin",
+    "okunus": "",
+    "anlam": "Takım, takımlama, yakıştırma."
+  },
+  {
+    "id": 457,
+    "sozcuk": "Kombinlemek",
+    "okunus": "",
+    "anlam": "Yakıştırmak, takımlamak, takım yapmak, uydurmak."
+  },
+  {
+    "id": 458,
+    "sozcuk": "Kombin Yapmak",
+    "okunus": "",
+    "anlam": "Takım dizmek, takım yapmak, takımlama yapmak, yakıştırma yapmak."
+  },
+  {
+    "id": 459,
+    "sozcuk": "Kompakt",
+    "okunus": "Compact",
+    "anlam": ""
+  },
+  {
+    "id": 460,
+    "sozcuk": "Komple",
+    "okunus": "Comple",
+    "anlam": "Tümden, tümüyle, bütünüyle, toptan."
+  },
+  {
+    "id": 461,
+    "sozcuk": "Kompleks",
+    "okunus": "Complex",
+    "anlam": "1. Karmaşık, karışık, karmakarışık, ayrıntılı. 2. Oluşum 3. Gocuntu, gocunma."
+  },
+  {
+    "id": 462,
+    "sozcuk": "Kompleksli",
+    "okunus": "",
+    "anlam": "Gocungan, gocunan, gocuntulu, gocunmalı."
+  },
+  {
+    "id": 463,
+    "sozcuk": "Komplikasyon",
+    "okunus": "",
+    "anlam": "Karmaşa, karmaşıklık."
+  },
+  {
+    "id": 464,
+    "sozcuk": "Komplike",
+    "okunus": "",
+    "anlam": "Karmaşık, karışık, karmakarışık."
+  },
+  {
+    "id": 465,
+    "sozcuk": "Komplike Olmak",
+    "okunus": "",
+    "anlam": "Karmaşıklaşmak, karmaşık olmak."
+  },
+  {
+    "id": 466,
+    "sozcuk": "Komplikeleşmek",
+    "okunus": "",
+    "anlam": "Karmaşıklaşmak, karmaşık olmak."
+  },
+  {
+    "id": 467,
+    "sozcuk": "Kompost",
+    "okunus": "",
+    "anlam": "Komposto."
+  },
+  {
+    "id": 468,
+    "sozcuk": "Konjonktür",
+    "okunus": "",
+    "anlam": "Topludurum."
+  },
+  {
+    "id": 469,
+    "sozcuk": "Konsantrasyon",
+    "okunus": "",
+    "anlam": "Odaklanma, yoğunlaşma."
+  },
+  {
+    "id": 470,
+    "sozcuk": "Konsantre",
+    "okunus": "",
+    "anlam": "1. Odak, yoğunluk. 2. Derişim."
+  },
+  {
+    "id": 471,
+    "sozcuk": "Konsantre Olmak",
+    "okunus": "",
+    "anlam": "1. Odaklanmak, yoğunlaşmak. 2. Derişmek."
+  },
+  {
+    "id": 472,
+    "sozcuk": "Konvansiyonel",
+    "okunus": "",
+    "anlam": "Geleneksel."
+  },
+  {
+    "id": 473,
+    "sozcuk": "Kreasyon",
+    "okunus": "",
+    "anlam": "Yaratım."
+  },
+  {
+    "id": 474,
+    "sozcuk": "Kriter",
+    "okunus": "",
+    "anlam": "Ölçüt."
+  },
+  {
+    "id": 475,
+    "sozcuk": "Kritik",
+    "okunus": "",
+    "anlam": "1. Kırılım, kırılma, önemli. 2. Eleştiri, değerlendirme, yorum, yorumlama."
+  },
+  {
+    "id": 476,
+    "sozcuk": "Kritik Yapmak",
+    "okunus": "",
+    "anlam": "Değerlendirmek, değerlendirme yapmak, yorumlamak, yorum yapmak, eleştirmek, eleştiri yapmak."
+  },
+  {
+    "id": 477,
+    "sozcuk": "Kritiğini Yapmak",
+    "okunus": "",
+    "anlam": "Değerlendirmek, değerlendirmesini yapmak, yorumlamak, yorumunu yapmak, eleştirmek, eleştirisini yapmak."
+  },
+  {
+    "id": 478,
+    "sozcuk": "Ladyboy",
+    "okunus": "Leydiboy",
+    "anlam": "Prenses Erkek."
+  },
+  {
+    "id": 479,
+    "sozcuk": "Lag",
+    "okunus": "",
+    "anlam": "Gecikme."
+  },
+  {
+    "id": 480,
+    "sozcuk": "Laglanmak",
+    "okunus": "",
+    "anlam": "Gecikmelenmek, gecikme olmak, gecikmeli gelmek."
+  },
+  {
+    "id": 481,
+    "sozcuk": "Laglı",
+    "okunus": "",
+    "anlam": "Gecikme, gecikmeli gelen."
+  },
+  {
+    "id": 482,
+    "sozcuk": "Lag Olmak",
+    "okunus": "",
+    "anlam": "Gecikme olmak, gecikmelenmek, gecikmeli gelmek."
+  },
+  {
+    "id": 483,
+    "sozcuk": "Lag Yapmak",
+    "okunus": "",
+    "anlam": "Gecikme yapmak, geciktirmek."
+  },
+  {
+    "id": 484,
+    "sozcuk": "Lanse",
+    "okunus": "",
+    "anlam": "Gösterme, aktarma."
+  },
+  {
+    "id": 485,
+    "sozcuk": "Lanse Etmek",
+    "okunus": "",
+    "anlam": "Göstermek, aktarmak."
+  },
+  {
+    "id": 486,
+    "sozcuk": "Lanselemek",
+    "okunus": "",
+    "anlam": "Göstermek, aktarmak."
+  },
+  {
+    "id": 487,
+    "sozcuk": "Laptop",
+    "okunus": "Leptab",
+    "anlam": "Dizüstü."
+  },
+  {
+    "id": 488,
+    "sozcuk": "Larp",
+    "okunus": "",
+    "anlam": "Bürünme."
+  },
+  {
+    "id": 489,
+    "sozcuk": "Larplamak",
+    "okunus": "",
+    "anlam": "Bilgiçlik taslamak, sahanda hava dövmek, ukalalık etmek, kolpa sıkmak, rol kesmek, artistlik yapmak, boş keseden sallamak, gibi davranmak, -lAk taslamak, işkembeden atmak."
+  },
+  {
+    "id": 490,
+    "sozcuk": "Legal",
+    "okunus": "",
+    "anlam": "Yasal, kurallara uygun."
+  },
+  {
+    "id": 491,
+    "sozcuk": "Legalize Etmek",
+    "okunus": "",
+    "anlam": "Yasallaştırmak, yasallatmak."
+  },
+  {
+    "id": 492,
+    "sozcuk": "Level",
+    "okunus": "Levıl",
+    "anlam": "Düzey, aşama, seviye."
+  },
+  {
+    "id": 493,
+    "sozcuk": "Lez",
+    "okunus": "",
+    "anlam": "Eşcinsel kadın."
+  },
+  {
+    "id": 494,
+    "sozcuk": "Lezbiyen",
+    "okunus": "",
+    "anlam": "Eşcinsel kadın."
+  },
+  {
+    "id": 495,
+    "sozcuk": "Libido",
+    "okunus": "",
+    "anlam": "Azgınlık."
+  },
+  {
+    "id": 496,
+    "sozcuk": "Libido Alçaltmak",
+    "okunus": "",
+    "anlam": "Azgınlık alçaltmak, azgınlık azaltmak, azgınlık düşürmek, azgınlık durultmak."
+  },
+  {
+    "id": 497,
+    "sozcuk": "Libido Artırmak",
+    "okunus": "",
+    "anlam": "Azdırmak, azgınlık artırmak, azgınlık yükseltmek, azgınlık çoğaltmak."
+  },
+  {
+    "id": 498,
+    "sozcuk": "Libido Azaltmak",
+    "okunus": "",
+    "anlam": "Azgınlık azaltmak, azgınlık alçaltmak, azgınlık düşürmek, azgınlık durultmak."
+  },
+  {
+    "id": 499,
+    "sozcuk": "Libido Düşürmek",
+    "okunus": "",
+    "anlam": "Azgınlık düşürmek, azgınlık azaltmak, azgınlık alçaltmak, azgınlık durultmak."
+  },
+  {
+    "id": 500,
+    "sozcuk": "Libidokiller",
+    "okunus": "",
+    "anlam": "Azgınlık kesici, azgınlık bitirici, azgınlık giderici."
+  },
+  {
+    "id": 501,
+    "sozcuk": "Libidosu Düşük",
+    "okunus": "",
+    "anlam": "Azgınlığı düşük, azgınlığı durgun, azgın olmayan."
+  },
+  {
+    "id": 502,
+    "sozcuk": "Libidosu Yüksek",
+    "okunus": "",
+    "anlam": "Azgın, azgınlığı yüksek, azgınlığı coşkun."
+  },
+  {
+    "id": 503,
+    "sozcuk": "Libido Yükseltmek",
+    "okunus": "",
+    "anlam": "Azdırmak, azgınlık yükseltmek, azgınlık artırmak, azgınlık çoğaltmak."
+  },
+  {
+    "id": 504,
+    "sozcuk": "Light",
+    "okunus": "Layt",
+    "anlam": "Su katılmış, incelmiş, seyrelmiş, açılmış."
+  },
+  {
+    "id": 505,
+    "sozcuk": "Like",
+    "okunus": "Layk",
+    "anlam": "Beğeni."
+  },
+  {
+    "id": 506,
+    "sozcuk": "Like Atmak",
+    "okunus": "",
+    "anlam": "Beğenmek, beğeni atmak."
+  },
+  {
+    "id": 507,
+    "sozcuk": "Likelamak",
+    "okunus": "",
+    "anlam": "Beğenmek, beğeni atmak."
+  },
+  {
+    "id": 508,
+    "sozcuk": "Link",
+    "okunus": "",
+    "anlam": "Bağlantı."
+  },
+  {
+    "id": 509,
+    "sozcuk": "Live Action",
+    "okunus": "",
+    "anlam": "Gerçek çekim, canlı çekim."
+  },
+  {
+    "id": 510,
+    "sozcuk": "Lokasyon",
+    "okunus": "Location",
+    "anlam": "Konum."
+  },
+  {
+    "id": 511,
+    "sozcuk": "Loop",
+    "okunus": "Luğp",
+    "anlam": "Döngü, yineleme."
+  },
+  {
+    "id": 512,
+    "sozcuk": "Loopa Almak",
+    "okunus": "",
+    "anlam": "Döngüye almak, döngülemek, yinelemeye almak, yinelemek."
+  },
+  {
+    "id": 513,
+    "sozcuk": "Loot",
+    "okunus": "Luğt",
+    "anlam": "Yağma, çapul, talan, toplayıcılık, toparlama."
+  },
+  {
+    "id": 514,
+    "sozcuk": "Lootlamak",
+    "okunus": "",
+    "anlam": "Yağmalamak, yağma yapmak, talan yapmak, toparlamak."
+  },
+  {
+    "id": 515,
+    "sozcuk": "Loot Yapmak",
+    "okunus": "",
+    "anlam": "Yağma yapmak, talan yapmak."
+  },
+  {
+    "id": 516,
+    "sozcuk": "Lore",
+    "okunus": "Lor",
+    "anlam": "Anlatı, bağlam, evren, olay, arkaplan anlatısı."
+  },
+  {
+    "id": 517,
+    "sozcuk": "Loser",
+    "okunus": "Luğzır",
+    "anlam": "Ezik, yıkık."
+  },
+  {
+    "id": 518,
+    "sozcuk": "Love Bombing",
+    "okunus": "Lav Bambing",
+    "anlam": "Şımartma, şımartıcılık, ilgiye boğma, aşırı ilgi."
+  },
+  {
+    "id": 519,
+    "sozcuk": "Lovelanmak",
+    "okunus": "",
+    "anlam": "Vurulmak, aşık olmak."
+  },
+  {
+    "id": 520,
+    "sozcuk": "Lover",
+    "okunus": "",
+    "anlam": "Sever, seven."
+  },
+  {
+    "id": 521,
+    "sozcuk": "Low",
+    "okunus": "Lov",
+    "anlam": "Düşük, az."
+  },
+  {
+    "id": 522,
+    "sozcuk": "Loweffort",
+    "okunus": "Lovefort",
+    "anlam": "Gelişigüzel, özensiz, uğraşılmamış, emeksiz, çabasız, emek verilmemiş, kıytırık, kaba, kaba taslak, kabaca."
+  },
+  {
+    "id": 523,
+    "sozcuk": "Lunch Break",
+    "okunus": "Lanç Bırek",
+    "anlam": "Yemek arası."
+  },
+  {
+    "id": 524,
+    "sozcuk": "Mail",
+    "okunus": "Meyil",
+    "anlam": "Posta, mektup."
+  },
+  {
+    "id": 525,
+    "sozcuk": "Main",
+    "okunus": "Meyin",
+    "anlam": "Ana."
+  },
+  {
+    "id": 526,
+    "sozcuk": "Mainstream",
+    "okunus": "Meyinsıtriğm",
+    "anlam": "Ana akım."
+  },
+  {
+    "id": 527,
+    "sozcuk": "Majör",
+    "okunus": "",
+    "anlam": "Büyük."
+  },
+  {
+    "id": 528,
+    "sozcuk": "Maks",
+    "okunus": "Max",
+    "anlam": "En çok, en yüksek, en üst, tavan, doruk, dora, doran."
+  },
+  {
+    "id": 529,
+    "sozcuk": "Maksimize Etmek",
+    "okunus": "",
+    "anlam": "Tavan yaptırmak, doruğuna ulaştırmak, kendini aştırmak."
+  },
+  {
+    "id": 530,
+    "sozcuk": "Maksimize Olmak",
+    "okunus": "",
+    "anlam": "Tavan yapmak, doruğuna ulaşmak, kendini aşmak."
+  },
+  {
+    "id": 531,
+    "sozcuk": "Maksimum",
+    "okunus": "Maximum",
+    "anlam": "En çok, tavan, en yüksek, en üst, doruk, dora, doran."
+  },
+  {
+    "id": 532,
+    "sozcuk": "Mall",
+    "okunus": "",
+    "anlam": "AVM, alışveriş merkezi."
+  },
+  {
+    "id": 533,
+    "sozcuk": "Man",
+    "okunus": "Men",
+    "anlam": "Adamım, oğlum, kanka, aga, dostum, kardeşim."
+  },
+  {
+    "id": 534,
+    "sozcuk": "Manifest",
+    "okunus": "",
+    "anlam": "1. Bildiri. 2. İyi dilek, dua."
+  },
+  {
+    "id": 535,
+    "sozcuk": "Manifestlemek",
+    "okunus": "",
+    "anlam": "İyi dilekte bulunmak, iyi dilek bildirmek, gönüllemek, içtenlemek, gönülden istemek, gönülden dilemek, içten istemek, içten dilemek, yürekten istemek, yürekten dilemek, dua etmek."
+  },
+  {
+    "id": 536,
+    "sozcuk": "Manipülasyon",
+    "okunus": "",
+    "anlam": "Yönlendirme, yöneltme, aldatma."
+  },
+  {
+    "id": 537,
+    "sozcuk": "Manipülatif",
+    "okunus": "",
+    "anlam": "Yönlendirici, yönlendiren, yöneltici, yönelten, aldatıcı, aldatan."
+  },
+  {
+    "id": 538,
+    "sozcuk": "Manipülatör",
+    "okunus": "",
+    "anlam": "Yönlendirici, Yönlendirmen, yönlendiren, yöneltici, yönelten, yöneltmen, aldatıcı, aldatan."
+  },
+  {
+    "id": 539,
+    "sozcuk": "Map",
+    "okunus": "Mep",
+    "anlam": "Harita, yerbeti, alan."
+  },
+  {
+    "id": 540,
+    "sozcuk": "Marketing",
+    "okunus": "",
+    "anlam": "Pazarlama, el sıkadurma."
+  },
+  {
+    "id": 541,
+    "sozcuk": "Maskülen",
+    "okunus": "",
+    "anlam": "Eril."
+  },
+  {
+    "id": 542,
+    "sozcuk": "Match",
+    "okunus": "",
+    "anlam": "Eşleşme, uyma, yakışma."
+  },
+  {
+    "id": 543,
+    "sozcuk": "Matchlenmek",
+    "okunus": "",
+    "anlam": "Eşlenmek, uymak, yakışmak."
+  },
+  {
+    "id": 544,
+    "sozcuk": "Matchleşmek",
+    "okunus": "",
+    "anlam": "Eşleşmek, uymak, yakışmak."
+  },
+  {
+    "id": 545,
+    "sozcuk": "Maxxing",
+    "okunus": "",
+    "anlam": "En yükseğe çıkarma, olabileceğin en iyisi olmak."
+  },
+  {
+    "id": 546,
+    "sozcuk": "Meditasyon",
+    "okunus": "",
+    "anlam": "Dinginleşme."
+  },
+  {
+    "id": 547,
+    "sozcuk": "Meditasyon Yapmak",
+    "okunus": "",
+    "anlam": "Dinginleşme yapmak, dinginleşmek."
+  },
+  {
+    "id": 548,
+    "sozcuk": "Meeting",
+    "okunus": "Miğting",
+    "anlam": "Görüşme, toplantı."
+  },
+  {
+    "id": 549,
+    "sozcuk": "Mega",
+    "okunus": "",
+    "anlam": "Büyücek, büyük, büyükçe, koca, kocaman."
+  },
+  {
+    "id": 550,
+    "sozcuk": "Megastar",
+    "okunus": "",
+    "anlam": "Büyük yıldız, dünyaca ünlü."
+  },
+  {
+    "id": 551,
+    "sozcuk": "Melankoli",
+    "okunus": "Melancholy",
+    "anlam": "Üzüntü, sıkıntı, acık, daraltı, iç karartan."
+  },
+  {
+    "id": 552,
+    "sozcuk": "Melankolik",
+    "okunus": "Melancholic",
+    "anlam": "Üzüntülü, üzücü, sıkıntı, acıklı, daraltıcı, iç karartıcı."
+  },
+  {
+    "id": 553,
+    "sozcuk": "Meme",
+    "okunus": "Miğm",
+    "anlam": "Gülgü."
+  },
+  {
+    "id": 554,
+    "sozcuk": "Mentalite",
+    "okunus": "Mentality",
+    "anlam": "Anlayış, mantık, düşünce yapısı, kafa yapısı."
+  },
+  {
+    "id": 555,
+    "sozcuk": "Method",
+    "okunus": "Metot",
+    "anlam": "Yöntem, uygulama."
+  },
+  {
+    "id": 556,
+    "sozcuk": "Mezuna Kalmak",
+    "okunus": "",
+    "anlam": "Mezun kalmak, yükseköğrenimi ertelemek."
+  },
+  {
+    "id": 557,
+    "sozcuk": "Mid",
+    "okunus": "",
+    "anlam": "Düz, orta, ortalama, sığ."
+  },
+  {
+    "id": 558,
+    "sozcuk": "Microcheating",
+    "okunus": "",
+    "anlam": "Ufaktan aldatma."
+  },
+  {
+    "id": 559,
+    "sozcuk": "Min",
+    "okunus": "",
+    "anlam": "Taban, dip, en az, en düşük."
+  },
+  {
+    "id": 560,
+    "sozcuk": "Mini Game",
+    "okunus": "Mini Geym",
+    "anlam": "Ufak oyun, küçük oyun, oyuncuk."
+  },
+  {
+    "id": 561,
+    "sozcuk": "Minival",
+    "okunus": "",
+    "anlam": "Düzlem, çizgi, dolay, çevre."
+  },
+  {
+    "id": 562,
+    "sozcuk": "Minimize Etmek",
+    "okunus": "",
+    "anlam": "Taban yapmak, dibe çekmek, dip yaptırmak, dip etmek, en aza indirmek, en aza indirgemek."
+  },
+  {
+    "id": 563,
+    "sozcuk": "Minimize Olmak",
+    "okunus": "",
+    "anlam": "Taban yapmak, dibe çekilmek, dip yapmak, dip olmak, en az olmak, en aza inmek, en aza indirgenmek."
+  },
+  {
+    "id": 564,
+    "sozcuk": "Minimum",
+    "okunus": "",
+    "anlam": "En az, en düşük, taban, dip."
+  },
+  {
+    "id": 565,
+    "sozcuk": "Misyon",
+    "okunus": "Mision",
+    "anlam": "Özgörev, görev."
+  },
+  {
+    "id": 566,
+    "sozcuk": "Miting",
+    "okunus": "Meeting",
+    "anlam": "Halk buluşması."
+  },
+  {
+    "id": 567,
+    "sozcuk": "Mix",
+    "okunus": "Miks",
+    "anlam": "Karma, karışım, karıştırma."
+  },
+  {
+    "id": 568,
+    "sozcuk": "Mobbing",
+    "okunus": "",
+    "anlam": "Ezim, baskı."
+  },
+  {
+    "id": 569,
+    "sozcuk": "Mobbinge Maruz Kalmak",
+    "okunus": "",
+    "anlam": "Ezime maruz kalmak, ezilmek, baskıya maruz kalmak, baskılanmak."
+  },
+  {
+    "id": 570,
+    "sozcuk": "Mobbing Görmek",
+    "okunus": "",
+    "anlam": "Ezim görmek, ezilmek, baskı görmek, baskılanmak."
+  },
+  {
+    "id": 571,
+    "sozcuk": "Mobbing Uygulamak",
+    "okunus": "",
+    "anlam": "Ezim uygulamak, ezmek, baskı uygulamak, baskılamak."
+  },
+  {
+    "id": 572,
+    "sozcuk": "Mobbing Yapmak",
+    "okunus": "",
+    "anlam": "Ezim yapmak, ezmek, baskı yapmak, baskılamak."
+  },
+  {
+    "id": 573,
+    "sozcuk": "Mobilite",
+    "okunus": "",
+    "anlam": "Hareket becerisi."
+  },
+  {
+    "id": 574,
+    "sozcuk": "Mod",
+    "okunus": "Mood",
+    "anlam": "Duygudurum."
+  },
+  {
+    "id": 575,
+    "sozcuk": "Modifikasyon",
+    "okunus": "",
+    "anlam": ""
+  },
+  {
+    "id": 576,
+    "sozcuk": "Modu Bozuk",
+    "okunus": "",
+    "anlam": ""
+  },
+  {
+    "id": 577,
+    "sozcuk": "Modu Düşük",
+    "okunus": "",
+    "anlam": ""
+  },
+  {
+    "id": 578,
+    "sozcuk": "Modu Güzel",
+    "okunus": "",
+    "anlam": ""
+  },
+  {
+    "id": 579,
+    "sozcuk": "Modu İyi",
+    "okunus": "",
+    "anlam": ""
+  },
+  {
+    "id": 580,
+    "sozcuk": "Modu Kötü",
+    "okunus": "",
+    "anlam": ""
+  },
+  {
+    "id": 581,
+    "sozcuk": "Modu Yüksek",
+    "okunus": "",
+    "anlam": ""
+  },
+  {
+    "id": 582,
+    "sozcuk": "Moderatör",
+    "okunus": "",
+    "anlam": "Yetkili."
+  },
+  {
+    "id": 583,
+    "sozcuk": "Motivasyon",
+    "okunus": "",
+    "anlam": "Yüreklenme, dayanak, gerekçe."
+  },
+  {
+    "id": 584,
+    "sozcuk": "Motive",
+    "okunus": "",
+    "anlam": "Yürek."
+  },
+  {
+    "id": 585,
+    "sozcuk": "Motive Etmek",
+    "okunus": "",
+    "anlam": "Yüreklendirmek."
+  },
+  {
+    "id": 586,
+    "sozcuk": "Motive Olmak",
+    "okunus": "",
+    "anlam": "Yüreklenmek."
+  },
+  {
+    "id": 587,
+    "sozcuk": "Mouse",
+    "okunus": "Mağuvs",
+    "anlam": "Tıklak, fare."
+  },
+  {
+    "id": 588,
+    "sozcuk": "Mouse Pad",
+    "okunus": "Mağuvs Ped",
+    "anlam": "Tıklak altlığı, fare altlığı."
+  },
+  {
+    "id": 589,
+    "sozcuk": "Mukbang",
+    "okunus": "",
+    "anlam": ""
+  },
+  {
+    "id": 590,
+    "sozcuk": "Multi",
+    "okunus": "",
+    "anlam": "Çoklu, toplu."
+  },
+  {
+    "id": 591,
+    "sozcuk": "Multimedya",
+    "okunus": "",
+    "anlam": "Çoklu ortam."
+  },
+  {
+    "id": 592,
+    "sozcuk": "Multiplayer",
+    "okunus": "Multipıleyır",
+    "anlam": "Çok oyunculu."
+  },
+  {
+    "id": 593,
+    "sozcuk": "Mute",
+    "okunus": "Muğt",
+    "anlam": "Susturma."
+  },
+  {
+    "id": 594,
+    "sozcuk": "Mute Atmak",
+    "okunus": "",
+    "anlam": "Susturma atmak, susturmak."
+  },
+  {
+    "id": 595,
+    "sozcuk": "Mutelamak",
+    "okunus": "",
+    "anlam": "Susturmak."
+  },
+  {
+    "id": 596,
+    "sozcuk": "Müzikalite",
+    "okunus": "Musicality",
+    "anlam": "Ezgisellik, ezgillik."
+  },
+  {
+    "id": 597,
+    "sozcuk": "Negatif",
+    "okunus": "Negative",
+    "anlam": "Olumsuz, eksi."
+  },
+  {
+    "id": 598,
+    "sozcuk": "Nerd",
+    "okunus": "Nörd",
+    "anlam": "İnek."
+  },
+  {
+    "id": 599,
+    "sozcuk": "Nerf",
+    "okunus": "Nörf",
+    "anlam": "Güçsüzleştirme, güçsüzletme, zayıflatma."
+  },
+  {
+    "id": 600,
+    "sozcuk": "Nerflemek",
+    "okunus": "",
+    "anlam": "Güçsüzleştirmek,güçsüzletmek, zayıflatmak."
+  },
+  {
+    "id": 601,
+    "sozcuk": "Nerf Yemek",
+    "okunus": "",
+    "anlam": "Güçsüzleşmek, güçsüzletilmek, güçsüzleştirilmek. zayıflamak, zayıflatılmak."
+  },
+  {
+    "id": 602,
+    "sozcuk": "Network",
+    "okunus": "Netwörk",
+    "anlam": "1. Ağ. 2. Veritabanı, topluluk."
+  },
+  {
+    "id": 603,
+    "sozcuk": "Networking",
+    "okunus": "",
+    "anlam": "Ağ kurma, ağ oluşturma."
+  },
+  {
+    "id": 604,
+    "sozcuk": "New",
+    "okunus": "Niuw",
+    "anlam": "Yeni, yeni yetme, körpe, çömez, toy, çaylak."
+  },
+  {
+    "id": 605,
+    "sozcuk": "Nick",
+    "okunus": "Nik",
+    "anlam": "Takma ad, kullanıcı adı."
+  },
+  {
+    "id": 606,
+    "sozcuk": "Nickname",
+    "okunus": "Nikneym",
+    "anlam": "Takma ad, kullanıcı adı."
+  },
+  {
+    "id": 607,
+    "sozcuk": "Night Clup",
+    "okunus": "Nayt Kılab",
+    "anlam": "Gece kulübü."
+  },
+  {
+    "id": 608,
+    "sozcuk": "Niş",
+    "okunus": "Nich",
+    "anlam": "1. Özgül alan. 2. Özgülce."
+  },
+  {
+    "id": 609,
+    "sozcuk": "Non Binary",
+    "okunus": "Nan Bineğriy",
+    "anlam": "İkilik dışı cinsiyet."
+  },
+  {
+    "id": 610,
+    "sozcuk": "Noob",
+    "okunus": "Nuğb",
+    "anlam": "Çömez, çaylak, ezik, beceriksiz. yeni yetme, sığ."
+  },
+  {
+    "id": 611,
+    "sozcuk": "Nope",
+    "okunus": "Noğp",
+    "anlam": "Yok, hayır."
+  },
+  {
+    "id": 612,
+    "sozcuk": "Nostalji",
+    "okunus": "Nostalghia",
+    "anlam": "Geçmişe özlem."
+  },
+  {
+    "id": 613,
+    "sozcuk": "Nostaljik",
+    "okunus": "Nostalgic",
+    "anlam": "Geçmiş kokan."
+  },
+  {
+    "id": 614,
+    "sozcuk": "Nostalji Yapmak",
+    "okunus": "",
+    "anlam": "Geçmişi yaşamak, geçmişi koklamak, geçmişi anmak, geçmişi anımsamak."
+  },
+  {
+    "id": 615,
+    "sozcuk": "Nostalji Yaşamak",
+    "okunus": "",
+    "anlam": "Geçmişi yaşamak, geçmişi koklamak, geçmişi anmak, geçmişi anımsamak."
+  },
+  {
+    "id": 616,
+    "sozcuk": "Nötr",
+    "okunus": "",
+    "anlam": "Sıfır, görüşsüz, tepkisiz, düşüncesiz, yorumsuz."
+  },
+  {
+    "id": 617,
+    "sozcuk": "Nude",
+    "okunus": "Nuğd",
+    "anlam": "Çıplak, çırılçıplak, cıbıldak."
+  },
+  {
+    "id": 618,
+    "sozcuk": "Obje",
+    "okunus": "Object",
+    "anlam": "Nesne."
+  },
+  {
+    "id": 619,
+    "sozcuk": "Objektif",
+    "okunus": "Objective",
+    "anlam": "Nesnel, yansız."
+  },
+  {
+    "id": 620,
+    "sozcuk": "Ofansif",
+    "okunus": "",
+    "anlam": "Savunmacı, savunan."
+  },
+  {
+    "id": 621,
+    "sozcuk": "Off",
+    "okunus": "",
+    "anlam": "Kapalı, devre dışı."
+  },
+  {
+    "id": 622,
+    "sozcuk": "Official",
+    "okunus": "Ofisıl",
+    "anlam": "Resmi."
+  },
+  {
+    "id": 623,
+    "sozcuk": "Offline",
+    "okunus": "Oflayn",
+    "anlam": "Çevrimdışı."
+  },
+  {
+    "id": 624,
+    "sozcuk": "Oktroll",
+    "okunus": "",
+    "anlam": "CHP yaltakçısı, CHP'li yaltakçı, CHP dalkavuğu, CHP'li dalkavuk."
+  },
+  {
+    "id": 625,
+    "sozcuk": "Olabilite",
+    "okunus": "",
+    "anlam": "Olur, olasılık, olabilirlik."
+  },
+  {
+    "id": 626,
+    "sozcuk": "Old",
+    "okunus": "",
+    "anlam": "Eski, ilerigelen, aksakallı."
+  },
+  {
+    "id": 627,
+    "sozcuk": "On",
+    "okunus": "",
+    "anlam": "Açık, etkin, çalışır."
+  },
+  {
+    "id": 628,
+    "sozcuk": "Online",
+    "okunus": "Onlayn",
+    "anlam": "Çevrimiçi, sanal."
+  },
+  {
+    "id": 629,
+    "sozcuk": "Onore",
+    "okunus": "",
+    "anlam": "Onurlanma."
+  },
+  {
+    "id": 630,
+    "sozcuk": "Onore Etmek",
+    "okunus": "",
+    "anlam": "Onurlandırmak."
+  },
+  {
+    "id": 631,
+    "sozcuk": "Onore Olmak",
+    "okunus": "",
+    "anlam": "Onurlanmak."
+  },
+  {
+    "id": 632,
+    "sozcuk": "Opening",
+    "okunus": "Opıning",
+    "anlam": "Açılış."
+  },
+  {
+    "id": 633,
+    "sozcuk": "Operasyonel",
+    "okunus": "",
+    "anlam": "İşevuruk."
+  },
+  {
+    "id": 634,
+    "sozcuk": "Opsiyon",
+    "okunus": "Option",
+    "anlam": "Seçenek, çıkaryol."
+  },
+  {
+    "id": 635,
+    "sozcuk": "Opsiyonel",
+    "okunus": "Optional",
+    "anlam": "İsteğe bağlı, isteksel."
+  },
+  {
+    "id": 636,
+    "sozcuk": "Optifine",
+    "okunus": "Optifayn",
+    "anlam": ""
+  },
+  {
+    "id": 637,
+    "sozcuk": "Optimist",
+    "okunus": "",
+    "anlam": "İyimser."
+  },
+  {
+    "id": 638,
+    "sozcuk": "Optimizasyon",
+    "okunus": "",
+    "anlam": "Eniyileme."
+  },
+  {
+    "id": 639,
+    "sozcuk": "Optimize",
+    "okunus": "",
+    "anlam": "Eniyi."
+  },
+  {
+    "id": 640,
+    "sozcuk": "Optimize Etmek",
+    "okunus": "",
+    "anlam": "Eniyilemek."
+  },
+  {
+    "id": 641,
+    "sozcuk": "Optimize Olmak",
+    "okunus": "",
+    "anlam": "Eniyilenmek."
+  },
+  {
+    "id": 642,
+    "sozcuk": "Optimum",
+    "okunus": "",
+    "anlam": "En uygun, en iyi, en elverişli, en yetkin."
+  },
+  {
+    "id": 643,
+    "sozcuk": "Organize",
+    "okunus": "",
+    "anlam": "Örgütlü."
+  },
+  {
+    "id": 644,
+    "sozcuk": "Organize Etmek",
+    "okunus": "",
+    "anlam": "Örgütlemek."
+  },
+  {
+    "id": 645,
+    "sozcuk": "Organize Olmak",
+    "okunus": "",
+    "anlam": "Örgütlenmek."
+  },
+  {
+    "id": 646,
+    "sozcuk": "Organizatör",
+    "okunus": "Organizer",
+    "anlam": "Düzenlemeci."
+  },
+  {
+    "id": 647,
+    "sozcuk": "Orgazm",
+    "okunus": "",
+    "anlam": "Boşalma, boşalım."
+  },
+  {
+    "id": 648,
+    "sozcuk": "Orgazmik",
+    "okunus": "",
+    "anlam": "Boşalımsal."
+  },
+  {
+    "id": 649,
+    "sozcuk": "Orgazm Olmak",
+    "okunus": "",
+    "anlam": "Boşalmak."
+  },
+  {
+    "id": 650,
+    "sozcuk": "Otizm",
+    "okunus": "",
+    "anlam": "Öğrenme güçlüğü."
+  },
+  {
+    "id": 651,
+    "sozcuk": "Otistik",
+    "okunus": "",
+    "anlam": ""
+  },
+  {
+    "id": 652,
+    "sozcuk": "Outlet",
+    "okunus": "",
+    "anlam": "Aracısız, üreticiden, üretenden, fabrikadan halka, üretim fazlası."
+  },
+  {
+    "id": 653,
+    "sozcuk": "Outro",
+    "okunus": "Ağtro",
+    "anlam": "Kapanış."
+  },
+  {
+    "id": 654,
+    "sozcuk": "Overrated",
+    "okunus": "Ovırreytıd",
+    "anlam": "Abartılmış, gereksiz övülen."
+  },
+  {
+    "id": 655,
+    "sozcuk": "Overshare",
+    "okunus": "Ovırşeyır",
+    "anlam": "Aşırı paylaşım, aşırı paylaşma."
+  },
+  {
+    "id": 656,
+    "sozcuk": "Overthink",
+    "okunus": "Ovırtink",
+    "anlam": "1. Kuruntu, kurma, takıntı, takma. 2. Çok düşünme, aşırı düşünme."
+  },
+  {
+    "id": 657,
+    "sozcuk": "Overthinklemek",
+    "okunus": "",
+    "anlam": "1. Kurmak, kuruntu yapmak, kafada kurmak, kafaya takmak, sayıklamak. 2. Çok düşünmek, aşırı düşünmek."
+  },
+  {
+    "id": 658,
+    "sozcuk": "Owner",
+    "okunus": "Ovnır",
+    "anlam": "Sahip."
+  },
+  {
+    "id": 659,
+    "sozcuk": "Pack",
+    "okunus": "Pek",
+    "anlam": "Toptan, top, yığın."
+  },
+  {
+    "id": 660,
+    "sozcuk": "Panseksüel",
+    "okunus": "Pansexual",
+    "anlam": "Tümcinsel."
+  },
+  {
+    "id": 661,
+    "sozcuk": "Paranormal",
+    "okunus": "",
+    "anlam": "Doğaüstü."
+  },
+  {
+    "id": 662,
+    "sozcuk": "Part",
+    "okunus": "",
+    "anlam": "Bölüm, kesit."
+  },
+  {
+    "id": 663,
+    "sozcuk": "Part Time",
+    "okunus": "Part Taym",
+    "anlam": "Yarım gün, yarı zamanlı."
+  },
+  {
+    "id": 664,
+    "sozcuk": "Pasif",
+    "okunus": "Pasive",
+    "anlam": "Edilgen, durağan, çekinik, etkisiz, çekingen, çekimser, sakınık, sakıngan, yatışkın."
+  },
+  {
+    "id": 665,
+    "sozcuk": "Pasifize Etmek",
+    "okunus": "",
+    "anlam": "Edilgenleştirmek, durağanlaştırmak, etkisizleştirmek, sakındırmak, el çektirtmek, çekinikleştirmek, durultmak, yatıştırmak."
+  },
+  {
+    "id": 666,
+    "sozcuk": "Pasifize Olmak",
+    "okunus": "",
+    "anlam": "Edilgenleşmek, durağanlaşmak, etkisizleşmek, sakınmak, el çekmek, çekinikleşmek, durulmak, yatışmak."
+  },
+  {
+    "id": 667,
+    "sozcuk": "Patch",
+    "okunus": "Patç",
+    "anlam": "Yama."
+  },
+  {
+    "id": 668,
+    "sozcuk": "Patchlemek",
+    "okunus": "",
+    "anlam": "Yamamak, yamalamak."
+  },
+  {
+    "id": 669,
+    "sozcuk": "Pay To Win",
+    "okunus": "Pay To Vin",
+    "anlam": "Parayı veren düdüğü çalar."
+  },
+  {
+    "id": 670,
+    "sozcuk": "Peak",
+    "okunus": "",
+    "anlam": "Doruk, tavan, göksel, tepe, son nokta, dora, doran."
+  },
+  {
+    "id": 671,
+    "sozcuk": "Pedo",
+    "okunus": "",
+    "anlam": "Sübyancı."
+  },
+  {
+    "id": 672,
+    "sozcuk": "Pedofili",
+    "okunus": "",
+    "anlam": "Sübyancı."
+  },
+  {
+    "id": 673,
+    "sozcuk": "Persona",
+    "okunus": "",
+    "anlam": ""
+  },
+  {
+    "id": 674,
+    "sozcuk": "Personal Trainer",
+    "okunus": "Personıl Tıreynır",
+    "anlam": "Kişisel çalıştırıcı, bireysel çalıştırıcı."
+  },
+  {
+    "id": 675,
+    "sozcuk": "Perspektif",
+    "okunus": "",
+    "anlam": "Açı, bakış açısı."
+  },
+  {
+    "id": 676,
+    "sozcuk": "Pesimist",
+    "okunus": "",
+    "anlam": "Karamsar, kötümser."
+  },
+  {
+    "id": 677,
+    "sozcuk": "Phase",
+    "okunus": "Faz",
+    "anlam": "Evre, aşama."
+  },
+  {
+    "id": 678,
+    "sozcuk": "Pick Me",
+    "okunus": "Pik Mi",
+    "anlam": "Yaranmacı, yaltakçı, yılışık, dalkavuk."
+  },
+  {
+    "id": 679,
+    "sozcuk": "Pick Me Girl",
+    "okunus": "Pik Mi Görl",
+    "anlam": "Kocacı, evlilik düşkünü, yaranmacı kız, yaltakçı kız, yılışık kız, dalkavuk kız."
+  },
+  {
+    "id": 680,
+    "sozcuk": "Pilot",
+    "okunus": "",
+    "anlam": "Ön, öncü, öncül."
+  },
+  {
+    "id": 681,
+    "sozcuk": "Pin",
+    "okunus": "",
+    "anlam": "Sabit, sabitleme."
+  },
+  {
+    "id": 682,
+    "sozcuk": "Pin Almak",
+    "okunus": "",
+    "anlam": "Sabit almak, sabitlenmek."
+  },
+  {
+    "id": 683,
+    "sozcuk": "Pin Atmak",
+    "okunus": "",
+    "anlam": "Sabitlemek."
+  },
+  {
+    "id": 684,
+    "sozcuk": "Ping",
+    "okunus": "",
+    "anlam": "1. Gecikme. 2. Bildirim."
+  },
+  {
+    "id": 685,
+    "sozcuk": "Ping Atmak",
+    "okunus": "",
+    "anlam": "Dürtmek."
+  },
+  {
+    "id": 686,
+    "sozcuk": "Pinglemek",
+    "okunus": "",
+    "anlam": "Dürtmek."
+  },
+  {
+    "id": 687,
+    "sozcuk": "Pinglenmek",
+    "okunus": "",
+    "anlam": "1. Dürtülmek. 2. Gecikmelenmek, gecikme olmak, gecikmeli gelmek."
+  },
+  {
+    "id": 688,
+    "sozcuk": "Pingli",
+    "okunus": "",
+    "anlam": "Gecikmeli, gecikmeli gelen."
+  },
+  {
+    "id": 689,
+    "sozcuk": "Pinlemek",
+    "okunus": "",
+    "anlam": "Sabitlemek."
+  },
+  {
+    "id": 690,
+    "sozcuk": "Pin Yapmak",
+    "okunus": "",
+    "anlam": "Sabitlemek."
+  },
+  {
+    "id": 691,
+    "sozcuk": "Ping",
+    "okunus": "",
+    "anlam": "1. Gecikme. 2. Bildirim."
+  },
+  {
+    "id": 692,
+    "sozcuk": "Ping Atmak",
+    "okunus": "",
+    "anlam": "Dürtmek."
+  },
+  {
+    "id": 693,
+    "sozcuk": "Pinglemek",
+    "okunus": "",
+    "anlam": "Dürtmek."
+  },
+  {
+    "id": 694,
+    "sozcuk": "Pinglenmek",
+    "okunus": "",
+    "anlam": "1. Dürtülmek. 2. Gecikmelenmek, gecikme olmak, gecikmeli gelmek."
+  },
+  {
+    "id": 695,
+    "sozcuk": "Platonik",
+    "okunus": "Platonic",
+    "anlam": "Tek yönlü, tek taraflı, karşılıksız, gizil."
+  },
+  {
+    "id": 696,
+    "sozcuk": "Playback",
+    "okunus": "Pıleybek",
+    "anlam": "Arkadan oynatma."
+  },
+  {
+    "id": 697,
+    "sozcuk": "Playboy",
+    "okunus": "Pıleyboy",
+    "anlam": ""
+  },
+  {
+    "id": 698,
+    "sozcuk": "Playlist",
+    "okunus": "Pıleylist",
+    "anlam": "Oynatma listesi."
+  },
+  {
+    "id": 699,
+    "sozcuk": "Playoff",
+    "okunus": "Pıleyof",
+    "anlam": "Eleme."
+  },
+  {
+    "id": 700,
+    "sozcuk": "Plugin",
+    "okunus": "Pulugin",
+    "anlam": "Eklenti."
+  },
+  {
+    "id": 701,
+    "sozcuk": "Plus",
+    "okunus": "Pılas",
+    "anlam": "Artı, üst."
+  },
+  {
+    "id": 702,
+    "sozcuk": "Podcast",
+    "okunus": "",
+    "anlam": ""
+  },
+  {
+    "id": 703,
+    "sozcuk": "Post",
+    "okunus": "",
+    "anlam": "Gönderi."
+  },
+  {
+    "id": 704,
+    "sozcuk": "Pozitif",
+    "okunus": "Pozitive",
+    "anlam": "Olumlu, artı."
+  },
+  {
+    "id": 705,
+    "sozcuk": "Powerbank",
+    "okunus": "",
+    "anlam": "Taşınabilir şarj."
+  },
+  {
+    "id": 706,
+    "sozcuk": "Poliseksüel",
+    "okunus": "Polisexual",
+    "anlam": "Çokcinsel."
+  },
+  {
+    "id": 707,
+    "sozcuk": "Portfolyo",
+    "okunus": "",
+    "anlam": ""
+  },
+  {
+    "id": 708,
+    "sozcuk": "Portfolyo Doldurmak",
+    "okunus": "",
+    "anlam": ""
+  },
+  {
+    "id": 709,
+    "sozcuk": "Portföy",
+    "okunus": "",
+    "anlam": ""
+  },
+  {
+    "id": 710,
+    "sozcuk": "Pratik",
+    "okunus": "",
+    "anlam": "Çözümcü, işbitirici, çözüm odaklı, şipşak."
+  },
+  {
+    "id": 711,
+    "sozcuk": "Prenses Erkek",
+    "okunus": "",
+    "anlam": ""
+  },
+  {
+    "id": 712,
+    "sozcuk": "Press",
+    "okunus": "Pıres",
+    "anlam": "Baskı, sıkıştırma."
+  },
+  {
+    "id": 713,
+    "sozcuk": "Pressleme",
+    "okunus": "",
+    "anlam": "Sıkıştırma, baskılama, baskı yapma."
+  },
+  {
+    "id": 714,
+    "sozcuk": "Presslemek",
+    "okunus": "",
+    "anlam": "Sıkıştırmak, baskılamak, baskı yapmak."
+  },
+  {
+    "id": 715,
+    "sozcuk": "Premium",
+    "okunus": "",
+    "anlam": "Ayrıcalıklı."
+  },
+  {
+    "id": 716,
+    "sozcuk": "Prime",
+    "okunus": "",
+    "anlam": "En iyi, doruk, tavan, tepe, dora, doran, altın, altın çağ."
+  },
+  {
+    "id": 717,
+    "sozcuk": "Prime Time",
+    "okunus": "",
+    "anlam": "Altın çağ, altın dönem, altın zaman, doruk çağ, doruk dönem, doruk zaman, en iyi çağ, en iyi dönem, en iyi zaman, tepe çağ, tepe dönem, tepe zaman."
+  },
+  {
+    "id": 718,
+    "sozcuk": "Pro",
+    "okunus": "",
+    "anlam": "Üstün, uzman, seçkin."
+  },
+  {
+    "id": 719,
+    "sozcuk": "Problem",
+    "okunus": "",
+    "anlam": "Sorun, sıkıntı, terslik."
+  },
+  {
+    "id": 720,
+    "sozcuk": "Profil",
+    "okunus": "Profile",
+    "anlam": "Kapak."
+  },
+  {
+    "id": 721,
+    "sozcuk": "Prodüksiyon",
+    "okunus": "",
+    "anlam": "Yapım."
+  },
+  {
+    "id": 722,
+    "sozcuk": "Prompt",
+    "okunus": "Pırompt",
+    "anlam": "Komut, yönerge."
+  },
+  {
+    "id": 723,
+    "sozcuk": "Prompter",
+    "okunus": "Pıromtır",
+    "anlam": "Yazı akıtıcı, yönerge akıtıcı."
+  },
+  {
+    "id": 724,
+    "sozcuk": "Proses",
+    "okunus": "",
+    "anlam": "Süreç, işleyiş."
+  },
+  {
+    "id": 725,
+    "sozcuk": "Provokasyon",
+    "okunus": "",
+    "anlam": "Kışkırtma, fişfikleme, fiştekleme."
+  },
+  {
+    "id": 726,
+    "sozcuk": "Provokatif",
+    "okunus": "",
+    "anlam": "Kışkırtıcı, kışkırtan, fişfikleyici, fişfikleyen, fiktekleyici, fiştekleyen."
+  },
+  {
+    "id": 727,
+    "sozcuk": "Provokatör",
+    "okunus": "",
+    "anlam": "Kışkırtıcı, kışkırtan, fişfikçi, fişfikleyici, fişfikleyen, fikteklçi, fiştekleyici, fiştekleyen."
+  },
+  {
+    "id": 728,
+    "sozcuk": "Provoke Etmek",
+    "okunus": "",
+    "anlam": "Kışkırtmak, fişfiklemek, fişteklemek."
+  },
+  {
+    "id": 729,
+    "sozcuk": "Pub",
+    "okunus": "",
+    "anlam": ""
+  },
+  {
+    "id": 730,
+    "sozcuk": "Push Etmek",
+    "okunus": "Puş",
+    "anlam": "Yüklenmek, asılmak, dört elle sarılmak, odaklanmak, yönelmek, abanmak, yoğunlaşmak."
+  },
+  {
+    "id": 731,
+    "sozcuk": "Puzzle",
+    "okunus": "Pazıl",
+    "anlam": "1. Yapboz. 2. Bulmaca."
+  },
+  {
+    "id": 732,
+    "sozcuk": "Ragebait",
+    "okunus": "Reyçbeyt",
+    "anlam": "1. Öfke tuzağı, ilgi yemi, tetikleyici. 2. İlgi sapığı, öfke tuzakçısı, ilgi yemcisi."
+  },
+  {
+    "id": 733,
+    "sozcuk": "Ragebait Atmak",
+    "okunus": "",
+    "anlam": "Etki tepki kasmak, tetiklemek, yem atmak, yemlemek, yemleme yapmak."
+  },
+  {
+    "id": 734,
+    "sozcuk": "Ragebaitlemek",
+    "okunus": "",
+    "anlam": "Etki tepki kasmak, tetiklemek, yem atmak, yemlemek, yemleme yapmak."
+  },
+  {
+    "id": 735,
+    "sozcuk": "Ragebait Yapmak",
+    "okunus": "",
+    "anlam": "Etki tepki kasmak, tetiklemek, yem atmak, yemlemek, yemleme yapmak."
+  },
+  {
+    "id": 736,
+    "sozcuk": "Ragequit",
+    "okunus": "Reyçkuğit",
+    "anlam": "Öfkeyle çıkma."
+  },
+  {
+    "id": 737,
+    "sozcuk": "Ragequit Yapmak",
+    "okunus": "",
+    "anlam": "Öfkeyle çıkmak."
+  },
+  {
+    "id": 738,
+    "sozcuk": "Raid",
+    "okunus": "Reyid",
+    "anlam": "Baskın."
+  },
+  {
+    "id": 739,
+    "sozcuk": "Raid Atmak",
+    "okunus": "",
+    "anlam": "Baskın atmak, basmak."
+  },
+  {
+    "id": 740,
+    "sozcuk": "Raidlemek",
+    "okunus": "",
+    "anlam": "Basmak, baskınlamak."
+  },
+  {
+    "id": 741,
+    "sozcuk": "Random",
+    "okunus": "Rendım",
+    "anlam": "Seçkisiz, önüne gelen."
+  },
+  {
+    "id": 742,
+    "sozcuk": "Random Atmak",
+    "okunus": "",
+    "anlam": "Önüne geleni yazmak."
+  },
+  {
+    "id": 743,
+    "sozcuk": "Randomlamak",
+    "okunus": "",
+    "anlam": "Önüne geleni yazmak."
+  },
+  {
+    "id": 744,
+    "sozcuk": "Rank",
+    "okunus": "",
+    "anlam": ""
+  },
+  {
+    "id": 745,
+    "sozcuk": "Rank Kasmak",
+    "okunus": "",
+    "anlam": ""
+  },
+  {
+    "id": 746,
+    "sozcuk": "Rank Kasılmak",
+    "okunus": "",
+    "anlam": ""
+  },
+  {
+    "id": 747,
+    "sozcuk": "Reaksiyon",
+    "okunus": "",
+    "anlam": "Tepki, tepkime"
+  },
+  {
+    "id": 748,
+    "sozcuk": "Reaksiyon Göstermek",
+    "okunus": "",
+    "anlam": "Tepki göstermek, tepki vermek, tepkide bulunmak."
+  },
+  {
+    "id": 749,
+    "sozcuk": "Reaksiyon Vermek",
+    "okunus": "",
+    "anlam": "Tepki vermek, tepki göstermek, tepkide bulunmak."
+  },
+  {
+    "id": 750,
+    "sozcuk": "Real",
+    "okunus": "Riyıl",
+    "anlam": "Gerçek, doğru."
+  },
+  {
+    "id": 751,
+    "sozcuk": "Realite",
+    "okunus": "",
+    "anlam": "Gerçeklik."
+  },
+  {
+    "id": 752,
+    "sozcuk": "Reboot",
+    "okunus": "Rebuğt",
+    "anlam": "Yeniden başlatma, silbaştan, başa sarma, baştan başlatma, geri başlatma."
+  },
+  {
+    "id": 753,
+    "sozcuk": "Reboot Etmek",
+    "okunus": "",
+    "anlam": "Yeniden başlatmak, silbaştan yapmak, silbaştan başlamak, başa sarmak, baştan başlatmak, geri başlatmak."
+  },
+  {
+    "id": 754,
+    "sozcuk": "Rebootlamak",
+    "okunus": "",
+    "anlam": "Yeniden başlatmak, silbaştan yapmak, silbaştan başlamak, başa sarmak, baştan başlatmak, geri başlatmak."
+  },
+  {
+    "id": 755,
+    "sozcuk": "Reboot Yapmak",
+    "okunus": "",
+    "anlam": "Yeniden başlatmak, silbaştan yapmak, silbaştan başlamak, başa sarmak, baştan başlatmak, geri başlatmak."
+  },
+  {
+    "id": 756,
+    "sozcuk": "Red Flag",
+    "okunus": "Red Fıleg",
+    "anlam": "Uyarıcı hareket, uyaran hareket, ters hareket."
+  },
+  {
+    "id": 757,
+    "sozcuk": "Reel",
+    "okunus": "",
+    "anlam": "Gerçek, doğru."
+  },
+  {
+    "id": 758,
+    "sozcuk": "Reels",
+    "okunus": "",
+    "anlam": "Instagram dikey içeriği, Instagram dikeyi."
+  },
+  {
+    "id": 759,
+    "sozcuk": "Reenkarnasyon",
+    "okunus": "",
+    "anlam": "Geri doğma, geri doğum, geri doğuş, yeniden doğma, yeniden doğum, yeniden doğuş, ruh göçü, tin göçü."
+  },
+  {
+    "id": 760,
+    "sozcuk": "Reenkarne Etmek",
+    "okunus": "",
+    "anlam": "Geri doğurtmak, geri doğdurmak, yeniden doğurtmak, yeniden doğdurmak, ruh göçürtmek, ruh göçtürmek, tin göçürtmek, tin göçtürmek."
+  },
+  {
+    "id": 761,
+    "sozcuk": "Reenkarne Olmak",
+    "okunus": "",
+    "anlam": "Geri doğmak, yeniden doğmak, ruhu göçmek, tini göçmek."
+  },
+  {
+    "id": 762,
+    "sozcuk": "Referans",
+    "okunus": "Reference",
+    "anlam": "1. Kaynak. 2. Gönderme, göz kırpma."
+  },
+  {
+    "id": 763,
+    "sozcuk": "Regl",
+    "okunus": "",
+    "anlam": "Adet."
+  },
+  {
+    "id": 764,
+    "sozcuk": "Regl Olmak",
+    "okunus": "",
+    "anlam": "Adet olmak, adet görmek."
+  },
+  {
+    "id": 765,
+    "sozcuk": "Regülasyon",
+    "okunus": "Regulation",
+    "anlam": "Düzenleme, dizinleme."
+  },
+  {
+    "id": 766,
+    "sozcuk": "Regülatör",
+    "okunus": "Regulator",
+    "anlam": "Düzenleyici, dizinleyici."
+  },
+  {
+    "id": 767,
+    "sozcuk": "Relax",
+    "okunus": "Relaks",
+    "anlam": "Dingin, gevşek, kasımsız."
+  },
+  {
+    "id": 768,
+    "sozcuk": "Relaxlamak",
+    "okunus": "",
+    "anlam": "Gevşemek, kasmamak, dinginleşmek."
+  },
+  {
+    "id": 769,
+    "sozcuk": "Relax Olmak",
+    "okunus": "",
+    "anlam": "Gevşemek, kasmamak, dinginleşmek."
+  },
+  {
+    "id": 770,
+    "sozcuk": "Remake",
+    "okunus": "Rimeyk",
+    "anlam": "Yenileme, yenileyim, yenileyiş, baştan yapma, baştan yapım, geri yapma, geri yapım, yeniden yapma, yeniden yapım."
+  },
+  {
+    "id": 771,
+    "sozcuk": "Remake Atmak",
+    "okunus": "",
+    "anlam": "Yenilemek, yenileyim atmak, yenileyimlemek, baştan yapmak, geri yapmak, yeniden yapmak."
+  },
+  {
+    "id": 772,
+    "sozcuk": "Remakelemek",
+    "okunus": "",
+    "anlam": "Yenilemek, yenileyim atmak, yenileyimlemek, baştan yapmak, geri yapmak, yeniden yapmak."
+  },
+  {
+    "id": 773,
+    "sozcuk": "Remastered",
+    "okunus": "Remastırıd",
+    "anlam": "Yenilenik, Yenilenmiş, yenileyimli, baştan yapılmış, baştan yapılma, geri yapılmış, geri yapılma, yeniden yapılmış, yeniden yapılma, baştan yapım, geri yapım, yeniden yapım."
+  },
+  {
+    "id": 774,
+    "sozcuk": "Remix",
+    "okunus": "Remiks",
+    "anlam": ""
+  },
+  {
+    "id": 775,
+    "sozcuk": "Remixlemek",
+    "okunus": "",
+    "anlam": ""
+  },
+  {
+    "id": 776,
+    "sozcuk": "Remix Yapmak",
+    "okunus": "",
+    "anlam": ""
+  },
+  {
+    "id": 777,
+    "sozcuk": "Repartuar",
+    "okunus": "",
+    "anlam": "Yelpaze, dağarcık."
+  },
+  {
+    "id": 778,
+    "sozcuk": "Report",
+    "okunus": "",
+    "anlam": "Bildirme."
+  },
+  {
+    "id": 779,
+    "sozcuk": "Report Etmek",
+    "okunus": "",
+    "anlam": "Bildirmek."
+  },
+  {
+    "id": 780,
+    "sozcuk": "Reportlamak",
+    "okunus": "",
+    "anlam": "Bildirmek."
+  },
+  {
+    "id": 781,
+    "sozcuk": "Reset",
+    "okunus": "",
+    "anlam": "Yeniden başlatma, baştan başlatma, geri başlatma."
+  },
+  {
+    "id": 782,
+    "sozcuk": "Reset Atmak",
+    "okunus": "",
+    "anlam": "Yeniden başlatmak, baştan başlatma, geri başlatmak."
+  },
+  {
+    "id": 783,
+    "sozcuk": "Resetlemek",
+    "okunus": "",
+    "anlam": "Yeniden başlatmak, baştan başlatma, geri başlatmak."
+  },
+  {
+    "id": 784,
+    "sozcuk": "Respect",
+    "okunus": "Respekt",
+    "anlam": "Saygı."
+  },
+  {
+    "id": 785,
+    "sozcuk": "Restart",
+    "okunus": "",
+    "anlam": "Yeniden başlatma, baştan başlatma, geri başlatma."
+  },
+  {
+    "id": 786,
+    "sozcuk": "Restart Atmak",
+    "okunus": "",
+    "anlam": "Yeniden başlatmak, baştan başlatma, geri başlatmak."
+  },
+  {
+    "id": 787,
+    "sozcuk": "Restartlamak",
+    "okunus": "",
+    "anlam": "Yeniden başlatmak, baştan başlatma, geri başlatmak."
+  },
+  {
+    "id": 788,
+    "sozcuk": "Retweet",
+    "okunus": "",
+    "anlam": "X gönderisi yanıtlama."
+  },
+  {
+    "id": 789,
+    "sozcuk": "Retweet Atmak",
+    "okunus": "",
+    "anlam": "X gönderisi yanıtlamak."
+  },
+  {
+    "id": 790,
+    "sozcuk": "Retweet Etmek",
+    "okunus": "",
+    "anlam": "X gönderisi yanıtlamak."
+  },
+  {
+    "id": 791,
+    "sozcuk": "Retweetlemek",
+    "okunus": "",
+    "anlam": "X gönderisi yanıtlamak."
+  },
+  {
+    "id": 792,
+    "sozcuk": "Retweet Yapmak",
+    "okunus": "",
+    "anlam": "X gönderisi yanıtlamak."
+  },
+  {
+    "id": 793,
+    "sozcuk": "Reveal",
+    "okunus": "",
+    "anlam": "Gösterme, açıklama."
+  },
+  {
+    "id": 794,
+    "sozcuk": "Reveal Etmek",
+    "okunus": "",
+    "anlam": "Göstermek, açıklamak."
+  },
+  {
+    "id": 795,
+    "sozcuk": "Reveallamak",
+    "okunus": "",
+    "anlam": "Göstermek, açıklamak."
+  },
+  {
+    "id": 796,
+    "sozcuk": "Reveal Olmak",
+    "okunus": "",
+    "anlam": "Gösterilmek, açıklanmak."
+  },
+  {
+    "id": 797,
+    "sozcuk": "Revize",
+    "okunus": "",
+    "anlam": "Düzeltme, güncelleştirme, güncelletme."
+  },
+  {
+    "id": 798,
+    "sozcuk": "Revize Etmek",
+    "okunus": "",
+    "anlam": "Düzeltmek, güncelleştirmek, güncelletmek."
+  },
+  {
+    "id": 799,
+    "sozcuk": "Reyting",
+    "okunus": "",
+    "anlam": "İzlenme."
+  },
+  {
+    "id": 800,
+    "sozcuk": "Rezervasyon",
+    "okunus": "",
+    "anlam": "Yer ayırtma."
+  },
+  {
+    "id": 801,
+    "sozcuk": "Rezervasyon Yapmak",
+    "okunus": "",
+    "anlam": "Yer ayırtmak."
+  },
+  {
+    "id": 802,
+    "sozcuk": "Rezerve",
+    "okunus": "",
+    "anlam": "Ayırtılmış."
+  },
+  {
+    "id": 803,
+    "sozcuk": "Rezerve Etmek",
+    "okunus": "",
+    "anlam": "Ayırtmak."
+  },
+  {
+    "id": 804,
+    "sozcuk": "Riyal",
+    "okunus": "",
+    "anlam": "Gerçek, doğru."
+  },
+  {
+    "id": 805,
+    "sozcuk": "Rizz",
+    "okunus": "Riz",
+    "anlam": "Kıyak, çekici, saygın, göz alıcı."
+  },
+  {
+    "id": 806,
+    "sozcuk": "Roast",
+    "okunus": "/Ro:st/",
+    "anlam": "Zorbalık, alay, iğneleme, dalga geçme, eleştirme."
+  },
+  {
+    "id": 806,
+    "sozcuk": "Roastlama",
+    "okunus": "/Ro:stlama/",
+    "anlam": "Zorbalık yapma, alay etme, iğneleme, dalga geçme, eleştirme."
+  },
+  {
+    "id": 806,
+    "sozcuk": "Roasting",
+    "okunus": "/Ro:sting/",
+    "anlam": "Zorbalık yapma, alay etme, iğneleme, dalga geçme, eleştirme."
+  },
+  {
+    "id": 807,
+    "sozcuk": "Roleplay Yapmak",
+    "okunus": "",
+    "anlam": "Bürünmek, rol yapmak."
+  },
+  {
+    "id": 808,
+    "sozcuk": "Rush",
+    "okunus": "Raş",
+    "anlam": "Yardırma, saldırı, akın."
+  },
+  {
+    "id": 809,
+    "sozcuk": "Rush Atmak",
+    "okunus": "",
+    "anlam": "Yardırmak, saldırmak, saldırı yapmak, akın etmek, akmak."
+  },
+  {
+    "id": 810,
+    "sozcuk": "Rushlamak",
+    "okunus": "",
+    "anlam": "Yardırmak, saldırmak, saldırı yapmak, akın etmek, akmak."
+  },
+  {
+    "id": 811,
+    "sozcuk": "Rush Yapmak",
+    "okunus": "",
+    "anlam": "Yardırmak, saldırmak, saldırı yapmak, akın etmek, akmak."
+  },
+  {
+    "id": 812,
+    "sozcuk": "Rutin",
+    "okunus": "",
+    "anlam": "Tekdüze, gündelik, olağan, günlük, sıradan, kalıp, sürekli."
+  },
+  {
+    "id": 813,
+    "sozcuk": "Sabotaj",
+    "okunus": "",
+    "anlam": "Baltalama, gölge düşürme, aksatma, örtbas etme."
+  },
+  {
+    "id": 814,
+    "sozcuk": "Sabote Etmek",
+    "okunus": "",
+    "anlam": "Baltalamak, gölge düşürmek, aksatmak, örtbas etmek."
+  },
+  {
+    "id": 815,
+    "sozcuk": "Sabote Olmak",
+    "okunus": "",
+    "anlam": "Baltalanmak, gölge düşürülmek, örtbas olmak, örtbas edilmek."
+  },
+  {
+    "id": 816,
+    "sozcuk": "Sapyoseksüel",
+    "okunus": "Sapiosexual",
+    "anlam": "Uscinsel."
+  },
+  {
+    "id": 817,
+    "sozcuk": "Sarkastik",
+    "okunus": "",
+    "anlam": ""
+  },
+  {
+    "id": 818,
+    "sozcuk": "Save",
+    "okunus": "Seyv",
+    "anlam": "Kayıt."
+  },
+  {
+    "id": 819,
+    "sozcuk": "Save Açık",
+    "okunus": "",
+    "anlam": "Kayıt açık, kayıtta."
+  },
+  {
+    "id": 820,
+    "sozcuk": "Save Açmak",
+    "okunus": "",
+    "anlam": "Kayıt açmak."
+  },
+  {
+    "id": 821,
+    "sozcuk": "Save Almak",
+    "okunus": "",
+    "anlam": "Kaydetmek, kayıt almak."
+  },
+  {
+    "id": 822,
+    "sozcuk": "Save Başlatmak",
+    "okunus": "",
+    "anlam": "Kayıt başlatmak."
+  },
+  {
+    "id": 823,
+    "sozcuk": "Save Durdurmak",
+    "okunus": "",
+    "anlam": "Kayıt durdurmak."
+  },
+  {
+    "id": 824,
+    "sozcuk": "Save'e Dönmek",
+    "okunus": "",
+    "anlam": "Kayda dönmek."
+  },
+  {
+    "id": 825,
+    "sozcuk": "Save Kapalı",
+    "okunus": "",
+    "anlam": "Kayıt kapalı."
+  },
+  {
+    "id": 826,
+    "sozcuk": "Save Yüklemek",
+    "okunus": "",
+    "anlam": "Kayıt yüklemek."
+  },
+  {
+    "id": 827,
+    "sozcuk": "Schoolshoting",
+    "okunus": "Sıkuğlşating",
+    "anlam": "Okul saldırısı, okul basma."
+  },
+  {
+    "id": 828,
+    "sozcuk": "Screenshot",
+    "okunus": "Sıkrinşat",
+    "anlam": "Ekran görüntüsü, ekran alıntısı."
+  },
+  {
+    "id": 829,
+    "sozcuk": "Scrolling",
+    "okunus": "Sıkrolling",
+    "anlam": "Kaydırma."
+  },
+  {
+    "id": 830,
+    "sozcuk": "Search",
+    "okunus": "Sörç",
+    "anlam": "Aratma."
+  },
+  {
+    "id": 831,
+    "sozcuk": "Search Etmek",
+    "okunus": "",
+    "anlam": "Aratmak."
+  },
+  {
+    "id": 832,
+    "sozcuk": "Sekans",
+    "okunus": "",
+    "anlam": "Bölüm."
+  },
+  {
+    "id": 833,
+    "sozcuk": "Seksüel",
+    "okunus": "Sexual",
+    "anlam": "Cinsel."
+  },
+  {
+    "id": 834,
+    "sozcuk": "Seksist",
+    "okunus": "Sexist",
+    "anlam": "Cinsiyetçi."
+  },
+  {
+    "id": 835,
+    "sozcuk": "Selfie",
+    "okunus": "Selfi",
+    "anlam": "Özçekim."
+  },
+  {
+    "id": 836,
+    "sozcuk": "Selfie Çekmek",
+    "okunus": "",
+    "anlam": "Özçekmek, özçekim yapmak, özçekimlemek."
+  },
+  {
+    "id": 837,
+    "sozcuk": "Selfie Çekilmek",
+    "okunus": "",
+    "anlam": "Özçekilmek."
+  },
+  {
+    "id": 838,
+    "sozcuk": "Selfie Çekinmek",
+    "okunus": "",
+    "anlam": "Özçekinmek."
+  },
+  {
+    "id": 839,
+    "sozcuk": "Selfie Çektirmek",
+    "okunus": "",
+    "anlam": "Özçektirmek."
+  },
+  {
+    "id": 840,
+    "sozcuk": "Self Servis",
+    "okunus": "Self Service",
+    "anlam": "Seçal, gelal."
+  },
+  {
+    "id": 841,
+    "sozcuk": "Sempatizan",
+    "okunus": "",
+    "anlam": "Yardakçı, destekçi."
+  },
+  {
+    "id": 842,
+    "sozcuk": "Senkron",
+    "okunus": "",
+    "anlam": "Uyum."
+  },
+  {
+    "id": 843,
+    "sozcuk": "Senkronizasyon",
+    "okunus": "",
+    "anlam": "Eşleme, eşleyim, eşleyiş."
+  },
+  {
+    "id": 844,
+    "sozcuk": "Senkronize Etmek",
+    "okunus": "",
+    "anlam": "Eşlemek."
+  },
+  {
+    "id": 845,
+    "sozcuk": "Senkronize Olmak",
+    "okunus": "",
+    "anlam": "Eşlenmek."
+  },
+  {
+    "id": 846,
+    "sozcuk": "Server",
+    "okunus": "Sörvır",
+    "anlam": "Sunucu."
+  },
+  {
+    "id": 847,
+    "sozcuk": "Servis",
+    "okunus": "Service",
+    "anlam": "Sunum, sunuş, sunma."
+  },
+  {
+    "id": 848,
+    "sozcuk": "Servis Etmek",
+    "okunus": "",
+    "anlam": "Sunmak, sunum yapmak."
+  },
+  {
+    "id": 849,
+    "sozcuk": "Servis Yapmak",
+    "okunus": "",
+    "anlam": "Sunmak, sunum yapmak."
+  },
+  {
+    "id": 850,
+    "sozcuk": "Set Etmek",
+    "okunus": "",
+    "anlam": "Düzenlemek."
+  },
+  {
+    "id": 851,
+    "sozcuk": "Share Etmek",
+    "okunus": "Şeyır",
+    "anlam": "Paylaşmak."
+  },
+  {
+    "id": 852,
+    "sozcuk": "Shh",
+    "okunus": "Şş",
+    "anlam": "Şş."
+  },
+  {
+    "id": 853,
+    "sozcuk": "Ship",
+    "okunus": "Şip",
+    "anlam": "Yakışan, yakışık."
+  },
+  {
+    "id": 854,
+    "sozcuk": "Shiplemek",
+    "okunus": "",
+    "anlam": "Yakıştırmak."
+  },
+  {
+    "id": 855,
+    "sozcuk": "Shitpost",
+    "okunus": "Şitpost",
+    "anlam": "Anlamsız gönderi, çöp gönderi, bön gönderi, saçma gönderi, boş gönderi, bok gönderi (Argo)."
+  },
+  {
+    "id": 856,
+    "sozcuk": "Shorts",
+    "okunus": "",
+    "anlam": "Youtube dikey içeriği, Youtube dikeyi."
+  },
+  {
+    "id": 857,
+    "sozcuk": "Shot",
+    "okunus": "Şat",
+    "anlam": "Yudum."
+  },
+  {
+    "id": 858,
+    "sozcuk": "Show",
+    "okunus": "Şov",
+    "anlam": "Gösteri, şov."
+  },
+  {
+    "id": 859,
+    "sozcuk": "Showroom",
+    "okunus": "Şovrum",
+    "anlam": "Gösterim alanı."
+  },
+  {
+    "id": 860,
+    "sozcuk": "Sigma",
+    "okunus": "",
+    "anlam": "Üstün, kıyak, başına buyruk, seçkin."
+  },
+  {
+    "id": 861,
+    "sozcuk": "Simbiyot",
+    "okunus": "Simbiot",
+    "anlam": "Ortakyaşar."
+  },
+  {
+    "id": 862,
+    "sozcuk": "Single",
+    "okunus": "Singıl",
+    "anlam": "Tekli, tek."
+  },
+  {
+    "id": 863,
+    "sozcuk": "Singleplayer",
+    "okunus": "Singıl Pıleyır",
+    "anlam": "Tek oyunculu."
+  },
+  {
+    "id": 864,
+    "sozcuk": "Sirkülasyon",
+    "okunus": "",
+    "anlam": "Dolaşım."
+  },
+  {
+    "id": 865,
+    "sozcuk": "Skeç",
+    "okunus": "Sikeç",
+    "anlam": "Oyun."
+  },
+  {
+    "id": 866,
+    "sozcuk": "Skill",
+    "okunus": "Sikil",
+    "anlam": "Beceri, yetenek, özellik."
+  },
+  {
+    "id": 867,
+    "sozcuk": "Skin",
+    "okunus": "Sikin",
+    "anlam": "Deri, görünüm, kaplama."
+  },
+  {
+    "id": 868,
+    "sozcuk": "Slay",
+    "okunus": "Sıley",
+    "anlam": "Göz alıcı,göz alan, göz kamaştırıcı, göz kamaştıran."
+  },
+  {
+    "id": 869,
+    "sozcuk": "Slay Girl",
+    "okunus": "Sıley Görl",
+    "anlam": "Gözalıcı kız, göz kamaştırıcı kız."
+  },
+  {
+    "id": 870,
+    "sozcuk": "Slime",
+    "okunus": "",
+    "anlam": "Balçık, vıcık, cıvık, lığ."
+  },
+  {
+    "id": 871,
+    "sozcuk": "Slow",
+    "okunus": "Sılov",
+    "anlam": "Dingin."
+  },
+  {
+    "id": 872,
+    "sozcuk": "Slow Motion",
+    "okunus": "Sılov Moğşın",
+    "anlam": "Ağır çekim."
+  },
+  {
+    "id": 873,
+    "sozcuk": "Solo",
+    "okunus": "",
+    "anlam": "Tekil."
+  },
+  {
+    "id": 874,
+    "sozcuk": "Sound",
+    "okunus": "Sağund",
+    "anlam": "Tını."
+  },
+  {
+    "id": 875,
+    "sozcuk": "Spam",
+    "okunus": "",
+    "anlam": ""
+  },
+  {
+    "id": 876,
+    "sozcuk": "Spawn",
+    "okunus": "Sıpawn",
+    "anlam": "Doğuş yeri, Doğuş noktası, doğma yeri, doğma noktası, doğum yeri, doğum noktası, doğuş, doğma, doğum, çağırma."
+  },
+  {
+    "id": 877,
+    "sozcuk": "Spawn Etmek",
+    "okunus": "",
+    "anlam": "Doğdurmak, çağırmak."
+  },
+  {
+    "id": 878,
+    "sozcuk": "Spawnlamak",
+    "okunus": "",
+    "anlam": "Doğdurmak, çağırmak."
+  },
+  {
+    "id": 879,
+    "sozcuk": "Spawn Olmak",
+    "okunus": "",
+    "anlam": "Doğmak."
+  },
+  {
+    "id": 880,
+    "sozcuk": "Spesifik",
+    "okunus": "Specific",
+    "anlam": "1. Özellikle 2. Özgül, -A özgü,  duruma özgü, ayırt edici özellik, ayrıştırıcı özellik."
+  },
+  {
+    "id": 881,
+    "sozcuk": "Spektrum",
+    "okunus": "Sıpekturum",
+    "anlam": "Yelpaze, dağarcık."
+  },
+  {
+    "id": 882,
+    "sozcuk": "Spekülasyon",
+    "okunus": "",
+    "anlam": "1. Vurgunculuk, köşeyi dönme. 2. Kurgulama."
+  },
+  {
+    "id": 883,
+    "sozcuk": "Spekülatif",
+    "okunus": "",
+    "anlam": "1. Vurguncu. 2. Kurgul."
+  },
+  {
+    "id": 884,
+    "sozcuk": "Spekülatör",
+    "okunus": "",
+    "anlam": "1. Vurguncu. 2. Kurgucu, kurgulamacı."
+  },
+  {
+    "id": 885,
+    "sozcuk": "Spoiler",
+    "okunus": "Sıpoylır",
+    "anlam": "Tatkaçıran."
+  },
+  {
+    "id": 886,
+    "sozcuk": "Spontane",
+    "okunus": "",
+    "anlam": "Doğaçlama, şipşak, yıldırım, anlık."
+  },
+  {
+    "id": 887,
+    "sozcuk": "Spontane Karar Almak",
+    "okunus": "",
+    "anlam": "Doğaçlama karar almak, şipşak karar almak, yıldırım kararlar almak, anlık karar almak."
+  },
+  {
+    "id": 888,
+    "sozcuk": "Spontane Olmak",
+    "okunus": "",
+    "anlam": "Doğaçlama olmak, şipşak olmak, yıldırım gibi olmak, anlık olmak."
+  },
+  {
+    "id": 889,
+    "sozcuk": "Spontane Yaşamak",
+    "okunus": "",
+    "anlam": "Doğaçlama yaşamak, şipşak yaşamak, yıldırım gibi yaşamak, anlık yaşamak."
+  },
+  {
+    "id": 890,
+    "sozcuk": "Sprey",
+    "okunus": "Sıprey",
+    "anlam": "Tarama, yaylım ateş."
+  },
+  {
+    "id": 891,
+    "sozcuk": "Sprey Atmak",
+    "okunus": "",
+    "anlam": "Taramak."
+  },
+  {
+    "id": 892,
+    "sozcuk": "Stalk",
+    "okunus": "Sıtolk",
+    "anlam": "Yoklama, dikizleme, gözetleme."
+  },
+  {
+    "id": 893,
+    "sozcuk": "Stalklamak",
+    "okunus": "",
+    "anlam": "Yoklamak, dikizlemek, gözetlemek."
+  },
+  {
+    "id": 894,
+    "sozcuk": "Stalk Yapmak",
+    "okunus": "",
+    "anlam": "Yoklamak, dikizlemek, gözetlemek."
+  },
+  {
+    "id": 895,
+    "sozcuk": "Standart",
+    "okunus": "",
+    "anlam": "1. Ölçün. 2. Belirlenmiş, olağan, sıradan."
+  },
+  {
+    "id": 896,
+    "sozcuk": "Stand Up",
+    "okunus": "Sıtand Ap",
+    "anlam": "Ayakta komedi."
+  },
+  {
+    "id": 897,
+    "sozcuk": "Stand Up Yapmak",
+    "okunus": "",
+    "anlam": "Ayakta komedi yapmak."
+  },
+  {
+    "id": 898,
+    "sozcuk": "Star",
+    "okunus": "",
+    "anlam": "Yıldız, ünlü."
+  },
+  {
+    "id": 899,
+    "sozcuk": "Start",
+    "okunus": "",
+    "anlam": "Başlangıç."
+  },
+  {
+    "id": 900,
+    "sozcuk": "Start Almak",
+    "okunus": "",
+    "anlam": "Başlamak."
+  },
+  {
+    "id": 901,
+    "sozcuk": "Start Vermek",
+    "okunus": "",
+    "anlam": "Başlatmak."
+  },
+  {
+    "id": 902,
+    "sozcuk": "Start Verilmek",
+    "okunus": "",
+    "anlam": "Başlatılmak."
+  },
+  {
+    "id": 903,
+    "sozcuk": "Step By Step",
+    "okunus": "Sıtep Bay Sıtep",
+    "anlam": "Adım adım."
+  },
+  {
+    "id": 904,
+    "sozcuk": "Sticker",
+    "okunus": "Sitikır",
+    "anlam": "Çıkartma."
+  },
+  {
+    "id": 905,
+    "sozcuk": "Stop Montion",
+    "okunus": "Sıtop Moğşın",
+    "anlam": "Duraklı çekim."
+  },
+  {
+    "id": 906,
+    "sozcuk": "Story",
+    "okunus": "Sıtori",
+    "anlam": "Günce, hikaye, öykü."
+  },
+  {
+    "id": 907,
+    "sozcuk": "Subje",
+    "okunus": "Subject",
+    "anlam": "Özne."
+  },
+  {
+    "id": 908,
+    "sozcuk": "Subjektif",
+    "okunus": "Subjective",
+    "anlam": "Öznel, göreceli."
+  },
+  {
+    "id": 909,
+    "sozcuk": "Suite",
+    "okunus": "Suğit",
+    "anlam": "Lüks."
+  },
+  {
+    "id": 910,
+    "sozcuk": "Suite Oda",
+    "okunus": "",
+    "anlam": "Lüks oda."
+  },
+  {
+    "id": 911,
+    "sozcuk": "Support",
+    "okunus": "Saport",
+    "anlam": "Yardım, el, destek."
+  },
+  {
+    "id": 912,
+    "sozcuk": "Support Almak",
+    "okunus": "",
+    "anlam": "Yardım almak, yardım görmek, destek almak, destek görmek, desteklenmek."
+  },
+  {
+    "id": 913,
+    "sozcuk": "Support Atmak",
+    "okunus": "",
+    "anlam": "Yardım etmek, yardım yapmak, el atmak, el vermek, destek atmak, destek vermek, desteklemek."
+  },
+  {
+    "id": 914,
+    "sozcuk": "Supportlamak",
+    "okunus": "",
+    "anlam": "Yardım etmek, yardım yapmak, el atmak, el vermek, destek atmak, destek vermek, desteklemek."
+  },
+  {
+    "id": 915,
+    "sozcuk": "Support Yapmak",
+    "okunus": "",
+    "anlam": "Yardım etmek, yardım yapmak, el atmak, el vermek, destek atmak, destek vermek, desteklemek."
+  },
+  {
+    "id": 916,
+    "sozcuk": "Survival",
+    "okunus": "Sörvayvıl",
+    "anlam": "Hayatta kalma, hayata tutunma, yaşama tutunma."
+  },
+  {
+    "id": 917,
+    "sozcuk": "Survivor",
+    "okunus": "Sörvayvır",
+    "anlam": "Hayatta kalan, hayata tutunan, yaşama tutunan."
+  },
+  {
+    "id": 918,
+    "sozcuk": "Sübliminal",
+    "okunus": "Subliminal",
+    "anlam": "Bilinç dışı, ayılmayan, beyine yerleştirilen, beyine sokulan, akla sokulan."
+  },
+  {
+    "id": 919,
+    "sozcuk": "Sübliminal Mesaj",
+    "okunus": "",
+    "anlam": "Bilinç dışı ileti, ayılmayan öğreti, beyine yerleştirilen düşünce, beyine sokulan düşünce, akla sokulan düşünce."
+  },
+  {
+    "id": 920,
+    "sozcuk": "Sübliminal Yemek",
+    "okunus": "",
+    "anlam": "Beyine yerleştirilmek, beyine sokulmak, akla sokulmak, bilinç dışı yemek."
+  },
+  {
+    "id": 921,
+    "sozcuk": "Şok",
+    "okunus": "Shock",
+    "anlam": "Şaştırıcı, şaşma, apıştırıcı, apışma."
+  },
+  {
+    "id": 922,
+    "sozcuk": "Şok Edici",
+    "okunus": "",
+    "anlam": "Şaştırıcı, şaşkın edici, şaşkına çevirici, şaşkına döndürücü, apıştırıcı."
+  },
+  {
+    "id": 923,
+    "sozcuk": "Şok Etmek",
+    "okunus": "",
+    "anlam": "Şaştırmak, şaşkına çevirmek, şaşkına döndürmek, apıştırmak."
+  },
+  {
+    "id": 924,
+    "sozcuk": "Şok Olmak",
+    "okunus": "",
+    "anlam": "Şaşmak, şaşakalmak, şaşkına dönmek, apışmak, apışıp kalmak."
+  },
+  {
+    "id": 925,
+    "sozcuk": "Tag",
+    "okunus": "",
+    "anlam": "Takı, im."
+  },
+  {
+    "id": 926,
+    "sozcuk": "Task",
+    "okunus": "Teask",
+    "anlam": "Görev, ödev, sorumluluk."
+  },
+  {
+    "id": 927,
+    "sozcuk": "Teaser",
+    "okunus": "Tiğzır",
+    "anlam": "Önizleme."
+  },
+  {
+    "id": 928,
+    "sozcuk": "Teleport",
+    "okunus": "",
+    "anlam": "Işınlanma."
+  },
+  {
+    "id": 929,
+    "sozcuk": "Teleportlamak",
+    "okunus": "",
+    "anlam": "Işınlamak."
+  },
+  {
+    "id": 930,
+    "sozcuk": "Teleportlanmak",
+    "okunus": "",
+    "anlam": "Işınlanmak."
+  },
+  {
+    "id": 931,
+    "sozcuk": "Teleport Olmak",
+    "okunus": "",
+    "anlam": "Işınlanmak."
+  },
+  {
+    "id": 932,
+    "sozcuk": "Teleport Yapmak",
+    "okunus": "",
+    "anlam": "1. Işınlamak. 2. Işınlanmak."
+  },
+  {
+    "id": 933,
+    "sozcuk": "Test",
+    "okunus": "",
+    "anlam": "Ölçüm, sınama."
+  },
+  {
+    "id": 934,
+    "sozcuk": "Test Etmek",
+    "okunus": "",
+    "anlam": "Ölçümlemek, ölçmek, sınamak."
+  },
+  {
+    "id": 935,
+    "sozcuk": "Test Yapmak",
+    "okunus": "",
+    "anlam": "Ölçümlemek, ölçüm yapmak, ölçmek, sınamak, sınama yapmak."
+  },
+  {
+    "id": 936,
+    "sozcuk": "Text",
+    "okunus": "Tekst",
+    "anlam": "Yazı, metin."
+  },
+  {
+    "id": 937,
+    "sozcuk": "Texture",
+    "okunus": "Teksçur",
+    "anlam": "Doku, kaplama."
+  },
+  {
+    "id": 938,
+    "sozcuk": "Texture Pack",
+    "okunus": "Teksçur Pek",
+    "anlam": "Doku paketi, kaplama paketi."
+  },
+  {
+    "id": 939,
+    "sozcuk": "Thumbnail",
+    "okunus": "Tamliğıl",
+    "anlam": "Kapak, küçük resim."
+  },
+  {
+    "id": 940,
+    "sozcuk": "Ti",
+    "okunus": "Tiğ",
+    "anlam": "Tın."
+  },
+  {
+    "id": 941,
+    "sozcuk": "Ticket",
+    "okunus": "Tikıt",
+    "anlam": "1. Başvuru. 2. Dilekçe."
+  },
+  {
+    "id": 942,
+    "sozcuk": "Ticket Açmak",
+    "okunus": "",
+    "anlam": "1. Başvurmak, başvuru açmak, başvuruda bulunmak. 2. Dilekçe açmak, dilekçe yazmak."
+  },
+  {
+    "id": 943,
+    "sozcuk": "Tier",
+    "okunus": "Tiyır",
+    "anlam": "Katman."
+  },
+  {
+    "id": 944,
+    "sozcuk": "Tiktoker",
+    "okunus": "",
+    "anlam": "Tiktokçu."
+  },
+  {
+    "id": 945,
+    "sozcuk": "Tilt",
+    "okunus": "",
+    "anlam": "Gıcık, uyuz, kıl, gerici."
+  },
+  {
+    "id": 946,
+    "sozcuk": "Tilt Etmek",
+    "okunus": "",
+    "anlam": "Gıcık etmek, uyuz etmek, germek."
+  },
+  {
+    "id": 947,
+    "sozcuk": "Tilt Olmak",
+    "okunus": "",
+    "anlam": "Gıcık olmak, uyuz olmak, kıl olmak, gerilmek."
+  },
+  {
+    "id": 948,
+    "sozcuk": "Timeout",
+    "okunus": "Taym Ağut",
+    "anlam": "Zamanaşımı, süreaşımı."
+  },
+  {
+    "id": 949,
+    "sozcuk": "Timeout Atmak",
+    "okunus": "",
+    "anlam": "Zamanaşımı atmak, zamanaştırmak, süreaşımı atmak, süreaştırmak."
+  },
+  {
+    "id": 950,
+    "sozcuk": "Timeoutlamak",
+    "okunus": "",
+    "anlam": "Zamanaştırmak, Zamanaşımı atmak, süreaştırmak, süreaşımı atmak."
+  },
+  {
+    "id": 951,
+    "sozcuk": "Ti'ye Almak",
+    "okunus": "",
+    "anlam": "Tınlamamak, sallamamak."
+  },
+  {
+    "id": 952,
+    "sozcuk": "Toksik",
+    "okunus": "Toxic",
+    "anlam": "1. Yıpratıcı, yıpratan, çıban, zararlı. 2. Oyunbaz."
+  },
+  {
+    "id": 953,
+    "sozcuk": "Tolere",
+    "okunus": "",
+    "anlam": "Alttan alma, katlanma, hoş görme, hoşgörü, hoşgörü gösterme, hoşgörüyle yaklaşma, hoşgörüyle karşılama, tahammül etme, tahammül gösterme, anlayış gösterme, anlayışla yaklaşma, anlayışla karşılama."
+  },
+  {
+    "id": 954,
+    "sozcuk": "Tolere Etmek",
+    "okunus": "",
+    "anlam": "Alttan almak, katlanmak, hoş görmek, hoşgörü göstermek, hoşgörüyle yaklaşmak, hoşgörüyle karşılamak, tahammül etmek, tahammül göstermek, anlayış göstermek, anlayışla yaklaşmak, anlayışla karşılamak."
+  },
+  {
+    "id": 955,
+    "sozcuk": "Top",
+    "okunus": "Tab",
+    "anlam": "En iyi, doruk, tepe, en üst, tavan, en yüksek, en ünlü, dora, doran."
+  },
+  {
+    "id": 956,
+    "sozcuk": "Total",
+    "okunus": "",
+    "anlam": "Toplam."
+  },
+  {
+    "id": 957,
+    "sozcuk": "Trade",
+    "okunus": "",
+    "anlam": "Ticaret."
+  },
+  {
+    "id": 958,
+    "sozcuk": "Trade Yapmak",
+    "okunus": "",
+    "anlam": "Ticaret yapmak."
+  },
+  {
+    "id": 959,
+    "sozcuk": "Trader",
+    "okunus": "",
+    "anlam": "1. Alsatçı. 2. Ticaretçi."
+  },
+  {
+    "id": 960,
+    "sozcuk": "Trailer",
+    "okunus": "Tıreylır",
+    "anlam": "Öngösterim."
+  },
+  {
+    "id": 961,
+    "sozcuk": "Trans",
+    "okunus": "Tırans",
+    "anlam": "1. Dönme."
+  },
+  {
+    "id": 962,
+    "sozcuk": "Transa Geçmek",
+    "okunus": "",
+    "anlam": ""
+  },
+  {
+    "id": 963,
+    "sozcuk": "Transa Girmek",
+    "okunus": "",
+    "anlam": ""
+  },
+  {
+    "id": 964,
+    "sozcuk": "Transeksüel",
+    "okunus": "Transexsual",
+    "anlam": "Geçişlicinsel, akışkancinsel."
+  },
+  {
+    "id": 965,
+    "sozcuk": "Transcprit",
+    "okunus": "Tıransıkript",
+    "anlam": "Döküm."
+  },
+  {
+    "id": 966,
+    "sozcuk": "Transcprite Etmek",
+    "okunus": "",
+    "anlam": "Dökümlemek, dökümleme yapmak."
+  },
+  {
+    "id": 967,
+    "sozcuk": "Trigger",
+    "okunus": "Tirigır",
+    "anlam": "Tetiklenme, dokunma, karıncalanma."
+  },
+  {
+    "id": 968,
+    "sozcuk": "Triggerlamak",
+    "okunus": "",
+    "anlam": "Tetiklemek, dokundurmak, karıncalandırmak."
+  },
+  {
+    "id": 969,
+    "sozcuk": "Triggerlanmak",
+    "okunus": "",
+    "anlam": "Tetiklenmek, dokunmak, karıncalanmak."
+  },
+  {
+    "id": 970,
+    "sozcuk": "Translate",
+    "okunus": "Tıransleyt",
+    "anlam": "Çeviri."
+  },
+  {
+    "id": 971,
+    "sozcuk": "Translate Etmek",
+    "okunus": "",
+    "anlam": "Çevirtmek."
+  },
+  {
+    "id": 972,
+    "sozcuk": "Translate Yapmak",
+    "okunus": "",
+    "anlam": "Çevirmek."
+  },
+  {
+    "id": 973,
+    "sozcuk": "Tripod",
+    "okunus": "Tiripod",
+    "anlam": "Kamera ayağı."
+  },
+  {
+    "id": 974,
+    "sozcuk": "Travma",
+    "okunus": "",
+    "anlam": "Sarsıntı, sarsılma."
+  },
+  {
+    "id": 975,
+    "sozcuk": "Travma Olmak",
+    "okunus": "",
+    "anlam": "Sarsılmak, sarsılma olmak, sarsılma geçirmek."
+  },
+  {
+    "id": 976,
+    "sozcuk": "Travma Geçirmek",
+    "okunus": "",
+    "anlam": "Sarsılmak, sarsılma geçirmek."
+  },
+  {
+    "id": 977,
+    "sozcuk": "Travma Atlatmak",
+    "okunus": "",
+    "anlam": "Sarsılma atlatmak."
+  },
+  {
+    "id": 978,
+    "sozcuk": "Travmatize",
+    "okunus": "",
+    "anlam": "Sarsıcı."
+  },
+  {
+    "id": 979,
+    "sozcuk": "Travmatize Etmek",
+    "okunus": "",
+    "anlam": "Sarsmak, sarsılma geçirtmek."
+  },
+  {
+    "id": 980,
+    "sozcuk": "Travmatize Olmak",
+    "okunus": "",
+    "anlam": "Sarsılmak, sarsılma geçirmek."
+  },
+  {
+    "id": 981,
+    "sozcuk": "Trend",
+    "okunus": "Tirend",
+    "anlam": "Ana akım."
+  },
+  {
+    "id": 982,
+    "sozcuk": "Trend Topic",
+    "okunus": "Tirend Topik",
+    "anlam": "Ana akım konu, ana konu, gündem, milletin derdi."
+  },
+  {
+    "id": 983,
+    "sozcuk": "Trend Topic Olmak",
+    "okunus": "",
+    "anlam": "Ana akım konu olmak, gündem olmak, gündemleşmek, ana akım konulaşmak, milletin ağzına sakız olmak, herkesin dilinde olmak."
+  },
+  {
+    "id": 984,
+    "sozcuk": "Tribe Girmek",
+    "okunus": "",
+    "anlam": "Tersleşmek, kurmak, kuruntu yapmak, takmak, kafaya takmak."
+  },
+  {
+    "id": 985,
+    "sozcuk": "Trip",
+    "okunus": "Tirip",
+    "anlam": "Gönül koyma, tersleme, tersleyiş, darılma, kuruntu, kafaya takma."
+  },
+  {
+    "id": 986,
+    "sozcuk": "Trip Atmak",
+    "okunus": "",
+    "anlam": "Terslemek."
+  },
+  {
+    "id": 987,
+    "sozcuk": "Triplenmek",
+    "okunus": "",
+    "anlam": "Tersleşmek, kurmak, kuruntu yapmak, takmak, kafaya takmak."
+  },
+  {
+    "id": 988,
+    "sozcuk": "Triplere Girmek",
+    "okunus": "",
+    "anlam": "Kurmak, kuruntu yapmak, takmak, kafaya takmak."
+  },
+  {
+    "id": 989,
+    "sozcuk": "Tripli",
+    "okunus": "",
+    "anlam": "Tersleyici, ters, gönül koyan, gönül koymuş, kuruntulu, kuruntucu, kurucu."
+  },
+  {
+    "id": 990,
+    "sozcuk": "Trip Yemek",
+    "okunus": "",
+    "anlam": "Terslenmek."
+  },
+  {
+    "id": 991,
+    "sozcuk": "Troll",
+    "okunus": "Tırol",
+    "anlam": "1. Yaltakçı, dalkavuk. 2. Oyunbaz."
+  },
+  {
+    "id": 992,
+    "sozcuk": "Trollemek",
+    "okunus": "",
+    "anlam": "İşletmek, kandırmak."
+  },
+  {
+    "id": 993,
+    "sozcuk": "Tutorial",
+    "okunus": "Tutoryıl",
+    "anlam": "Öğretici, eğitim, kılavuz."
+  },
+  {
+    "id": 994,
+    "sozcuk": "Type Shit",
+    "okunus": "Tayp Şit",
+    "anlam": ""
+  },
+  {
+    "id": 995,
+    "sozcuk": "Tweet",
+    "okunus": "Tivit",
+    "anlam": "1. X gönderisi 2. Cikcik."
+  },
+  {
+    "id": 996,
+    "sozcuk": "Tweet Atmak",
+    "okunus": "",
+    "anlam": "X gönderisi atmak, X gönderisi yazmak."
+  },
+  {
+    "id": 997,
+    "sozcuk": "Tweetlemek",
+    "okunus": "",
+    "anlam": "X'ten dürtmek, X'ten bildirim atmak."
+  },
+  {
+    "id": 998,
+    "sozcuk": "Twist",
+    "okunus": "Tıvist",
+    "anlam": ""
+  },
+  {
+    "id": 999,
+    "sozcuk": "Twörk",
+    "okunus": "Tıvörk",
+    "anlam": "Kıç sallama."
+  },
+  {
+    "id": 1000,
+    "sozcuk": "Twörk Atmak",
+    "okunus": "",
+    "anlam": "Kıç sallamak."
+  },
+  {
+    "id": 1001,
+    "sozcuk": "Twörk Yapmak",
+    "okunus": "",
+    "anlam": "Kıç sallamak."
+  },
+  {
+    "id": 1002,
+    "sozcuk": "Ultra",
+    "okunus": "",
+    "anlam": ""
+  },
+  {
+    "id": 1003,
+    "sozcuk": "Underrated",
+    "okunus": "Andırreytıd",
+    "anlam": "Değeri bilinmemiş, gölgede kalmış, önemi anlaşılamamış."
+  },
+  {
+    "id": 1004,
+    "sozcuk": "Update",
+    "okunus": "Abdeyt",
+    "anlam": "Güncelleme."
+  },
+  {
+    "id": 1005,
+    "sozcuk": "Update Almak",
+    "okunus": "",
+    "anlam": "Güncelleme almak, güncellenmek."
+  },
+  {
+    "id": 1006,
+    "sozcuk": "Update Atmak",
+    "okunus": "",
+    "anlam": "Güncelleme yapmak, güncellemek."
+  },
+  {
+    "id": 1007,
+    "sozcuk": "Update Etmek",
+    "okunus": "",
+    "anlam": "Güncelleme yapmak, güncellemek."
+  },
+  {
+    "id": 1008,
+    "sozcuk": "Updatelemek",
+    "okunus": "",
+    "anlam": "Güncellemek."
+  },
+  {
+    "id": 1009,
+    "sozcuk": "Upgrade",
+    "okunus": "Abgıreyt",
+    "anlam": "Yükseltme, geliştirme."
+  },
+  {
+    "id": 1010,
+    "sozcuk": "Upgrade Almak",
+    "okunus": "",
+    "anlam": "Yükseltilmek, yükseltme almak, yükseltme yemek, geliştirilmek, geliştirme almak, geliştirme yemek."
+  },
+  {
+    "id": 1011,
+    "sozcuk": "Upgrade Atmak",
+    "okunus": "",
+    "anlam": "Yükseltmek, yükseltme yapmak, geliştirmek, geliştirme yapmak."
+  },
+  {
+    "id": 1012,
+    "sozcuk": "Upgrade Etmek",
+    "okunus": "",
+    "anlam": "Yükseltmek, yükseltme yapmak, geliştirmek, geliştirme yapmak."
+  },
+  {
+    "id": 1013,
+    "sozcuk": "Upgradelemek",
+    "okunus": "",
+    "anlam": "Yükseltmek, geliştirmek, geliştirmek, geliştirme yapmak."
+  },
+  {
+    "id": 1014,
+    "sozcuk": "Upgrade Olmak",
+    "okunus": "",
+    "anlam": "Yükseltilmek, geliştirilmek."
+  },
+  {
+    "id": 1015,
+    "sozcuk": "Upgrade Yapmak",
+    "okunus": "",
+    "anlam": "Yükseltmek, yükseltme yapmak, geliştirmek, geliştirme yapmak."
+  },
+  {
+    "id": 1016,
+    "sozcuk": "Upgrade Yemek",
+    "okunus": "",
+    "anlam": "Yükseltilmek, yükseltme yemek, yükseltme almak, geliştirilmek, geliştirme yemek, geliştirme almak."
+  },
+  {
+    "id": 1017,
+    "sozcuk": "Upload",
+    "okunus": "",
+    "anlam": "Yükleme."
+  },
+  {
+    "id": 1018,
+    "sozcuk": "Upload Etmek",
+    "okunus": "",
+    "anlam": "Yüklemek."
+  },
+  {
+    "id": 1019,
+    "sozcuk": "Uploadlamak",
+    "okunus": "",
+    "anlam": "Yüklemek."
+  },
+  {
+    "id": 1020,
+    "sozcuk": "Upload Yapmak",
+    "okunus": "",
+    "anlam": "Yüklemek."
+  },
+  {
+    "id": 1021,
+    "sozcuk": "Varyant",
+    "okunus": "Variant",
+    "anlam": "Türev, sürüm."
+  },
+  {
+    "id": 1022,
+    "sozcuk": "Versiyon",
+    "okunus": "Version",
+    "anlam": "Sürüm, türev."
+  },
+  {
+    "id": 1023,
+    "sozcuk": "Vibe",
+    "okunus": "Vayb",
+    "anlam": "İzlenim, esinti, çağrışım, önsezi, gibilik, sezinti, önyargı."
+  },
+  {
+    "id": 1024,
+    "sozcuk": "Vibe Almak",
+    "okunus": "",
+    "anlam": "İzlenim almak, izlenimde bulunmak, esinti almak, izlenimlemek, çağrışım yapmak, çağrışımda bulunmak, çağrışımlamak, -lık sezmek, -lık sezinlemek, gibi durmak, gibi gelmek, önsezi almak, önsezide bulunmak, önsezilemek, sezinti almak, sezintide bulunmak, sezintilemek, önyargılamak, önyargıda bulunmak."
+  },
+  {
+    "id": 1025,
+    "sozcuk": "Vibe'ı Almak.",
+    "okunus": "",
+    "anlam": "İzlenimi almak, izleniminde bulunmak, esintisi almak, çağrışımı yapmak, çağrışımında bulunmak, -lAk çağrıştırmak, -lık sezmek -lık sezinlemek, gibi durmak, gibi gelmek, önsezisi almak, önsezisinde bulunmak, sezintisi almak, sezintide bulunmak."
+  },
+  {
+    "id": 1026,
+    "sozcuk": "Vibe'ı Var/Yok",
+    "okunus": "",
+    "anlam": "İzlenimi var/yok, esintisi var/yok, esintili/esintisiz, gibi durmak, gibi gelmek, çağrıştırmak, çağrıştırma var/yok, çağrıştırım var/yok, izlenimi var/yok, gibiliği var/yok, önsezisi var/yok, sezintisi var/yok."
+  },
+  {
+    "id": 1027,
+    "sozcuk": "Vibe Vermek",
+    "okunus": "",
+    "anlam": "İzlenim vermek, esinti vermek, -lAk çağrıştırmak, -lAk sezinletmek, hava vermek, gibi durmak, gibi gelmek, önsezi vermek, sezinti vermek, önyargı vermek, önyargıda bulundurmak."
+  },
+  {
+    "id": 1028,
+    "sozcuk": "Vibe'ı Vermek",
+    "okunus": "",
+    "anlam": "İzlenimi vermek, esintisi vermek, -lAk çağrıştırmak, -lAk sezinletmek, havası vermek, gibi durmak, gibi gelmek, önsezisi vermek, sezintisi vermek, önyargısı vermek, önyargısında bulundurmak."
+  },
+  {
+    "id": 1029,
+    "sozcuk": "Vibelamak",
+    "okunus": "",
+    "anlam": "İzlenimlemek, izlenim almak, esintilemek, esinti almak, çağrışımlamak, çağrışım yapmak, çağrışımda bulunmak, -lık sezmek, -lık sezinlemek, gibilik sezmek, önsezilemek, önsezi almak, önsezide bulunmak, sezintilemek, sezinti almak, sezintide bulunmak, önyargılamak, önyargıda bulunmak."
+  },
+  {
+    "id": 1030,
+    "sozcuk": "Vibelanmak",
+    "okunus": "",
+    "anlam": "İzlenim vermek, esinti vermek, -lAk çağrıştırmak, -lAk sezinletmek, hava vermek, gibi durmak, gibi gelmek, önsezi vermek, sezinti vermek, önyargılatmak, önyargı vermek."
+  },
+  {
+    "id": 1031,
+    "sozcuk": "Vibes",
+    "okunus": "",
+    "anlam": "Esintileri, izlenimleri, hisleri, önsezileri, sezintileri."
+  },
+  {
+    "id": 1032,
+    "sozcuk": "Vibe Vermek",
+    "okunus": "",
+    "anlam": "İzlenim vermek, esinti vermek, -lAk çağrıştırmak, -lAk sezinletmek, hava vermek, gibi durmak, gibi gelmek, önsezi vermek, sezinti vermek, önyargı vermek, önyargıda bulundurmak."
+  },
+  {
+    "id": 1033,
+    "sozcuk": "Videomapping",
+    "okunus": "",
+    "anlam": "Video haritacılık, video yerbetenlik."
+  },
+  {
+    "id": 1034,
+    "sozcuk": "Villain",
+    "okunus": "Vilın",
+    "anlam": "Kötü, yavuz, yağı."
+  },
+  {
+    "id": 1035,
+    "sozcuk": "Vine",
+    "okunus": "Vayn",
+    "anlam": ""
+  },
+  {
+    "id": 1036,
+    "sozcuk": "Vintage",
+    "okunus": "Vintıc",
+    "anlam": "Antika."
+  },
+  {
+    "id": 1037,
+    "sozcuk": "Viral",
+    "okunus": "Vayrıl",
+    "anlam": "Yapay gündem."
+  },
+  {
+    "id": 1038,
+    "sozcuk": "Viral Olmak",
+    "okunus": "",
+    "anlam": "Gündem olmak, patlamak, ses getirmek."
+  },
+  {
+    "id": 1039,
+    "sozcuk": "Vizyon",
+    "okunus": "Vision",
+    "anlam": "1. Öngörü, ilerigörüşlülük, ufuk. 2. Gösterim."
+  },
+  {
+    "id": 1040,
+    "sozcuk": "Vizyoner",
+    "okunus": "Visioner",
+    "anlam": "Öngörülü, ilerigörüşlü, ufku geniş."
+  },
+  {
+    "id": 1041,
+    "sozcuk": "Vizyonsuz",
+    "okunus": "",
+    "anlam": "Sığ görüşlü, dar görüşlü, ufku dar."
+  },
+  {
+    "id": 1042,
+    "sozcuk": "Volume",
+    "okunus": "",
+    "anlam": "1. Ses. 2. Aşama, bölüm, kesit."
+  },
+  {
+    "id": 1043,
+    "sozcuk": "Yeas",
+    "okunus": "",
+    "anlam": ""
+  },
+  {
+    "id": 1044,
+    "sozcuk": "Youtuber",
+    "okunus": "Yuğtubır",
+    "anlam": "Youtube'çu."
+  },
+  {
+    "id": 1045,
+    "sozcuk": "Zoom",
+    "okunus": "",
+    "anlam": "Yakınlaştırma, yakınlatma."
+  },
+  {
+    "id": 1046,
+    "sozcuk": "Zoom Atmak",
+    "okunus": "",
+    "anlam": "Yakınlaştırmak, yakınlatmak, yakınlaştırma atmak, yakınlaştırma yapmak."
+  },
+  {
+    "id": 1047,
+    "sozcuk": "Zoomlamak",
+    "okunus": "",
+    "anlam": "Yakınlaştırmak, yakınlatmak, yakınlaştırma atmak, yakınlaştırma yapmak."
+  },
+  {
+    "id": 1048,
+    "sozcuk": "Zoom Yapmak",
+    "okunus": "",
+    "anlam": "Yakınlaştırmak, yakınlatmak, yakınlaştırma yapmak, yakınlaştırma atmak."
+  },
+  {
+    "id": 1049,
+    "sozcuk": "Zorbalamak",
+    "okunus": "",
+    "anlam": "Zorbalık etmek, zorbalık yapmak, kabadayılık etmek, kabadayılık yapmak."
+  },
+  {
+    "id": 1050,
+    "sozcuk": "Queer",
+    "okunus": "",
+    "anlam": ""
+  },
+  {
+    "id": 1051,
+    "sozcuk": "Quit",
+    "okunus": "Kuğit",
+    "anlam": "Çıkma, ayrılma."
+  },
+  {
+    "id": 1052,
+    "sozcuk": "Quit Atmak",
+    "okunus": "",
+    "anlam": "Çıkmak, ayrılmak."
+  },
+  {
+    "id": 1053,
+    "sozcuk": "Quiz",
+    "okunus": "Kuğiz",
+    "anlam": "Yazılı yoklama, sınama, küçük sınav."
+  },
+  {
+    "id": 1054,
+    "sozcuk": "Win",
+    "okunus": "Vin",
+    "anlam": "Kazanma, yengi."
+  },
+  {
+    "id": 1055,
+    "sozcuk": "Win Almak",
+    "okunus": "",
+    "anlam": "Kazanmak."
+  },
+  {
+    "id": 1056,
+    "sozcuk": "Win Win",
+    "okunus": "Vin Win",
+    "anlam": "Kazan kazan."
+  }
+]

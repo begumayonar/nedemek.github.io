@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ne Diyo' Bu?</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <h2>Ne Diyo' Bu?</h2>
+    </header>
+
+    <aside>
+        <div class="links-container">
+            <a href="">Ana Sayfa</a>
+            <a href="">Yeni Sözcük Bildir</a>
+            <a href="">Rastgele Sözcük</a>
+            <a href="">Geri Bildirim</a>
+            <a href="">Tema Değiştir</a>
+        </div>
+    </aside>
+
+    <main>
+        <section id="arama">
+            <div class="arama-container-2">
+                <input type="search" class="arama-bari" placeholder="Bir sözcük, kısaltma veya ek arayın...">
+                <button type="submit" class="arama-buton">🔍</button>
+            </div>
+            <ul id="oneriler"></ul>
+        <div id="sozcuk-sayisi"><p>Toplam sözcük sayısı: <span id="sayi">...</span></p></div>
+        </section>
+    </main>
+    <footer>
+        <div class="foot-links">
+            <a href="">Bu sözlük nedir?</a>
+                        <p>|</p>
+            <a href="">İletişim</a>
+        </div>
+
+        <hr id="cizgi">
+
+        <p id="foot-yazi"> <b>© 2026 <a href="">Ne Diyo' Bu?</a>.  Tüm hakları saklıdır.</b> </p>
+    </footer>
+
+    <script src="../js/sozluk-core.js"></script>
+<script>
+    const kutu = document.querySelector('.arama-bari');
+    const oneriListesi = document.getElementById('oneriler');
+    const sayiSpan = document.getElementById('sayi');
+    let timer;
+
+    veriHazir.then(data => sayiSpan.textContent = data.length);
+
+    kutu.addEventListener('input', (e) => {
+        clearTimeout(timer);
+        timer = setTimeout(async () => {
+            await veriHazir;
+            const q = e.target.value;
+            oneriListesi.innerHTML = '';
+            if (!q) return;
+
+            onerileriGetir(q).forEach(item => {
+                const li = document.createElement('li');
+                li.innerHTML = `${item.sozcuk}${item.okunus ? ` <span class="okunus">(${item.okunus})</span>` : ''}`;
+                li.addEventListener('click', () => {
+                    window.location.href = `sozluk.html?id=${item.id}`;
+                });
+                oneriListesi.appendChild(li);
+            });
+        }, 100);
+    });
+
+    function aramayiCalistir() {
+    const q = kutu.value.trim();
+    if (!q) return;
+    const sonuclar = onerileriGetir(q, 1); // sadece ilk sonuç yeter
+    if (sonuclar.length > 0) {
+        window.location.href = `sozluk.html?id=${sonuclar[0].id}`;
+    }
+}
+
+kutu.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') {
+        e.preventDefault();
+        aramayiCalistir();
+    }
+});
+
+document.querySelector('.arama-buton').addEventListener('click', (e) => {
+    e.preventDefault(); // button type="submit" sayfa yenilemesin diye
+    aramayiCalistir();
+});
+</script>
+</body>
+
+</html>
