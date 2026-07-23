@@ -70,7 +70,7 @@
                 const li = document.createElement('li');
                 li.innerHTML = `${item.sozcuk}${item.okunus ? ` <span class="okunus">(${item.okunus})</span>` : ''}`;
                 li.addEventListener('click', () => {
-                    window.location.href = `../pages/sozluk.html?id=${item.id}`;
+                    window.location.href = `pages/sozluk.html?id=${item.id}`;
                 });
                 oneriListesi.appendChild(li);
             });
@@ -82,7 +82,7 @@
     if (!q) return;
     const sonuclar = onerileriGetir(q, 1); // sadece ilk sonuç yeter
     if (sonuclar.length > 0) {
-        window.location.href = `sozluk.html?id=${sonuclar[0].id}`;
+        window.location.href = `./pages/sozluk.html?id=${sonuclar[0].id}`;
     }
 }
 

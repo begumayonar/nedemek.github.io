@@ -1,7 +1,7 @@
 
 let sozluk = [];
 let trie = {};
-let veriHazir = fetch('../js/data.json')
+let veriHazir = fetch('js/data.json')
   .then(r => r.json())
   .then(data => {
     sozluk = data;
