@@ -1,8 +1,10 @@
 
 let sozluk = [];
 let trie = {};
-let veriHazir = fetch('js/data.json')
-  .then(r => r.json())
+
+const temelYol = window.location.pathname.includes("/pages") ? "../js/" : "js/"
+let veriHazir = fetch(temelYol + "data.json")  
+.then(r => r.json())
   .then(data => {
     sozluk = data;
     data.forEach(item => trieEkle(item.sozcuk, item));
