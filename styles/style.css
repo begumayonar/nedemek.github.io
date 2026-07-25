@@ -13,12 +13,11 @@ body{
     "main sidebar"
     "footer sidebar";
 
-    grid-template-columns: 1fr 200px;
+    grid-template-columns: 1fr 100px;
     grid-template-rows: auto 1fr auto;
 
     min-height: 100vh;
     background-color: #0c2123;
-    overflow-x: hidden;
 }
 
 /*HEADER*/
@@ -32,14 +31,21 @@ header{
     padding-top: clamp(70px, 14vw, 150px);
     padding-inline: 24px;
     overflow: visible;
+    margin-bottom: 10px;
+
 }
 
 header h2{
-    font-size: clamp(4.5rem, 9vw, 7rem);
+    font-size: clamp(3.5rem, 7vw, 5rem);
     padding-top: 5px;
     color: hsl(174, 72%, 70%);
     text-align: center;
     line-height: 1.05;
+    transition: .3s ease;
+}
+
+header h2:hover{
+    filter: drop-shadow(0 0 5px #40e0d0ab) drop-shadow(0 0 3px rgba(255, 255, 255, 0.188));
 
 }
 
@@ -95,7 +101,7 @@ main{
 
 #arama{
     height: 100%;
-    width: min(870px, calc(100vw - 260px));
+    width: min(850px, calc(100vw - 300px));
     max-width: 100%;
     padding-inline: 20px;
     display: flex;
@@ -184,6 +190,29 @@ main{
     background-color: hsl(174, 72%, 70%);
 }
 
+#son-aranan-liste{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+#son-aranan-liste a{
+    border-left: 1px solid #40e0d0;
+    padding-left: 15px;
+    transition: .2s ease;
+    color: #ffbeaf;
+}
+
+#son-aranan-liste a:first-child{
+    border: none;
+    padding-left: 0;
+}
+
+#son-aranan-liste a:hover{
+    color: #ff7b5e;
+}
 /*ALT BAR*/
 
 footer{
@@ -192,12 +221,13 @@ footer{
     flex-direction: column;
     background-image: linear-gradient(
         to bottom, #0b1d20, #081617
-    );
+    ); 
+    height: 80px;
 }
 
 .foot-links{
-    height: 60px;
-    font-size: 20px;
+    height: 50%;
+    font-size: 12px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -211,19 +241,17 @@ footer{
     overflow-wrap: anywhere;
 }
 
-#foot-yazi{
-    margin-inline: 30px;
-    margin-bottom: 30px;
+.footer-bottom{
+    display: flex;
+    margin-top: 10px;
     width: fit-content;
     align-self: center;
-    font-size: 18px;
+    font-size: 12px;
 }
 
-#cizgi{
+hr{
     border: none;
-    border-top: 3px solid rgba(255, 255, 255, 0.458);
-    margin-block: 20px;
-
+    border-top: 1px solid #40e0d0;
 }
 
 @media (max-width: 1080px){
@@ -250,7 +278,7 @@ footer{
     }
 
     header{
-        padding-block: 50px;
+        padding-block: 10px;
     }
 
     aside{
@@ -263,8 +291,8 @@ footer{
         flex-direction: row;
         justify-content: center;
         flex-wrap: wrap;
-        padding: 14px 16px;
-        font-size: 110%;
+        padding: 8px 16px;
+        font-size: 100%;
     }
 
     #arama{
@@ -296,13 +324,17 @@ footer{
     }
 
     .arama-container-2{
-        height: 52px;
+        height: 45px;
     }
 
     .arama-buton{
-        height: 52px;
+        height: 45px;
         width: 56px;
         flex-basis: 56px;
+    }
+
+    .arama-bari::placeholder{
+        font-size: 12px;
     }
 
     .foot-links{
@@ -311,12 +343,12 @@ footer{
         flex-wrap: wrap;
         padding-block: 12px;
         margin-inline: 16px;
-        font-size: 18px;
+        font-size: 12px;
     }
 
     #foot-yazi{
         text-align: center;
-        font-size: 16px;
+        font-size: 12px;
         margin-inline: 18px;
     }
 }

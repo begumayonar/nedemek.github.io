@@ -23,7 +23,7 @@ function trieEkle(sozcuk, veri) {
   node.veri = veri;
 }
 
-function onerileriGetir(prefix, limit = 8) {
+function onerileriGetir(prefix, limit = 5) {
   let node = trie;
   const q = normalize(prefix);
   if (!q) return [];
@@ -46,4 +46,20 @@ function toplaTum(node, sonuclar, limit) {
 
 function idIleBul(id) {
   return sozluk.find(k => k.id === Number(id));
+}
+
+function rastgeleSozcuk(){
+  const rastgeleIndex = Math.floor(Math.random() * sozluk.length);
+  return sozluk[rastgeleIndex];
+}
+
+function rastgeleSozcukler(adet = 5){
+  const kopya = [...sozluk];
+  const secilenler = [];
+  for (let i = 0; i < adet && kopya.length > 0; i++){
+    const index = Math.floor(Math.random() * kopya.length);
+    secilenler.push(kopya[index]);
+    kopya.splice(index, 1);
+  }
+  return secilenler
 }

@@ -25,7 +25,7 @@
                 <input type="search" class="arama-bari" placeholder="Bir sözcük, kısaltma veya ek arayın...">
                 <button type="submit" class="arama-buton">🔍</button>
             </div>
-            <ul id="oneriler"></ul>
+                            <ul id="oneriler"></ul>
         </div>
     </header>
 
@@ -33,59 +33,55 @@
         <div class="links-container">
             <a href="">Ana Sayfa</a>
             <a href="">Yeni Sözcük Bildir</a>
-            <a href="" id="rastgele-link">Rastgele Sözcük</a>
+            <a href="">Rastgele Sözcük</a>
             <a href="">Geri Bildirim</a>
             <a href="">Tema Değiştir</a>
         </div>
     </aside>
 
     <main>
-        <div class="main-orta">
-            <section class="sozcuk-kart">
-                <div id="sozcuk-tur">
-                    <h1 class="wordTitle"></h1>
-                    <p class="tur-yazi"></p>
-                </div>
-                <div id="okunus-kart">
-                    <p class="okunus-yazi"></p>
-                </div>
-            </section>
+        <section class="sozlukce">
 
-            <section>
-                <div class="ust-bolum">
-                    <h2>Anlamı:</h2>
-                </div>
-                <div class="anlam-karti">
-                    <ol id="definition"></ol>
-                </div>
-            </section>
+            <div class="sozcuk-kart">
+                <h1 class="wordTitle"></h1>
+                <p class="okunus-yazi"></p>
+            </div>
 
-            <section>
-                <div class="ust-bolum">
-                    <h3>Kullanımlar</h3>
-                </div>
-                <div class="anlam-karti">
-                    <p id="usage"></p>
-                </div>
-            </section>
+            <div class="ust-bolum">
+                <h2>Anlamı</h2>
+            </div>
+            <div class="anlam-karti">
+                <ol id="definition"></ol>
+            </div>
+        </section>
 
-            <section>
-                <div class="ust-bolum">
-                    <h4>Benzer Sözcükler</h4>
-                </div>
-                <div class="anlam-karti">
-                    <p id="benzer"></p>
-                </div>
-            </section>
-        </div>
+        <section class="kullanimlar">
+            <div class="ust-bolum">
+                <h2>Kullanımlar</h2>
+            </div>
+            <div class="anlam-karti">
+                <p id="usage"></p>
+            </div>
+        </section>
+
+        <section class="benzerler">
+            <div class="ust-bolum">
+                <h2>Benzerler</h2>
+            </div>
+            <div class="anlam-karti">
+                <p id="benzer"></p>
+            </div>
+        </section>
     </main>
 
     <footer>
         <div class="foot-links">
             <a href="">Bu sözlük nedir?</a>
-            <p>|</p>
+                        <p>|</p>
             <a href="">İletişim</a>
         </div>
+
+        <hr>
 
         <div class="footer-bottom">
             <p>© 2026 Ne Diyo' Bu?. Tüm hakları saklıdır.</p>
@@ -135,14 +131,6 @@
             }
             document.getElementById('usage').textContent = veri.kullanim || 'Henüz eklenmedi.';
             document.getElementById('benzer').textContent = 'Yakında...';
-
-            const turEtiketi = {
-                sozcuk: "Sözcük",
-                kisaltma: "Kısaltma",
-                ek: "Ek",
-            }
-
-            document.querySelector(".tur-yazi").textContent = turEtiketi[veri.tur] || ""
         })();
 
         const kutu = document.querySelector('.arama-bari');
@@ -188,13 +176,6 @@
             e.preventDefault(); // button type="submit" sayfa yenilemesin diye
             aramayiCalistir();
         });
-
-        document.getElementById("rastgele-link").addEventListener("click", async (e) => {
-    e.preventDefault();
-    await veriHazir;
-    const veri = rastgeleSozcuk();
-    window.location.href = `sozluk.html?id=${veri.id}&tur=${veri.tur}`;
-});
     </script>
 </body>
 

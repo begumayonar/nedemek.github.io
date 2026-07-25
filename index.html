@@ -21,7 +21,7 @@
         <div class="links-container">
             <a href="">Ana Sayfa</a>
             <a href="">Yeni Sözcük Bildir</a>
-            <a href="">Rastgele Sözcük</a>
+            <a href="#" id="rastgele-link">Rastgele Sözcük</a>
             <a href="">Geri Bildirim</a>
             <a href="">Tema Değiştir</a>
         </div>
@@ -34,7 +34,13 @@
                 <button type="submit" class="arama-buton">🔍</button>
             </div>
             <ul id="oneriler"></ul>
-        <div id="sozcuk-sayisi"><p>Toplam sözcük sayısı: <span id="sayi">...</span></p></div>
+        <div id="sozcuk-sayisi"><p>Kayıtlı sözcük sayısı: <span id="sayi">...</span></p></div>
+        </section>
+        <section id="son-aranan">
+            <h4>Son arananlar:</h4>
+            <a href="" id="son-aranan-link">
+                <div id="son-aranan-liste"></div>
+            </a>
         </section>
     </main>
     <footer>
@@ -43,10 +49,9 @@
                         <p>|</p>
             <a href="">İletişim</a>
         </div>
-
-        <hr id="cizgi">
-
-        <p id="foot-yazi"> <b>© 2026 <a href="">Ne Diyo' Bu?</a>.  Tüm hakları saklıdır.</b> </p>
+        <div class="footer-bottom">
+            <p>© 2026 Ne Diyo' Bu?. Tüm hakları saklıdır.</p>
+        </div>
     </footer>
 
     <script src="js/sozluk-core.js"></script>
@@ -97,7 +102,31 @@ document.querySelector('.arama-buton').addEventListener('click', (e) => {
     e.preventDefault(); // button type="submit" sayfa yenilemesin diye
     aramayiCalistir();
 });
+
+document.getElementById("rastgele-link").addEventListener("click", async (e) => {
+    e.preventDefault();
+    await veriHazir;
+    const veri = rastgeleSozcuk();
+    window.location.href = `pages/sozluk.html?id=${veri.id}&tur=${veri.tur}`;
+});
+
+(async () => {
+    await veriHazir;
+    const veriler = rastgeleSozcukler();
+    const liste = document.getElementById("son-aranan-liste");
+    liste.innerHTML = '';
+
+    veriler.forEach(veri => {
+        const link = document.createElement('a');
+        link.href = `pages/sozluk.html?id=${veri.id}&tur=${veri.tur}`;
+        link.textContent = veri.sozcuk;
+        liste.appendChild(link);
+    });
+})();
 </script>
 </body>
 
 </html>
+
+
+

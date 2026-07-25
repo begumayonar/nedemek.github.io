@@ -168,14 +168,13 @@ aside{
 .links-container{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
     height: 100%;
     width: 100%;
-    font-size: 130%;
+    font-size: 60%;
     align-items: center;
     text-align: center;
-    padding: 24px 12px;
-
+    padding: 1px 1px;
 }
 
 .links-container a{
@@ -185,16 +184,6 @@ aside{
 .links-container a:hover{
     color: aliceblue;
 }
-aside{
-    grid-area: sidebar;
-    display: flex;
-    background-color: #0c2123;
-    margin-left: auto;
-    width: 100%;
-    border-left: 1px solid #40e0d0;
-    box-sizing: border-box;
-}
-
 
 /* ANA */
 
@@ -204,7 +193,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    overflow: auto;
+    overflow-x: auto;
 
 
 
@@ -220,68 +209,36 @@ main{
 
 /*SÖZLÜKÇE*/
 
-.main-orta{
-    height: 200%;
+
+.sozlukce{
     width: 40%;
-    display: flex;
-    flex-direction: column;
-
-}
-
-.main-orta section{
-    width: 100%;
-    min-height: 170px;
-    height: fit-content;
-    margin-block: 1%;
-}
-
-.sozcuk-kart{
-    min-height: 50px !important;
-    display: flex;
-    flex-direction: column;
+    min-height: 150px;
+    margin-bottom: 200px;
+    margin-top: 20px;
 }
 
 
-
-#sozcuk-tur{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.kullanimlar{
+    width: 40%;
+    min-height: 150px;
+    margin-bottom:70px;
 }
 
-.okunus-yazi{
-    color: #ffbeaf;
-    font-style: italic;
-    margin-bottom: 15px;
-    margin-left: 10px;
-}
-
-.tur-yazi{
-    margin-top: 30px;
-    height: 22px;
-    padding-inline: 5px;
-    font-style: italic;
-    color: #ffbeaf;
+.benzerler{
+    width: 40%;
+    min-height: 100px;
 }
 
 
-.wordTitle{
-    color: #ff7b5e;
-    font-size: 4rem;
-}
+
 
 .ust-bolum{
     background-color: #0e191b;
+    width: 100%;
+    height: 50px;
     display: flex;
     align-items: center;
     padding-left: 10px;
-    width: 100%;
-    height: 40px;
-}
-
-main h2, main h3, main h4{
-    color: #91fff4;
-    font-size: 1.2rem;
 }
 
 .anlam-karti{
@@ -290,10 +247,49 @@ main h2, main h3, main h4{
     min-height: 150px;
     overflow: auto;
     scrollbar-color: transparent transparent;
-    padding: 10px 20px;
+
+}
+
+.sozlukce .anlam-karti{
+    height: fit-content;
+}
+
+#h1-sozlukce{
+    font-size: 3rem;
+    color: #93fff4;
+    margin-bottom: 1%;
+}
+
+.okunus-yazi{
+    color: #ffbeaf;
+    font-style: italic;
+    margin-bottom: 15px;
 }
 
 
+.wordTitle{
+    color: #ff937b;
+    font-size: 4rem;
+}
+
+#definition, #usage, #benzer{
+    margin-left: 10px;
+    margin-top: 15px;
+    font-size: 1.2rem;
+}
+
+.benzerler{
+    margin-bottom: 150px;
+}
+
+main h2{
+    color: #91fff4;
+}
+
+main ol{
+    padding-left: 20px;
+}
+/*KULLANIMLAR*/
 
 
 
@@ -342,6 +338,9 @@ hr{
         grid-template-columns: 1fr 180px;
     }
 
+    .kullanimlar, .benzerler, .sozlukce{
+        width: 70%;
+    }
 
 } 
 
@@ -381,11 +380,24 @@ hr{
         font-size: 110%;
     }
 
+    #arama{
+        width: min(870px, 100%);
+        height: fit-content;
+        
+    }
+
+    .arama-container-2{
+        margin: 0;
+    }
+
 
     .foot-links{
         margin-inline: 8%;
     }
 
+        #oneri{
+        top: 20px
+    }
 }
 
 @media (max-width: 480px){
@@ -397,6 +409,25 @@ hr{
     header h2{
         font-size: clamp(1.3rem, 3vw, 3.4rem);
 
+    }
+
+    #arama{
+        width: 300px;
+    }
+
+    .arama-container-2{
+        height: 40px;
+        margin: 0;
+        padding-top: 5px;
+    }
+
+    .arama-buton{
+        height: 40px;
+        width: 56px;
+    }
+
+    .arama-bari{
+        height: 40px;
     }
 
     .foot-links{
