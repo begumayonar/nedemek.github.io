@@ -1,3 +1,8 @@
+:root{
+    --arka-plan: #0c2123;
+    --yazi-renk: #40e0d0;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -17,14 +22,14 @@ body{
     grid-template-rows: auto 1fr auto;
 
     min-height: 100vh;
-    background-color: #0c2123;
+    background-color: var(--arka-plan);
 }
 
 /*HEADER*/
 
 header{
     grid-area: header;
-    background-color: #0c2123;
+    background-color: var(--arka-plan);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -32,7 +37,6 @@ header{
     padding-inline: 24px;
     overflow: visible;
     margin-bottom: 10px;
-
 }
 
 header h2{
@@ -42,6 +46,7 @@ header h2{
     text-align: center;
     line-height: 1.05;
     transition: .3s ease;
+    font-weight: 400;
 }
 
 header h2:hover{
@@ -114,10 +119,12 @@ main{
     list-style: none;
     margin: 0;
     padding: 0;
-    font-family: inherit;
     width: 100%;
     height: fit-content;
     overflow-y: auto;
+    position: absolute;
+    top: 45px;
+    z-index: 10;
 }
 
 
@@ -128,7 +135,9 @@ main{
     line-height: 1.4;
     cursor: pointer;
     border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    background-color: #0b1d20;
     transition: background-color 0.15s ease;
+
 }
 
 #oneriler li:hover{
@@ -154,11 +163,12 @@ main{
 }
 
 .arama-container-2{
-    height: 60px;
+    height: 45px;
     display: flex;
     justify-content: center;
     margin-top: 50px;
     width: 100%;
+    position: relative;
 }
 
 .arama-bari{
@@ -169,7 +179,7 @@ main{
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
     border-color: hsl(174, 72%, 70%);
-    border-width: 3px;
+    border-width: 2px;
     background-color: transparent;
     padding-inline: 18px;
     font-size: 1rem;
@@ -180,9 +190,9 @@ main{
 }
 
 .arama-buton{
-    height: 60px;
-    width: 70px;
-    flex: 0 0 70px;
+    height: 45px;
+    width: 60px;
+    flex: 0 0 60px;
     border: 5px solid transparent;
 
     border-top-right-radius: 25px;
@@ -235,6 +245,7 @@ footer{
     gap: 14px;
     text-align: center;
 }
+
 
 .foot-links a,
 #foot-yazi{

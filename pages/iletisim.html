@@ -5,19 +5,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ne Diyo' Bu?</title>
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="../styles/arama-style.css">
+    <link rel="stylesheet" href="../styles/iletisim-style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap"
+        rel="stylesheet">
 
 </head>
 
 <body>
     <header>
-        <h2>Ne Diyo' Bu?</h2>
+        <div class="logo-container">
+            <h2><a href="../index.html">Ne Diyo' Bu?</a></h2>
+        </div>
+
+        <div id="arama">
+            <div class="arama-container-2">
+                <input type="search" class="arama-bari" placeholder="Bir sözcük, kısaltma veya ek arayın...">
+                <button type="submit" class="arama-buton">🔍</button>
+            </div>
+            <ul id="oneriler"></ul>
+        </div>
     </header>
 
-    <aside>
+    <aside class="yanbar">
         <div class="links-container">
             <a href="">Ana Sayfa</a>
             <a href="">Yeni Sözcük Bildir</a>
@@ -27,34 +40,38 @@
     </aside>
 
     <main>
-        <section id="arama">
-            <div class="arama-container-2">
-                <input type="search" class="arama-bari" placeholder="Bir sözcük, kısaltma veya ek arayın...">
-                <button type="submit" class="arama-buton">🔍</button>
-                            <ul id="oneriler"></ul>
-            </div>
+        <section class="iletisim-formu">
+            <h2>Geri Bildirim</h2>
+            <form action="https://formspree.io/f/xxxxxxxx" method="POST">
+                <div class="form-alani">
+                    <label for="email">E-posta</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
 
-        <div id="sozcuk-sayisi"><p>Kayıtlı sözcük sayısı: <span id="sayi">...</span></p></div>
-        </section>
-        <section id="son-aranan">
-            <h4>Son arananlar:</h4>
-            <a href="" id="son-aranan-link">
-                <div id="son-aranan-liste"></div>
-            </a>
+                <div class="form-alani">
+                    <label for="message">Mesaj</label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
+                </div>
+
+                <button type="submit">Gönder</button>
+            </form>
         </section>
     </main>
     <footer>
         <div class="foot-links">
             <a href="">Bu sözlük nedir?</a>
-            <a href="/pages/iletisim.html">Geri Bildirim</a>
+            <p>|</p>
+            <a href="">Geri Bildirim</a>
         </div>
         <div class="footer-bottom">
             <p>© 2026 Ne Diyo' Bu?. Tüm hakları saklıdır.</p>
         </div>
     </footer>
 
-    <script src="js/sozluk-core.js"></script>
-<script>
+<script src="../js/sozluk-core.js"></script>
+
+    <script>
+        
     const kutu = document.querySelector('.arama-bari');
     const oneriListesi = document.getElementById('oneriler');
     const sayiSpan = document.getElementById('sayi');
@@ -74,7 +91,7 @@
                 const li = document.createElement('li');
                 li.innerHTML = `${item.sozcuk}${item.okunus ? ` <span class="okunus">(${item.okunus})</span>` : ''}`;
                 li.addEventListener('click', () => {
-                    window.location.href = `pages/sozluk.html?id=${item.id}`;
+                    window.location.href = `-sozluk.html?id=${item.id}`;
                 });
                 oneriListesi.appendChild(li);
             });
@@ -84,9 +101,9 @@
     function aramayiCalistir() {
     const q = kutu.value.trim();
     if (!q) return;
-    const sonuclar = onerileriGetir(q, 1); // sadece şlk sonuç
+    const sonuclar = onerileriGetir(q, 1); // sadece ilk sonuç yeter
     if (sonuclar.length > 0) {
-        window.location.href = `./pages/sozluk.html?id=${sonuclar[0].id}`;
+        window.location.href = `sozluk.html?id=${sonuclar[0].id}`;
     }
 }
 
@@ -98,7 +115,7 @@ kutu.addEventListener('keydown', (e) => {
 });
 
 document.querySelector('.arama-buton').addEventListener('click', (e) => {
-    e.preventDefault();
+    e.preventDefault(); // button type="submit" sayfa yenilemesin diye
     aramayiCalistir();
 });
 
@@ -106,7 +123,7 @@ document.getElementById("rastgele-link").addEventListener("click", async (e) => 
     e.preventDefault();
     await veriHazir;
     const veri = rastgeleSozcuk();
-    window.location.href = `pages/sozluk.html?id=${veri.id}&tur=${veri.tur}`;
+    window.location.href = `sozluk.html?id=${veri.id}&tur=${veri.tur}`;
 });
 
 (async () => {
@@ -117,15 +134,12 @@ document.getElementById("rastgele-link").addEventListener("click", async (e) => 
 
     veriler.forEach(veri => {
         const link = document.createElement('a');
-        link.href = `pages/sozluk.html?id=${veri.id}&tur=${veri.tur}`;
+        link.href = `sozluk.html?id=${veri.id}&tur=${veri.tur}`;
         link.textContent = veri.sozcuk;
         liste.appendChild(link);
     });
 })();
-</script>
+    </script>
 </body>
 
 </html>
-
-
-

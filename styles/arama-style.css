@@ -23,6 +23,12 @@ body{
 
     height: 100vh;
     background-color: #081617;
+
+    background-image:
+        linear-gradient(#1b3a3d 1px, transparent 1px),
+        linear-gradient(90deg, #1b3a3d 1px, transparent 1px);
+
+    background-size: 30px 30px;
     
 }
 
@@ -61,7 +67,6 @@ header a{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    position: relative;
 }
 
 #arama p{
@@ -87,6 +92,7 @@ header a{
     border-width: 3px;
     background-color: transparent;
     font-size: 1rem;
+    padding-inline: 18px;
 }
 
 .arama-bari::placeholder{
@@ -115,7 +121,7 @@ header a{
     margin: 0;
     padding: 0;
     font-family: inherit;
-    width: 100%;
+    width: 50%;
     height: fit-content;
     overflow-y: auto;
     z-index: 10;
@@ -155,7 +161,7 @@ header a{
 
 /*YAN BAR*/
 
-aside{
+.yanbar{
     grid-area: sidebar;
     display: flex;
     background-color: #0c2123;
@@ -185,43 +191,63 @@ aside{
 .links-container a:hover{
     color: aliceblue;
 }
-aside{
-    grid-area: sidebar;
-    display: flex;
-    background-color: #0c2123;
-    margin-left: auto;
-    width: 100%;
-    border-left: 1px solid #40e0d0;
-    box-sizing: border-box;
-}
 
 
 /* ANA */
 
+
+
 main{
     grid-area: main;
-    /* background-color: #0c2123; */
+    display: flex;
+    flex-direction: row;        
+    align-items: flex-start;   
+    justify-content: center;
+    gap: 2%;
+    scrollbar-color: #40e0d09c transparent;
+}
+
+.komsu-sutun,
+.turev-sutun{
+    width: 15%;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    overflow: auto;
+    align-items: flex-end;
+    gap: 12px;
+    margin-top: 150px; /* sozcuk-kart ile hizalansın diye */
+    height: 100%;
+}
 
+.turev-sutun{
+    align-items: flex-start;
+}
+.komsu-link,
+.turev-sutun a{
+    color: #91fff4;
+    text-decoration: none;
+    font-style: italic;
+    padding: 8px 10px;
+    background-color: #102023e2;
+    border-radius: 4px;
+}
 
+.komsu-link:hover,
+.turev-sutun a:hover{
+    background-color: #1b3a3d;
+}
 
-
-    background-image:
-        linear-gradient(#1b3a3d 1px, transparent 1px),
-        linear-gradient(90deg, #1b3a3d 1px, transparent 1px);
-
-    background-size: 30px 30px;
-
-    scrollbar-color: #40e0d09c transparent;
+.orta-vurgu{
+    color: #ffbeaf;
+    padding: 8px 10px;
+    font-size: 1rem;
+    padding: 8px 10px;
+    background-color: #102023e2;
+    font-style: italic;
 }
 
 /*SÖZLÜKÇE*/
 
 .main-orta{
-    height: 200%;
     width: 40%;
     display: flex;
     flex-direction: column;
@@ -302,9 +328,6 @@ footer{
     grid-area: footer;
     display: flex;
     flex-direction: column;
-    background-image: linear-gradient(
-        to bottom, #0b1d20, #081617
-    ); 
     height: 80px;
 }
 

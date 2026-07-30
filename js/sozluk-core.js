@@ -63,3 +63,17 @@ function rastgeleSozcukler(adet = 5){
   }
   return secilenler
 }
+function komsulariGetir(mevcutId, mevcutTur, herYanda = 4) {
+    const index = sozluk.findIndex(k => k.id === mevcutId && k.tur === mevcutTur);
+    const baslangic = Math.max(0, index - herYanda);
+    const bitis = Math.min(sozluk.length, index + herYanda + 1);
+    return sozluk.slice(baslangic, bitis).map(kayit => ({
+        ...kayit,
+        aktif: kayit.id === mevcutId && kayit.tur === mevcutTur
+    }));
+}
+
+function turevleriGetir(turevIdListesi) {
+    if (!turevIdListesi) return [];
+    return turevIdListesi.map(id => idIleBul(id, 'sozcuk')).filter(Boolean);
+}
