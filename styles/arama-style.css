@@ -21,7 +21,7 @@ body{
     grid-template-columns: 1fr 100px;
     grid-template-rows: auto 1fr auto;
 
-    height: 100vh;
+    min-height: 100vh;
     background-color: #081617;
 
     background-image:
@@ -38,12 +38,18 @@ header{
     grid-area: header;
     background-color: #0c2123;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    padding: 15px 0 0 20px; 
+    padding: 15px 20px;
+    gap: 10px;
+}
+
+.logo-container{
+    flex: 0 0 auto;
 }
 
 header h2{
-    font-size: clamp(2.5rem, 5vw, 5rem);
+    font-size: clamp(1.8rem, 5vw, 5rem);
     padding-top: 5px;
     color: hsl(174, 72%, 70%);
     line-height: 1.05;
@@ -59,8 +65,10 @@ header a{
 
 
 #arama{
-    height: 100%;
-    width: min(870px, calc(100vw - 260px));
+    position: relative;
+    flex: 1 1 320px;
+    min-width: 0;
+    width: min(870px, 100%);
     max-width: 100%;
     padding-inline: 20px;
     display: flex;
@@ -79,6 +87,7 @@ header a{
     display: flex;
     justify-content: center;
     width: 100%;
+    position: relative;
 }
 
 .arama-bari{
@@ -121,12 +130,14 @@ header a{
     margin: 0;
     padding: 0;
     font-family: inherit;
-    width: 50%;
+    width: 100%;
+    max-width: 100%;
     height: fit-content;
     overflow-y: auto;
     z-index: 10;
     position: absolute;
-    top: 90px;
+    left: 0;
+    top: 100%;
     background-color: #0b1d20;
 }
 
@@ -200,7 +211,8 @@ header a{
 main{
     grid-area: main;
     display: flex;
-    flex-direction: row;        
+    flex-direction: row;
+    flex-wrap: wrap;
     align-items: flex-start;   
     justify-content: center;
     gap: 2%;
@@ -293,7 +305,8 @@ main{
 
 .wordTitle{
     color: #ff7b5e;
-    font-size: 4rem;
+    font-size: clamp(2rem, 8vw, 4rem);
+    overflow-wrap: anywhere;
 }
 
 .ust-bolum{
@@ -365,13 +378,32 @@ hr{
         grid-template-columns: 1fr 180px;
     }
 
+    .komsu-sutun,
+    .turev-sutun{
+        width: 18%;
+    }
 
-} 
+    .main-orta{
+        width: 55%;
+    }
+}
 
 @media (max-width: 900px){
-    header h2{
-        font-size: clamp(2rem, 5vw, 4rem);
+    .komsu-sutun,
+    .turev-sutun{
+        width: 22%;
+    }
 
+    .main-orta{
+        width: 45%;
+    }
+
+    header h2{
+        font-size: clamp(2rem, 3vw, 3rem);
+    }
+
+    .wordTitle{
+        font-size: 3.2rem;
     }
 } 
 
@@ -409,6 +441,83 @@ hr{
         margin-inline: 8%;
     }
 
+    main{
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+        padding-inline: 16px;
+    }
+
+
+    .main-orta{
+        display: contents;
+    }
+
+    .sozcuk-kart{
+        order: 1;
+        width: 100%;
+    }
+
+    .komsu-sutun{
+        order: 2;
+    }
+
+    .main-orta section:nth-of-type(2){
+        order: 3;
+        position: relative;
+        z-index: 2;
+        margin-top: -24px;
+    }
+
+    .main-orta section:nth-of-type(3){
+        order: 4;
+    }
+
+    .main-orta section:nth-of-type(4){
+        order: 5;
+    }
+
+    .turev-sutun{
+        order: 6;
+        align-items: flex-start !important;
+    }
+
+    .komsu-sutun,
+    .turev-sutun{
+        width: 100%;
+        height: auto;
+        margin-top: 0;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: flex-end;
+        justify-content: center;
+        overflow-x: auto;
+        overflow-y: hidden;
+        gap: 8px;
+        padding-block: 6px;
+        scrollbar-color: #40e0d09c transparent;
+    }
+
+    .komsu-link,
+    .turev-sutun a,
+    .orta-vurgu{
+        writing-mode: vertical-rl;
+        text-orientation: mixed;
+        white-space: nowrap;
+        flex: 0 0 auto;
+        max-height: 130px;
+        padding: 10px 6px;
+    }
+
+    /* türev sütunundaki yazılar ters yönde (270°) dönsün */
+    .turev-sutun a{
+        transform: rotate(180deg);
+    }
+
+    #arama{
+        flex-basis: 100%;
+    }
+
 }
 
 @media (max-width: 480px){
@@ -420,6 +529,19 @@ hr{
     header h2{
         font-size: clamp(1.3rem, 3vw, 3.4rem);
 
+    }
+
+    .anlam-karti,
+    .ust-bolum{
+        padding-inline: 12px;
+    }
+
+    .komsu-link,
+    .turev-sutun a,
+    .orta-vurgu{
+        max-height: 100px;
+        font-size: 0.9rem;
+        padding: 8px 5px;
     }
 
     .foot-links{

@@ -10,7 +10,7 @@ body{
 
 .iletisim-formu h2 {
     color: #93fff4;
-    font-size: 3rem;
+    font-size: clamp(1.8rem, 6vw, 3rem);
     margin-bottom: 20px;
 }
 
@@ -71,7 +71,7 @@ body{
 
 @media (max-width: 500px) {
     .iletisim-formu {
-    width: 80%;
-    margin: 40px auto;
+    width: 90%;
+    margin: 30px auto;
 }
 }
