@@ -210,29 +210,49 @@ header a{
 
 main{
     grid-area: main;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: flex-start;   
+    display: grid;
+    grid-template-columns: 15% 40% 15%;
     justify-content: center;
-    gap: 2%;
+    column-gap: 2%;
+    row-gap: 12px;
     scrollbar-color: #40e0d09c transparent;
+}
+
+.sozcuk-ust,
+.sozcuk-alt{
+    grid-column: 2;
+    width: 100%;
+}
+
+.sozcuk-ust{
+    grid-row: 1;
+}
+
+.sozcuk-alt{
+    grid-row: 2;
+    display: flex;
+    flex-direction: column;
 }
 
 .komsu-sutun,
 .turev-sutun{
-    width: 15%;
+    grid-row: 2;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    justify-content: center;
     gap: 12px;
-    margin-top: 150px; /* sozcuk-kart ile hizalansın diye */
-    height: 100%;
+}
+
+.komsu-sutun{
+    grid-column: 1;
 }
 
 .turev-sutun{
+    grid-column: 3;
     align-items: flex-start;
 }
+
 .komsu-link,
 .turev-sutun a{
     color: #91fff4;
@@ -252,29 +272,14 @@ main{
     color: #ffbeaf;
     padding: 8px 10px;
     font-size: 1rem;
-    padding: 8px 10px;
     background-color: #102023e2;
     font-style: italic;
 }
 
 /*SÖZLÜKÇE*/
 
-.main-orta{
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-
-}
-
-.main-orta section{
-    width: 100%;
-    min-height: 170px;
-    height: fit-content;
-    margin-block: 1%;
-}
-
-.sozcuk-kart{
-    min-height: 50px !important;
+.sozcuk-ust{
+    min-height: 50px;
     display: flex;
     flex-direction: column;
 }
@@ -310,7 +315,7 @@ main{
 }
 
 .ust-bolum{
-    background-color: #0e191b;
+    background-color: #0e1c1fe2;
     display: flex;
     align-items: center;
     padding-left: 10px;
@@ -324,13 +329,14 @@ main h2, main h3, main h4{
 }
 
 .anlam-karti{
-    background-color: #102023e2;
     height: fit-content;
     min-height: 150px;
     overflow: auto;
     scrollbar-color: transparent transparent;
     padding: 10px 20px;
+    background-color: #0f262a;
 }
+
 
 
 
@@ -375,27 +381,17 @@ hr{
 
 @media (max-width: 1080px){
     body{
-        grid-template-columns: 1fr 180px;
+        grid-template-columns: 1fr 100px;
     }
 
-    .komsu-sutun,
-    .turev-sutun{
-        width: 18%;
-    }
-
-    .main-orta{
-        width: 55%;
+    main{
+        grid-template-columns: 18% 55% 18%;
     }
 }
 
 @media (max-width: 900px){
-    .komsu-sutun,
-    .turev-sutun{
-        width: 22%;
-    }
-
-    .main-orta{
-        width: 45%;
+    main{
+        grid-template-columns: 22% 45% 22%;
     }
 
     header h2{
@@ -442,81 +438,47 @@ hr{
     }
 
     main{
+        display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 12px;
+        gap: 0;
         padding-inline: 16px;
-    }
-
-
-    .main-orta{
-        display: contents;
-    }
-
-    .sozcuk-kart{
-        order: 1;
-        width: 100%;
-    }
-
-    .komsu-sutun{
-        order: 2;
-    }
-
-    .main-orta section:nth-of-type(2){
-        order: 3;
-        position: relative;
-        z-index: 2;
-        margin-top: -24px;
-    }
-
-    .main-orta section:nth-of-type(3){
-        order: 4;
-    }
-
-    .main-orta section:nth-of-type(4){
-        order: 5;
-    }
-
-    .turev-sutun{
-        order: 6;
-        align-items: flex-start !important;
     }
 
     .komsu-sutun,
     .turev-sutun{
         width: 100%;
-        height: auto;
-        margin-top: 0;
         flex-direction: row;
         flex-wrap: nowrap;
-        align-items: flex-end;
-        justify-content: center;
+        align-items: center;
+        justify-content: flex-start;
         overflow-x: auto;
         overflow-y: hidden;
         gap: 8px;
-        padding-block: 6px;
+        padding: 8px 10px;
+        background-color: #0e191b;
         scrollbar-color: #40e0d09c transparent;
     }
 
     .komsu-link,
     .turev-sutun a,
     .orta-vurgu{
-        writing-mode: vertical-rl;
-        text-orientation: mixed;
         white-space: nowrap;
         flex: 0 0 auto;
-        max-height: 130px;
-        padding: 10px 6px;
-    }
-
-    /* türev sütunundaki yazılar ters yönde (270°) dönsün */
-    .turev-sutun a{
-        transform: rotate(180deg);
+        padding: 8px 12px;
     }
 
     #arama{
         flex-basis: 100%;
     }
+
+    .tur-yazi{
+    margin-top: 0;
+}
+
+.okunus-yazi{
+    margin-bottom: 8px;
+}
 
 }
 
@@ -539,9 +501,8 @@ hr{
     .komsu-link,
     .turev-sutun a,
     .orta-vurgu{
-        max-height: 100px;
         font-size: 0.9rem;
-        padding: 8px 5px;
+        padding: 8px 10px;
     }
 
     .foot-links{
