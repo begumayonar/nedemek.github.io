@@ -23,12 +23,6 @@ body{
 
     min-height: 100vh;
     background-color: #081617;
-
-    background-image:
-        linear-gradient(#1b3a3d 1px, transparent 1px),
-        linear-gradient(90deg, #1b3a3d 1px, transparent 1px);
-
-    background-size: 30px 30px;
     
 }
 
@@ -178,7 +172,6 @@ header a{
     background-color: #0c2123;
     margin-left: auto;
     width: 100%;
-    border-left: 1px solid #40e0d0;
     box-sizing: border-box;
 }
 
