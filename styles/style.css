@@ -23,7 +23,7 @@ body{
 
     min-height: 100vh;
     background-color: var(--arka-plan);
-    background-image: radial-gradient(#0f2829, #050c0c);
+    background-image: radial-gradient(#0c2122, #050c0c);
 
 }
 
@@ -110,7 +110,7 @@ main{
     height: fit-content;
     overflow-y: auto;
     position: absolute;
-    top: 45px;
+    top: 35px;
     z-index: 10;
 }
 
@@ -147,14 +147,17 @@ main{
 #arama p{
     margin-top: 15px;
     color: #40e0d0b0;
+    text-align: center;
 }
 
 .arama-container-2{
-    height: 45px;
+    height: 34px;
     display: flex;
     justify-content: center;
     margin-top: 50px;
     width: 100%;
+    max-width: 700px;
+    margin-inline: auto;
     position: relative;
 }
 
@@ -163,13 +166,13 @@ main{
     width: auto;
     flex: 1 1 auto;
     min-width: 0;
-    border-top-left-radius: 30px;
-    border-bottom-left-radius: 30px;
+    border-top-left-radius: 22px;
+    border-bottom-left-radius: 22px;
     border-color: hsl(174, 72%, 70%);
-    border-width: 2px;
+    border-width: 1px;
     background-color: transparent;
-    padding-inline: 18px;
-    font-size: 1rem;
+    padding-inline: 14px;
+    font-size: 0.85rem;
 }
 
 .arama-bari::placeholder{
@@ -177,13 +180,13 @@ main{
 }
 
 .arama-buton{
-    height: 45px;
-    width: 60px;
-    flex: 0 0 60px;
-    border: 5px solid transparent;
+    height: 34px;
+    width: 44px;
+    flex: 0 0 44px;
+    border: 3px solid transparent;
 
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
     background-color: hsl(174, 72%, 70%);
 }
 
@@ -319,13 +322,13 @@ hr{
     }
 
     .arama-container-2{
-        height: 45px;
+        height: 34px;
     }
 
     .arama-buton{
-        height: 45px;
-        width: 56px;
-        flex-basis: 56px;
+        height: 34px;
+        width: 42px;
+        flex-basis: 42px;
     }
 
     .arama-bari::placeholder{
@@ -347,4 +350,3 @@ hr{
         margin-inline: 18px;
     }
 }
-
