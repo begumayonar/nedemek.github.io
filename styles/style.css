@@ -23,6 +23,8 @@ body{
 
     min-height: 100vh;
     background-color: var(--arka-plan);
+    background-image: radial-gradient(#0c2122, #050c0c);
+
 }
 
 /*HEADER*/
@@ -33,10 +35,11 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: clamp(70px, 14vw, 150px);
+    padding-top: clamp(60px, 12vw, 130px);
     padding-inline: 24px;
     overflow: visible;
     margin-bottom: 10px;
+    background-color: transparent;
 }
 
 header h2{
@@ -60,48 +63,32 @@ header h2:hover{
 
 aside{
     grid-area: sidebar;
-    display: flex;
-    background-color: #0c2123;
     margin-left: auto;
-    width: 100%;
-    border-left: 1px solid #40e0d0;
+    width: 40%;
     box-sizing: border-box;
 }
 
 .links-container{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    height: 100%;
-    width: 100%;
-    font-size: 130%;
     align-items: center;
-    text-align: center;
-    gap: 16px;
-    padding: 24px 12px;
+    width: 100%;
+    gap: 10px;
+    padding-top: 20px;
+    padding-right: 35px;
 }
 
-.links-container a{
-    overflow-wrap: anywhere;
-}
 
-.links-container a:hover{
-    color: aliceblue;
-}
+
 
 /* ANA */
 
 main{
     grid-area: main;
-    background-color: #0c2123;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    background-image: linear-gradient(
-        to bottom, #0c2123 70%, #0b1d20
-    );
 }
 
 #arama{
@@ -229,9 +216,6 @@ footer{
     grid-area: footer;
     display: flex;
     flex-direction: column;
-    background-image: linear-gradient(
-        to bottom, #0b1d20, #081617
-    ); 
     height: 80px;
 }
 
