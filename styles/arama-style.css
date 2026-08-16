@@ -49,11 +49,13 @@ header h2{
     color: hsl(174, 72%, 70%);
     line-height: 1.05;
     text-align: center;
+    
 }
 
 
 header a{
     text-decoration: none;
+
 }
 
 /*ARAMA ÇUBUĞU*/
@@ -294,6 +296,11 @@ main{
     color: #ff7b5e;
     font-size: clamp(2rem, 8vw, 4rem);
     overflow-wrap: anywhere;
+        background: linear-gradient(90deg, #ffa28d, #ff522b);
+    background-clip: text;
+    -webkit-background-clip: text; 
+    color: transparent;
+    -webkit-text-fill-color: transparent;
 }
 
 .ust-bolum{
