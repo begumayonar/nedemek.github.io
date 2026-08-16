@@ -64,7 +64,7 @@ header h2:hover{
 aside{
     grid-area: sidebar;
     margin-left: auto;
-    width: 10%;
+    width: 6%;
     box-sizing: border-box;
     position: absolute;
 }
