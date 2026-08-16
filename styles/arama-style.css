@@ -14,7 +14,7 @@
 body{
     display: grid;
     grid-template-areas: 
-    "header sidebar"
+    "header header"
     "main sidebar"
     "footer sidebar";
 
@@ -23,6 +23,8 @@ body{
 
     min-height: 100vh;
     background-color: #081617;
+    background-image: radial-gradient(#0f2829, #030707);
+
 }
 
 /*HEADER*/
@@ -165,35 +167,23 @@ header a{
 
 /*YAN BAR*/
 
-.yanbar{
+aside{
     grid-area: sidebar;
-    display: flex;
-    background-color: #0c2123;
     margin-left: auto;
-    width: 100%;
+    width: 40%;
     box-sizing: border-box;
 }
 
 .links-container{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    height: 100%;
-    width: 100%;
-    font-size: 130%;
     align-items: center;
-    text-align: center;
-    padding: 24px 12px;
-
+    width: 100%;
+    gap: 10px;
+    padding-top: 20px;
+    padding-right: 35px;
 }
 
-.links-container a{
-    overflow-wrap: anywhere;
-}
-
-.links-container a:hover{
-    color: aliceblue;
-}
 
 
 /* ANA */
