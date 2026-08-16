@@ -43,7 +43,7 @@ header{
 }
 
 header h2{
-    font-size: clamp(3.5rem, 7vw, 5rem);
+    font-size: clamp(3.5rem, 6.5vw, 4.5rem);
     padding-top: 5px;
     color: hsl(174, 72%, 70%);
     text-align: center;
@@ -64,8 +64,9 @@ header h2:hover{
 aside{
     grid-area: sidebar;
     margin-left: auto;
-    width: 40%;
+    width: 10%;
     box-sizing: border-box;
+    position: absolute;
 }
 
 .links-container{
@@ -73,9 +74,9 @@ aside{
     flex-direction: column;
     align-items: center;
     width: 100%;
-    gap: 10px;
-    padding-top: 20px;
-    padding-right: 35px;
+    gap: 12px;
+    padding-top: 30px;
+    padding-right: 30px;
 }
 
 
@@ -148,6 +149,7 @@ main{
     margin-top: 15px;
     color: #40e0d0b0;
     text-align: center;
+    font-size: 13px;
 }
 
 .arama-container-2{
