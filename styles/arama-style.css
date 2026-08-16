@@ -23,7 +23,6 @@ body{
 
     min-height: 100vh;
     background-color: #081617;
-    background-image: linear-gradient(to left, red, blue);
 }
 
 /*HEADER*/
