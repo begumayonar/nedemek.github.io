@@ -337,8 +337,53 @@ main h2, main h3, main h4{
     background-color: #0f262a;
 }
 
+/* ÜÇERLİ SATIR DÜZENİ (anlam, ilgili sözcükler, benzerler) */
 
+#definition,
+#ilgili-liste,
+#benzer{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
 
+.kart-satir{
+    display: flex;
+    gap: 8px;
+    list-style: none;
+}
+
+.kart-satir > *{
+    flex: 1 1 0;
+    text-align: center;
+}
+
+#definition li,
+#ilgili-liste a,
+#benzer a{
+    color: #91fff4;
+    text-decoration: none;
+}
+
+#definition li{
+    list-style: none;
+}
+
+#ilgili-liste a,
+#benzer a{
+    padding: 3px 3px;
+}
+
+#ilgili-liste a:hover,
+#benzer a:hover{
+    color: #40e0d0;
+
+}
+
+#ilgili-liste p,
+#benzer p{
+    opacity: 0.6;
+}
 
 
 
@@ -355,168 +400,3 @@ footer{
     font-size: 12px;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    margin-inline: 20%;
-    gap: 14px;
-    text-align: center;
-}
-
-.foot-links a,
-#foot-yazi{
-    overflow-wrap: anywhere;
-}
-
-.footer-bottom{
-    display: flex;
-    margin-top: 10px;
-    width: fit-content;
-    align-self: center;
-    font-size: 12px;
-}
-
-hr{
-    border: none;
-    border-top: 1px solid #40e0d0;
-}
-
-@media (max-width: 1080px){
-    body{
-        grid-template-columns: 1fr 100px;
-    }
-
-    main{
-        grid-template-columns: 18% 55% 18%;
-    }
-}
-
-@media (max-width: 900px){
-    main{
-        grid-template-columns: 22% 45% 22%;
-    }
-
-    header h2{
-        font-size: clamp(2rem, 3vw, 3rem);
-    }
-
-    .wordTitle{
-        font-size: 3.2rem;
-    }
-} 
-
-@media (max-width: 760px){
-    body{
-        grid-template-areas:
-        "header"
-        "sidebar"
-        "main"
-        "footer";
-        grid-template-columns: 1fr;
-        grid-template-rows: auto auto 1fr auto;
-    }
-
-    header{
-        padding-block: 20px;
-    }
-
-    aside{
-        border-left: none;
-        border-top: 1px solid #40e0d0;
-        border-bottom: 1px solid #40e0d0;
-    }
-
-    .links-container{
-        flex-direction: row;
-        justify-content: center;
-        flex-wrap: wrap;
-        padding: 14px 16px;
-        font-size: 110%;
-    }
-
-
-    .foot-links{
-        margin-inline: 8%;
-    }
-
-    main{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 0;
-        padding-inline: 16px;
-    }
-
-    .komsu-sutun,
-    .turev-sutun{
-        width: 100%;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        align-items: center;
-        justify-content: flex-start;
-        overflow-x: auto;
-        overflow-y: hidden;
-        gap: 8px;
-        padding: 8px 10px;
-        background-color: #0e191b;
-        scrollbar-color: #40e0d09c transparent;
-    }
-
-    .komsu-link,
-    .turev-sutun a,
-    .orta-vurgu{
-        white-space: nowrap;
-        flex: 0 0 auto;
-        padding: 8px 12px;
-    }
-
-    #arama{
-        flex-basis: 100%;
-    }
-
-    .tur-yazi{
-    margin-top: 0;
-}
-
-.okunus-yazi{
-    margin-bottom: 8px;
-}
-
-}
-
-@media (max-width: 480px){
-    header{
-        padding-inline: 16px;
-        padding-block: 20px;
-    }
-
-    header h2{
-        font-size: clamp(1.3rem, 3vw, 3.4rem);
-
-    }
-
-    .anlam-karti,
-    .ust-bolum{
-        padding-inline: 12px;
-    }
-
-    .komsu-link,
-    .turev-sutun a,
-    .orta-vurgu{
-        font-size: 0.9rem;
-        padding: 8px 10px;
-    }
-
-    .foot-links{
-        height: auto;
-        min-height: 60px;
-        flex-wrap: wrap;
-        padding-block: 12px;
-        margin-inline: 16px;
-        font-size: 18px;
-    }
-
-    #foot-yazi{
-        text-align: center;
-        font-size: 16px;
-        margin-inline: 18px;
-    }
-}
