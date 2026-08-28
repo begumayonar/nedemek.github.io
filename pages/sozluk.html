@@ -102,7 +102,7 @@
         <section class="sozcuk-ust">
             <div id="sozcuk-tur">
                 <h1 class="wordTitle"></h1>
-                <p class="tur-yazi"></p>
+                <div class="tur-yazi"></div>
             </div>
             <div id="okunus-kart">
                 <p class="okunus-yazi"></p>
@@ -158,15 +158,12 @@
 
     <script src="../js/sozluk-core.js"></script>
     <script>
-
-
 (async () => {
     await veriHazir;
 
     const params = new URLSearchParams(window.location.search);
     const id = params.get('id');
-    const tur = params.get('tur');
-    const veri = idIleBul(id, tur);
+    const veri = idIleBul(id);
 
     if (!veri) {
         document.querySelector('.wordTitle').textContent = 'Sözcük bulunamadı';
@@ -177,45 +174,71 @@
     document.querySelector('.wordTitle').textContent = veri.sozcuk;
     document.querySelector('.okunus-yazi').textContent = veri.okunus ? `(${veri.okunus})` : '';
 
-    // ANLAM (üçerli satır)
+        // ANLAM (numaralı anlamlar → tek grid, anlam numarasına göre solan renk)
     const anlamMetni = (veri.anlam || '').trim();
     const definition = document.getElementById("definition");
 
-    if (anlamMetni.includes(",")) {
-        const cokluAnlam = anlamMetni
-            .split(",")
-            .map(eleman =>
-                eleman.trim()[0].toLocaleUpperCase("tr-TR") +
-                eleman.trim().slice(1)
-            );
+    function ilkHarfBuyuk(str) {
+        const t = str.trim();
+        return t ? t[0].toLocaleUpperCase("tr-TR") + t.slice(1) : t;
+    }
 
+    const numaraliRegex = /\d+\s+([^\d]+?)(?=\s*\d+\s+|$)/g;
+    const numaraliMi = /^\d+\s/.test(anlamMetni);
+
+    let anlamOgeleri = []; // { kelime, grup } — grup 0 = 1. anlam
+
+    if (numaraliMi) {
+        let eslesme;
+        let grupIndex = 0;
+        while ((eslesme = numaraliRegex.exec(anlamMetni)) !== null) {
+            const grupMetni = eslesme[1].replace(/,\s*$/, '');
+            grupMetni.split(",").forEach(kelime => {
+                anlamOgeleri.push({ kelime: ilkHarfBuyuk(kelime), grup: grupIndex });
+            });
+            grupIndex++;
+        }
+    } else if (anlamMetni.includes(",")) {
+        anlamMetni.split(",").forEach(kelime => {
+            anlamOgeleri.push({ kelime: ilkHarfBuyuk(kelime), grup: 0 });
+        });
+    } else if (anlamMetni) {
+        anlamOgeleri.push({ kelime: anlamMetni, grup: 0 });
+    }
+
+    if (anlamOgeleri.length === 0) {
+        definition.innerHTML = '';
+        const li = document.createElement("li");
+        li.textContent = 'Henüz eklenmedi.';
+        definition.appendChild(li);
+    } else {
         kartListesiOlustur(
             definition,
-            cokluAnlam,
+            anlamOgeleri,
             eleman => {
                 const li = document.createElement("li");
-                li.textContent = eleman;
+                li.textContent = eleman.kelime;
+                if (eleman.grup > 0) {
+                    li.style.opacity = Math.max(0.35, 1 - eleman.grup * 0.2);
+                }
                 return li;
             }
         );
-    } else {
-        definition.innerHTML = '';
-        const li = document.createElement("li");
-        li.textContent = anlamMetni || 'Henüz eklenmedi.';
-        definition.appendChild(li);
     }
 
-    document.getElementById('usage').textContent = veri.kullanim || 'Henüz eklenmedi.';
+    // TÜR ETİKETLERİ 
+    const turKutusu = document.querySelector('.tur-yazi');
+    turKutusu.innerHTML = '';
+    (veri.tur || []).forEach(etiket => {
+        const a = document.createElement('a');
+        a.className = 'tur-etiket';
+        a.href = `etiket.html?ad=${encodeURIComponent(etiket)}`;
+        a.textContent = etiket;
+        turKutusu.appendChild(a);
+    });
 
-    const turEtiketi = {
-        sozcuk: "Sözcük",
-        kisaltma: "Kısaltma",
-        ek: "Ek",
-    };
-    document.querySelector(".tur-yazi").textContent = turEtiketi[veri.tur] || "";
-
-    // KOMŞU SÜTUNU (değişiklik yok)
-    const komsular = komsulariGetir(veri.id, veri.tur);
+    // KOMŞU SÜTUNU
+    const komsular = komsulariGetir(veri.id);
     const komsuKutu = document.querySelector('.komsu-sutun');
     komsuKutu.innerHTML = '';
 
@@ -228,45 +251,45 @@
         } else {
             const a = document.createElement('a');
             a.className = 'komsu-link';
-            a.href = `sozluk.html?id=${k.id}&tur=${k.tur}`;
+            a.href = `sozluk.html?id=${k.id}`;
             a.textContent = k.sozcuk;
             komsuKutu.appendChild(a);
         }
     });
 
-    // TÜREV SÜTUNU (değişiklik yok)
+    // TÜREV SÜTUNU
     const turevler = idListesindenGetir(veri.turev);
     const turevKutu = document.getElementById('turev-liste');
     turevKutu.innerHTML = '';
 
     turevler.forEach(t => {
         const a = document.createElement('a');
-        a.href = `sozluk.html?id=${t.id}&tur=${t.tur}`;
+        a.href = `sozluk.html?id=${t.id}`;
         a.textContent = t.sozcuk;
         turevKutu.appendChild(a);
     });
 
-    // İLGİLİ SÖZCÜKLER (üçerli satır)
+    // İLGİLİ SÖZCÜKLER
     const ilgililer = idListesindenGetir(veri.ilgili);
     kartListesiOlustur(
         document.getElementById('ilgili-liste'),
         ilgililer,
         ilg => {
             const a = document.createElement('a');
-            a.href = `sozluk.html?id=${ilg.id}&tur=${ilg.tur}`;
+            a.href = `sozluk.html?id=${ilg.id}`;
             a.textContent = ilg.sozcuk;
             return a;
         }
     );
 
-    // BENZER SÖZCÜKLER (üçerli satır)
+    // BENZER SÖZCÜKLER 
     const benzerler = idListesindenGetir(veri.benzer);
     kartListesiOlustur(
         document.getElementById('benzer'),
         benzerler,
         b => {
             const a = document.createElement('a');
-            a.href = `sozluk.html?id=${b.id}&tur=${b.tur}`;
+            a.href = `sozluk.html?id=${b.id}`;
             a.textContent = b.sozcuk;
             return a;
         }
@@ -290,7 +313,7 @@ kutu.addEventListener('input', (e) => {
             const li = document.createElement('li');
             li.innerHTML = `${item.sozcuk}${item.okunus ? ` <span class="okunus">(${item.okunus})</span>` : ''}`;
             li.addEventListener('click', () => {
-                window.location.href = `sozluk.html?id=${item.id}&tur=${item.tur}`;
+                window.location.href = `sozluk.html?id=${item.id}`;
             });
             oneriListesi.appendChild(li);
         });
@@ -302,7 +325,7 @@ function aramayiCalistir() {
     if (!q) return;
     const sonuclar = onerileriGetir(q, 1);
     if (sonuclar.length > 0) {
-        window.location.href = `sozluk.html?id=${sonuclar[0].id}&tur=${sonuclar[0].tur}`;
+        window.location.href = `sozluk.html?id=${sonuclar[0].id}`;
     }
 }
 
@@ -319,12 +342,13 @@ document.querySelector('.arama-buton').addEventListener('click', (e) => {
 });
 
 // RASTGELE SÖZCÜK
-document.getElementById("rastgele-link").addEventListener("click", async (e) => {
+document.getElementById("rastgele-sozcuk-linki").addEventListener("click", async (e) => {
     e.preventDefault();
     await veriHazir;
     const veri = rastgeleSozcuk();
-    window.location.href = `sozluk.html?id=${veri.id}&tur=${veri.tur}`;
+    window.location.href = `sozluk.html?id=${veri.id}`;
 });
+
     </script>
 </body>
 

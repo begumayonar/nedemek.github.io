@@ -19,11 +19,13 @@ body{
     "footer sidebar";
 
     grid-template-columns: 1fr 100px;
-    grid-template-rows: auto 1fr auto;
+    grid-template-rows: 100px 1fr auto;
 
     min-height: 100vh;
     background-color: #081617;
     background-image: radial-gradient(#0f2829, #030707);
+    background-attachment: fixed;
+    background-size: 100vw 100vh;
 
 }
 
@@ -35,7 +37,7 @@ header{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    padding: 15px 20px;
+    padding: 20px;
     gap: 10px;
 }
 
@@ -44,12 +46,10 @@ header{
 }
 
 header h2{
-    font-size: clamp(1.8rem, 5vw, 5rem);
-    padding-top: 5px;
+    font-size: clamp(3rem, 5.5vw, 3.5rem);
     color: hsl(174, 72%, 70%);
-    line-height: 1.05;
     text-align: center;
-    
+    font-weight: 400; 
 }
 
 
@@ -65,13 +65,14 @@ header a{
     position: relative;
     flex: 1 1 320px;
     min-width: 0;
-    width: min(870px, 100%);
+    width: min(770px, 100%);
     max-width: 100%;
     padding-inline: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
 }
 
 #arama p{
@@ -80,7 +81,7 @@ header a{
 }
 
 .arama-container-2{
-    height: 60px;
+    height: 50px;
     display: flex;
     justify-content: center;
     width: 100%;
@@ -92,6 +93,7 @@ header a{
     width: auto;
     flex: 1 1 auto;
     min-width: 0;
+    border-style: solid;
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
     border-color: hsl(174, 72%, 70%);
@@ -106,8 +108,8 @@ header a{
 }
 
 .arama-buton{
-    height: 60px;
-    width: 70px;
+    height: 50px;
+    width: 60px;
     flex: 0 0 70px;
     border: 5px solid transparent;
 
@@ -169,7 +171,7 @@ header a{
 
 /*YAN BAR*/
 
-aside{
+aside.yanbar{
     grid-area: sidebar;
     margin-left: auto;
     width: 40%;
@@ -202,25 +204,33 @@ main{
     scrollbar-color: #40e0d09c transparent;
 }
 
-.sozcuk-ust,
-.sozcuk-alt{
+
+.sozcuk-ust{
     grid-column: 2;
+    grid-row: 1;
     width: 100%;
 }
 
-.sozcuk-ust{
-    grid-row: 1;
-}
-
-.sozcuk-alt{
+.anlam-bolum{
+    grid-column: 2;
     grid-row: 2;
+    width: 100%;
     display: flex;
     flex-direction: column;
 }
 
+.sozcuk-alt{
+    grid-column: 2;
+    grid-row: 3;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
 .komsu-sutun,
 .turev-sutun{
-    grid-row: 2;
+    grid-row: 2 / span 2;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -296,11 +306,9 @@ main{
     color: #ff7b5e;
     font-size: clamp(2rem, 8vw, 4rem);
     overflow-wrap: anywhere;
-        background: linear-gradient(90deg, #ffa28d, #ff522b);
+    background: linear-gradient(90deg, #ffa28d, rgb(255, 131, 103));
     background-clip: text;
-    -webkit-background-clip: text; 
-    color: transparent;
-    -webkit-text-fill-color: transparent;
+
 }
 
 .ust-bolum{
@@ -326,7 +334,6 @@ main h2, main h3, main h4{
     background-color: #0f262a;
 }
 
-/* ÜÇERLİ SATIR DÜZENİ (anlam, ilgili sözcükler, benzerler) */
 
 #definition,
 #ilgili-liste,
@@ -337,13 +344,15 @@ main h2, main h3, main h4{
 }
 
 .kart-satir{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 8px;
     list-style: none;
+    flex-wrap: unset; 
 }
 
 .kart-satir > *{
-    flex: 1 1 0;
+    min-width: 0;
     text-align: center;
 }
 
@@ -388,4 +397,183 @@ footer{
     height: 50%;
     font-size: 12px;
     display: flex;
-    align-items: center}
+    align-items: center;
+    justify-content: space-evenly;
+    margin-inline: 20%;
+    gap: 14px;
+    text-align: center;
+}
+
+.foot-links a,
+#foot-yazi{
+    overflow-wrap: anywhere;
+}
+
+.footer-bottom{
+    display: flex;
+    margin-top: 10px;
+    width: fit-content;
+    align-self: center;
+    font-size: 12px;
+}
+
+
+
+/* ======================= RESPONSIVE ================ */
+
+@media (max-width: 1080px){
+    body{
+        grid-template-columns: 1fr 140px;
+    }
+
+    main{
+        grid-template-columns: 18% 44% 18%;
+    }
+}
+
+@media (max-width: 900px){
+    body{
+        grid-template-areas:
+        "header"
+        "sidebar"
+        "main"
+        "footer";
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto 1fr auto;
+    }
+
+    aside.yanbar{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .links-container{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 10px 16px;
+    }
+
+  
+    main{
+        display: flex;
+        flex-direction: column;
+        padding: 20px 16px;
+        gap: 20px;
+    }
+
+    .sozcuk-ust{
+        order: 1;
+    }
+
+    .komsu-sutun{
+        order: 2;
+    }
+
+    .anlam-bolum{
+        order: 3;
+    }
+
+    .sozcuk-alt{
+        order: 4;
+    }
+
+    .turev-sutun{
+        order: 5;
+    }
+
+    .komsu-sutun,
+    .turev-sutun{
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+    }
+}
+
+@media (max-width: 600px){
+    header{
+        justify-content: center;
+    }
+
+    .logo-container{
+        width: 100%;
+        text-align: center;
+    }
+
+    #arama{
+        padding-inline: 0;
+    }
+
+    #sozcuk-tur{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 6px;
+    }
+
+    .tur-yazi{
+        margin-top: 0;
+        height: auto;
+    }
+
+    .kart-satir{
+        justify-content: center;
+    }
+
+    .foot-links{
+        margin-inline: 8%;
+    }
+}
+
+@media (max-width: 420px){
+    .arama-bari{
+        font-size: 0.85rem;
+        padding-inline: 12px;
+    }
+
+    .arama-buton{
+        width: 55px;
+        flex-basis: 55px;
+    }
+
+    .wordTitle{
+        font-size: clamp(1.6rem, 10vw, 2.4rem);
+    }
+}
+
+
+.etiket-ust{
+    display: flex;
+    flex-direction: column;
+}
+#etiket-liste{
+    padding-block :24px;
+}
+
+#etiket-liste .kart-satir{
+    gap: 14px;
+}
+
+#etiket-liste .kart-satir:last-child{
+    margin-bottom: 0;
+}
+
+#etiket-liste a{
+    font-size: 1rem;
+    padding: 12px 10px;
+    display: inline-block;
+}
+
+section h2, section h3, section h4{
+    font-weight: 500 !important;
+}
+
+.tur-yazi{
+    margin-top: 30px;
+    padding-inline: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+}

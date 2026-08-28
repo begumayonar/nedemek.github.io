@@ -11,14 +11,7 @@ let veriHazir = fetch(temelYol + "data.json")
     sozluk = data;
     data.forEach(item => trieEkle(item.sozcuk, item));
 
-    const turevIdSeti = new Set();
-    data.forEach(item => {
-      (item.turev || []).forEach(id => turevIdSeti.add(id));
-    });
-
-    sozlukAlfabetik = data
-      .filter(item => !turevIdSeti.has(item.id))
-      .sort((a, b) => turkceCollator.compare(a.sozcuk, b.sozcuk));
+    sozlukAlfabetik = [...data].sort((a, b) => turkceCollator.compare(a.sozcuk, b.sozcuk));
 
     return data;
   });
@@ -76,21 +69,21 @@ function rastgeleSozcukler(adet = 5){
   }
   return secilenler
 }
-function komsulariGetir(mevcutId, mevcutTur, herYanda = 4) {
-    let index = sozlukAlfabetik.findIndex(k => k.id === mevcutId && k.tur === mevcutTur);
+
+function komsulariGetir(mevcutId, herYanda = 3) {
+    const aktifKayit = sozluk.find(k => k.id === mevcutId);
+    if (!aktifKayit) return [];
+
+    const kendiTurevleri = new Set(aktifKayit.turev || []);
+
+    let index = sozlukAlfabetik.findIndex(k => k.id === mevcutId);
     let liste = sozlukAlfabetik;
-    let aktifKayit = null;
 
     if (index === -1) {
-
-        aktifKayit = sozluk.find(k => k.id === mevcutId && k.tur === mevcutTur);
-        if (!aktifKayit) return [];
-
         index = sozlukAlfabetik.findIndex(
             k => turkceCollator.compare(k.sozcuk, aktifKayit.sozcuk) >= 0
         );
         if (index === -1) index = sozlukAlfabetik.length;
-
         liste = [
             ...sozlukAlfabetik.slice(0, index),
             aktifKayit,
@@ -98,22 +91,41 @@ function komsulariGetir(mevcutId, mevcutTur, herYanda = 4) {
         ];
     }
 
-    const baslangic = Math.max(0, index - herYanda);
-    const bitis = Math.min(liste.length, index + herYanda + 1);
-    return liste.slice(baslangic, bitis).map(kayit => ({
+    const sol = [];
+    for (let i = index - 1; i >= 0 && sol.length < herYanda; i--) {
+        if (kendiTurevleri.has(liste[i].id)) continue;
+        sol.unshift(liste[i]);
+    }
+
+    const sag = [];
+    for (let i = index + 1; i < liste.length && sag.length < herYanda; i++) {
+        if (kendiTurevleri.has(liste[i].id)) continue;
+        sag.push(liste[i]);
+    }
+
+    return [...sol, aktifKayit, ...sag].map(kayit => ({
         ...kayit,
-        aktif: kayit.id === mevcutId && kayit.tur === mevcutTur
+        aktif: kayit.id === mevcutId
     }));
 }
 
 function turevleriGetir(turevIdListesi) {
     if (!turevIdListesi) return [];
-    return turevIdListesi.map(id => idIleBul(id, 'sozcuk')).filter(Boolean);
+    return turevIdListesi.map(id => idIleBul(id)).filter(Boolean);
 }
 
 function ilgilileriGetir(ilgiliIdListesi) {
     if (!ilgiliIdListesi) return [];
     return ilgiliIdListesi.map(id => idIleBul(id)).filter(Boolean);
+}
+
+
+function turdekiSozcukleriGetir(etiket) {
+    if (!etiket) return [];
+    const hedef = normalize(etiket);
+    return sozlukAlfabetik.filter(
+        k => Array.isArray(k.tur) && k.tur.some(t => normalize(t) === hedef)
+    );
 }
 
 function satirlaraBol(liste, boyut = 3) {

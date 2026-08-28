@@ -5,22 +5,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ne Diyo' Bu?</title>
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="../styles/arama-style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap"
+        rel="stylesheet">
 
 </head>
 
 <body>
     <header>
-        <h2>Ne Demek?</h2>
+        <div class="logo-container">
+            <h2><a href="../index.html">Ne Demek?</a></h2>
+        </div>
+
+        <div id="arama">
+            <div class="arama-container-2">
+                <input type="search" class="arama-bari" placeholder="Bir sözcük, kısaltma veya ek arayın...">
+                <button type="submit" class="arama-buton">🔍</button>
+            </div>
+            <ul id="oneriler"></ul>
+        </div>
     </header>
 
-    <aside>
+    <aside class="yanbar">
         <div class="links-container">
             <a href="index.html" title="Ana Sayfa">
-    <svg width="35" height="35" viewBox="0 0 447 447" xmlns="http://www.w3.org/2000/svg">
+    <svg width="48" height="48" viewBox="0 0 447 447" xmlns="http://www.w3.org/2000/svg">
         <g transform="translate(0,447) scale(0.1,-0.1)" fill="currentColor" stroke="none">
             <path d="M2051 3463 c-102 -103 -376 -384 -611 -623 -234 -239 -498 -509 -587
             -600 l-161 -165 179 -3 179 -2 0 -625 0 -625 434 0 434 0 4 392 c4 376 5 396
@@ -36,7 +48,7 @@
     </svg>
 </a>
             <a href="ekle.html" title="Yeni Sözcük Ekle">
-    <svg width="22" height="22" viewBox="0 0 360 360" xmlns="http://www.w3.org/2000/svg">
+    <svg width="32" height="32" viewBox="0 0 360 360" xmlns="http://www.w3.org/2000/svg">
         <g transform="translate(0,360) scale(0.1,-0.1)" fill="currentColor" stroke="none">
             <path d="M1670 3590 c-324 -20 -666 -145 -935 -344 -160 -118 -348 -320 -452
             -486 -133 -213 -221 -449 -257 -693 -130 -864 379 -1695 1207 -1971 205 -68
@@ -51,8 +63,9 @@
         </g>
     </svg>
 </a>
-<a href="#" id="rastgele-link" title="Rastgele Sözcük">
-    <svg width="40" height="" viewBox="0 0 482 414" xmlns="http://www.w3.org/2000/svg">
+
+<a href="#" id="rastgele-sozcuk-linki" title="Rastgele Sözcük">
+    <svg width="48" height="46" viewBox="0 0 482 414" xmlns="http://www.w3.org/2000/svg">
         <g transform="translate(0,414) scale(0.1,-0.1)" fill="currentColor" stroke="none">
             <path d="M3188 3811 c-145 -74 -327 -258 -388 -394 -11 -23 -20 -49 -20 -59 0
             -26 100 -128 126 -128 102 0 349 212 454 390 44 74 40 104 -20 168 -58 61 -73
@@ -86,66 +99,89 @@
     </aside>
 
     <main>
-        <section id="arama">
-            <div class="arama-container-2">
-                <input type="search" class="arama-bari" placeholder="Bir sözcük, kısaltma veya ek arayın...">
-                <button type="submit" class="arama-buton">🔍</button>
-                            <ul id="oneriler"></ul>
+        <section class="sozcuk-ust">
+            <div id="sozcuk-tur">
+                <h1 id="etiket-baslik" class="wordTitle"></h1>
             </div>
-
-        <div id="sozcuk-sayisi"><p>Kayıtlı sözcük sayısı: <span id="sayi">...</span></p></div>
         </section>
-        <section id="son-aranan">
-            <h4>Son arananlar:</h4>
-            <a href="" id="son-aranan-link">
-                <div id="son-aranan-liste"></div>
-            </a>
+
+        <section class="sozcuk-alt">
+            <div class="ust-bolum">
+                <h2>Sözcükler</h2>
+            </div>
+            <div class="anlam-karti" id="etiket-liste"></div>
         </section>
     </main>
+
     <footer>
         <div class="foot-links">
             <a href="">Bu sözlük nedir?</a>
+            <p>|</p>
             <a href="/pages/iletisim.html">Geri Bildirim</a>
+
         </div>
+
         <div class="footer-bottom">
-            <p>© 2026 Ne Demek?. Tüm hakları saklıdır.</p>
+            <p>© 2026 Ne Diyo' Bu?. Tüm hakları saklıdır.</p>
         </div>
     </footer>
 
-    <script src="js/sozluk-core.js"></script>
-<script>
-    const kutu = document.querySelector('.arama-bari');
-    const oneriListesi = document.getElementById('oneriler');
-    const sayiSpan = document.getElementById('sayi');
-    let timer;
+    <script src="../js/sozluk-core.js"></script>
+    <script>
 
-    veriHazir.then(data => sayiSpan.textContent = data.length);
+(async () => {
+    await veriHazir;
 
-    kutu.addEventListener('input', (e) => {
-        clearTimeout(timer);
-        timer = setTimeout(async () => {
-            await veriHazir;
-            const q = e.target.value;
-            oneriListesi.innerHTML = '';
-            if (!q) return;
+    const params = new URLSearchParams(window.location.search);
+    const ad = params.get('ad') || '';
 
-            onerileriGetir(q).forEach(item => {
-                const li = document.createElement('li');
-                li.innerHTML = `${item.sozcuk}${item.okunus ? ` <span class="okunus">(${item.okunus})</span>` : ''}`;
-                li.addEventListener('click', () => {
-                    window.location.href = `pages/sozluk.html?id=${item.id}`;
-                });
-                oneriListesi.appendChild(li);
+    document.getElementById('etiket-baslik').textContent = ad || 'Etiket bulunamadı';
+
+    const sonuclar = turdekiSozcukleriGetir(ad);
+
+    kartListesiOlustur(
+        document.getElementById('etiket-liste'),
+        sonuclar,
+        item => {
+            const a = document.createElement('a');
+            a.href = `sozluk.html?id=${item.id}`;
+            a.textContent = item.sozcuk;
+            return a;
+        },
+        'Bu türde henüz sözcük yok.'
+    );
+})();
+
+// ARAMA KUTUSU
+const kutu = document.querySelector('.arama-bari');
+const oneriListesi = document.getElementById('oneriler');
+let timer;
+
+kutu.addEventListener('input', (e) => {
+    clearTimeout(timer);
+    timer = setTimeout(async () => {
+        await veriHazir;
+        const q = e.target.value;
+        oneriListesi.innerHTML = '';
+        if (!q) return;
+
+        onerileriGetir(q).forEach(item => {
+            const li = document.createElement('li');
+            li.innerHTML = `${item.sozcuk}${item.okunus ? ` <span class="okunus">(${item.okunus})</span>` : ''}`;
+            li.addEventListener('click', () => {
+                window.location.href = `sozluk.html?id=${item.id}`;
             });
-        }, 100);
-    });
+            oneriListesi.appendChild(li);
+        });
+    }, 100);
+});
 
-    function aramayiCalistir() {
+function aramayiCalistir() {
     const q = kutu.value.trim();
     if (!q) return;
-    const sonuclar = onerileriGetir(q, 1); // sadece şlk sonuç
+    const sonuclar = onerileriGetir(q, 1);
     if (sonuclar.length > 0) {
-        window.location.href = `./pages/sozluk.html?id=${sonuclar[0].id}`;
+        window.location.href = `sozluk.html?id=${sonuclar[0].id}`;
     }
 }
 
@@ -161,30 +197,15 @@ document.querySelector('.arama-buton').addEventListener('click', (e) => {
     aramayiCalistir();
 });
 
-document.getElementById("rastgele-link").addEventListener("click", async (e) => {
+// RASTGELE SÖZCÜK
+document.getElementById("rastgele-sozcuk-linki").addEventListener("click", async (e) => {
     e.preventDefault();
     await veriHazir;
     const veri = rastgeleSozcuk();
-    window.location.href = `pages/sozluk.html?id=${veri.id}&tur=${veri.tur}`;
+    window.location.href = `sozluk.html?id=${veri.id}`;
 });
 
-(async () => {
-    await veriHazir;
-    const veriler = rastgeleSozcukler();
-    const liste = document.getElementById("son-aranan-liste");
-    liste.innerHTML = '';
-
-    veriler.forEach(veri => {
-        const link = document.createElement('a');
-        link.href = `pages/sozluk.html?id=${veri.id}&tur=${veri.tur}`;
-        link.textContent = veri.sozcuk;
-        liste.appendChild(link);
-    });
-})();
-</script>
+    </script>
 </body>
 
 </html>
-
-
-
