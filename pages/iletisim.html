@@ -59,7 +59,7 @@
     </main>
     <footer>
         <div class="foot-links">
-            <a href="">Bu sözlük nedir?</a>
+            <a href="/pages/bu-sozluk-nedir.html">Bu sözlük nedir?</a>
             <p>|</p>
             <a href="">Geri Bildirim</a>
         </div>
@@ -101,7 +101,7 @@
     function aramayiCalistir() {
     const q = kutu.value.trim();
     if (!q) return;
-    const sonuclar = onerileriGetir(q, 1); // sadece ilk sonuç yeter
+    const sonuclar = onerileriGetir(q, 1); 
     if (sonuclar.length > 0) {
         window.location.href = `sozluk.html?id=${sonuclar[0].id}`;
     }
@@ -115,7 +115,7 @@ kutu.addEventListener('keydown', (e) => {
 });
 
 document.querySelector('.arama-buton').addEventListener('click', (e) => {
-    e.preventDefault(); // button type="submit" sayfa yenilemesin diye
+    e.preventDefault(); // 
     aramayiCalistir();
 });
 
