@@ -158,7 +158,9 @@
     <script src="../js/sozluk-core.js"></script>
     <script>
 
+
 (async () => {
+
     await veriHazir;
 
     const params = new URLSearchParams(window.location.search);
@@ -171,208 +173,279 @@
         return;
     }
 
+    // ==========================================
     // SÖZCÜK
+    // ==========================================
+
     document.querySelector('.wordTitle').textContent = veri.sozcuk;
 
+
+    // ==========================================
     // OKUNUŞ
+    // ==========================================
+
     document.querySelector('.okunus-yazi').textContent =
         veri.okunus ? `(${veri.okunus})` : '';
 
-// ==========================================
-// ANLAM
-// ==========================================
-const anlamMetni = (veri.anlam || '').trim();
-const definition = document.getElementById("definition");
 
-function ilkHarfBuyuk(str) {
-    const t = str.trim();
-    return t
-        ? t[0].toLocaleUpperCase("tr-TR") + t.slice(1)
-        : t;
-}
+    // ==========================================
+    // ANLAM
+    // ==========================================
 
-function harfUret(index) {
-    return String.fromCharCode(97 + index); 
-}
+    const anlamMetni = (veri.anlam || '').trim();
+    const definition = document.getElementById("definition");
 
-const numaraliRegex = /\d+\s+([^\d]+?)(?=\s*\d+\s+|$)/g;
-const numaraliMi = /^\d+\s/.test(anlamMetni);
+    function ilkHarfBuyuk(str) {
+        const t = str.trim();
 
-let gruplar = [];
-
-if (numaraliMi) {
-    let eslesme;
-    while ((eslesme = numaraliRegex.exec(anlamMetni)) !== null) {
-        const grupMetni = eslesme[1].replace(/,\s*$/, '').trim();
-        gruplar.push(grupMetni.split(",").map(ilkHarfBuyuk));
+        return t
+            ? t[0].toLocaleUpperCase("tr-TR") + t.slice(1)
+            : t;
     }
-} else if (anlamMetni) {
-    gruplar.push(anlamMetni.split(",").map(ilkHarfBuyuk));
-}
 
-definition.innerHTML = '';
+    function harfUret(index) {
+        return String.fromCharCode(97 + index);
+    }
 
-if (gruplar.length === 0) {
+    const numaraliRegex =
+        /\d+\s+([^\d]+?)(?=\s*\d+\s+|$)/g;
 
-    const p = document.createElement('p');
-    p.textContent = 'Henüz eklenmedi.';
-    definition.appendChild(p);
+    const numaraliMi = /^\d+\s/.test(anlamMetni);
 
-} else {
+    let gruplar = [];
 
-    gruplar.forEach((kelimeler, grupIndex) => {
+    if (numaraliMi) {
 
-        if (gruplar.length > 1) {
-            const numaraLi = document.createElement("li");
-            numaraLi.className = "anlam-numara";
-            numaraLi.textContent = `${grupIndex + 1}.`;
-            definition.appendChild(numaraLi);
+        let eslesme;
+
+        while ((eslesme = numaraliRegex.exec(anlamMetni)) !== null) {
+
+            const grupMetni =
+                eslesme[1]
+                    .replace(/,\s*\*$/, '')
+                    .trim();
+
+            gruplar.push(
+                grupMetni
+                    .split(",")
+                    .map(ilkHarfBuyuk)
+            );
         }
 
-        const harfliKelimeler = kelimeler.map(
-            (kelime, i) => `${harfUret(i)}. ${kelime}`
+    } else if (anlamMetni) {
+
+        gruplar.push(
+            anlamMetni
+                .split(",")
+                .map(ilkHarfBuyuk)
         );
+    }
 
 
-        satirlaraBol(harfliKelimeler, 3).forEach(grup => {
-            const satir = document.createElement('div');
-            satir.className = 'kart-satir';
-            grup.forEach(item => {
-                const li = document.createElement('li');
-                li.textContent = item;
-                satir.appendChild(li);
-            });
-            definition.appendChild(satir);
+    definition.innerHTML = '';
+
+    if (gruplar.length === 0) {
+
+        const p = document.createElement('p');
+        p.textContent = 'Henüz eklenmedi.';
+        definition.appendChild(p);
+
+    } else {
+
+        gruplar.forEach((kelimeler, grupIndex) => {
+
+            // Birden fazla anlam grubu varsa 1. 2. 3. şeklinde göster
+            if (gruplar.length > 1) {
+
+                const numaraLi =
+                    document.createElement("li");
+
+                numaraLi.className = "anlam-numara";
+                numaraLi.textContent =
+                    `${grupIndex + 1}.`;
+
+                definition.appendChild(numaraLi);
+            }
+
+
+            // a. b. c. şeklinde anlamlar
+            const harfliKelimeler =
+                kelimeler.map(
+                    (kelime, i) =>
+                        `${harfUret(i)}. ${kelime}`
+                );
+
+
+            satirlaraBol(harfliKelimeler, 3)
+                .forEach(grup => {
+
+                    const satir =
+                        document.createElement('div');
+
+                    satir.className = 'kart-satir';
+
+                    grup.forEach(item => {
+
+                        const li =
+                            document.createElement('li');
+
+                        li.textContent = item;
+                        satir.appendChild(li);
+                    });
+
+                    definition.appendChild(satir);
+                });
+        });
+    }
+
+
+    // ==========================================
+    // AÇIKLAMA + DİĞER YAZIMLAR
+    // ==========================================
+
+    const aciklamaKutu =
+        document.getElementById("aciklama");
+
+    const aciklamaBaslik =
+        document.getElementById("aciklama-baslik");
+
+
+    // Elemanlar HTML'de varsa işlemleri yap
+    if (aciklamaKutu && aciklamaBaslik) {
+
+        aciklamaKutu.innerHTML = "";
+
+
+        // Açıklamalar
+        const aciklamalar =
+            (veri.aciklama || [])
+                .filter(
+                    metin =>
+                        metin &&
+                        metin.trim() !== ""
+                );
+
+
+        // Diğer yazımlar
+        const digerYazimlar =
+            veri.digeryazimlar
+                ? veri.digeryazimlar.trim()
+                : "";
+
+
+        // Açıklamaları ekle
+        aciklamalar.forEach(metin => {
+
+            const p =
+                document.createElement("p");
+
+            p.textContent =
+                ilkHarfBuyuk(metin);
+
+            aciklamaKutu.appendChild(p);
         });
 
-    });
 
-}
+        // Diğer yazımlar
+        if (digerYazimlar) {
 
- // ==========================================
-// AÇIKLAMA + DİĞER YAZIMLAR
-// ==========================================
+            const p =
+                document.createElement("p");
 
-const aciklamaKutu = document.getElementById("aciklama");
-const aciklamaBaslik = document.getElementById("aciklama-baslik");
+            p.textContent =
+                `Diğer Yazımlar: ${ilkHarfBuyuk(digerYazimlar)}`;
 
-aciklamaKutu.innerHTML = "";
-
-function ilkHarfBuyuk(str) {
-    const t = str.trim();
-    return t
-        ? t[0].toLocaleUpperCase("tr-TR") + t.slice(1)
-        : t;
-}
-
-const aciklamalar = (veri.aciklama || [])
-    .filter(metin => metin && metin.trim() !== "");
-
-const digerYazimlar = veri.digeryazimlar
-    ? veri.digeryazimlar.trim()
-    : "";
+            aciklamaKutu.appendChild(p);
+        }
 
 
-// Açıklamaları ekle
-aciklamalar.forEach(metin => {
+        // İçerik yoksa kartı gizle
+        if (
+            aciklamalar.length === 0 &&
+            !digerYazimlar
+        ) {
 
-    const p = document.createElement("p");
+            aciklamaBaslik.style.display = "none";
+            aciklamaKutu.style.display = "none";
 
-    p.textContent = ilkHarfBuyuk(metin);
+        } else {
 
-    aciklamaKutu.appendChild(p);
+            aciklamaBaslik.style.display = "flex";
+            aciklamaKutu.style.display = "flex";
+        }
+    }
 
-});
-
-
-// diğer yazımlar
-if (digerYazimlar) {
-
-    const p = document.createElement("p");
-
-    p.textContent = `Diğer Yazımlar: ${ilkHarfBuyuk(digerYazimlar)}`;
-
-    aciklamaKutu.appendChild(p);
-
-}
-
-
-//  nullsa kartı gizle
-if (aciklamalar.length === 0 && !digerYazimlar) {
-
-    aciklamaBaslik.style.display = "none";
-    aciklamaKutu.style.display = "none";
-
-} else {
-
-    aciklamaBaslik.style.display = "flex";
-    aciklamaKutu.style.display = "flex";
-
-}
 
     // ==========================================
     // TÜR ETİKETLERİ
     // ==========================================
 
-    const turKutusu = document.querySelector('.tur-yazi');
+    const turKutusu =
+        document.querySelector('.tur-yazi');
 
-    turKutusu.innerHTML = '';
+    if (turKutusu) {
 
-    (veri.tur || []).forEach(etiket => {
+        turKutusu.innerHTML = '';
 
-        const a = document.createElement('a');
+        (veri.tur || []).forEach(etiket => {
 
-        a.className = 'tur-etiket';
+            const a =
+                document.createElement('a');
 
-        a.href =
-            `etiket.html?ad=${encodeURIComponent(etiket)}`;
+            a.className = 'tur-etiket';
 
-        a.textContent = etiket;
+            a.href =
+                `etiket.html?ad=${encodeURIComponent(etiket)}`;
 
-        turKutusu.appendChild(a);
+            a.textContent = etiket;
 
-    });
+            turKutusu.appendChild(a);
+        });
+    }
 
 
     // ==========================================
     // KOMŞU SÜTUNU
     // ==========================================
 
-    const komsular = komsulariGetir(veri.id);
+    const komsular =
+        komsulariGetir(veri.id);
 
     const komsuKutu =
         document.querySelector('.komsu-sutun');
 
-    komsuKutu.innerHTML = '';
+    if (komsuKutu) {
 
-    komsular.forEach(k => {
+        komsuKutu.innerHTML = '';
 
-        if (k.aktif) {
+        komsular.forEach(k => {
 
-            const div = document.createElement('div');
+            if (k.aktif) {
 
-            div.className = 'orta-vurgu';
+                const div =
+                    document.createElement('div');
 
-            div.textContent = k.sozcuk;
+                div.className = 'orta-vurgu';
+                div.textContent = k.sozcuk;
 
-            komsuKutu.appendChild(div);
+                komsuKutu.appendChild(div);
 
-        } else {
+            } else {
 
-            const a = document.createElement('a');
+                const a =
+                    document.createElement('a');
 
-            a.className = 'komsu-link';
+                a.className = 'komsu-link';
 
-            a.href =
-                `sozluk.html?id=${k.id}`;
+                a.href =
+                    `sozluk.html?id=${k.id}`;
 
-            a.textContent = k.sozcuk;
+                a.textContent = k.sozcuk;
 
-            komsuKutu.appendChild(a);
-
-        }
-
-    });
+                komsuKutu.appendChild(a);
+            }
+        });
+    }
 
 
     // ==========================================
@@ -385,20 +458,23 @@ if (aciklamalar.length === 0 && !digerYazimlar) {
     const turevKutu =
         document.getElementById('turev-liste');
 
-    turevKutu.innerHTML = '';
+    if (turevKutu) {
 
-    turevler.forEach(t => {
+        turevKutu.innerHTML = '';
 
-        const a = document.createElement('a');
+        turevler.forEach(t => {
 
-        a.href =
-            `sozluk.html?id=${t.id}`;
+            const a =
+                document.createElement('a');
 
-        a.textContent = t.sozcuk;
+            a.href =
+                `sozluk.html?id=${t.id}`;
 
-        turevKutu.appendChild(a);
+            a.textContent = t.sozcuk;
 
-    });
+            turevKutu.appendChild(a);
+        });
+    }
 
 
     // ==========================================
@@ -408,21 +484,28 @@ if (aciklamalar.length === 0 && !digerYazimlar) {
     const ilgililer =
         idListesindenGetir(veri.ilgili);
 
-    kartListesiOlustur(
-        document.getElementById('ilgili-liste'),
-        ilgililer,
-        ilg => {
+    const ilgiliListe =
+        document.getElementById('ilgili-liste');
 
-            const a = document.createElement('a');
+    if (ilgiliListe) {
 
-            a.href =
-                `sozluk.html?id=${ilg.id}`;
+        kartListesiOlustur(
+            ilgiliListe,
+            ilgililer,
+            ilg => {
 
-            a.textContent = ilg.sozcuk;
+                const a =
+                    document.createElement('a');
 
-            return a;
-        }
-    );
+                a.href =
+                    `sozluk.html?id=${ilg.id}`;
+
+                a.textContent = ilg.sozcuk;
+
+                return a;
+            }
+        );
+    }
 
 
     // ==========================================
@@ -432,21 +515,28 @@ if (aciklamalar.length === 0 && !digerYazimlar) {
     const benzerler =
         idListesindenGetir(veri.benzer);
 
-    kartListesiOlustur(
-        document.getElementById('benzer'),
-        benzerler,
-        b => {
+    const benzerListe =
+        document.getElementById('benzer');
 
-            const a = document.createElement('a');
+    if (benzerListe) {
 
-            a.href =
-                `sozluk.html?id=${b.id}`;
+        kartListesiOlustur(
+            benzerListe,
+            benzerler,
+            b => {
 
-            a.textContent = b.sozcuk;
+                const a =
+                    document.createElement('a');
 
-            return a;
-        }
-    );
+                a.href =
+                    `sozluk.html?id=${b.id}`;
+
+                a.textContent = b.sozcuk;
+
+                return a;
+            }
+        );
+    }
 
 })();
 
@@ -464,111 +554,125 @@ const oneriListesi =
 let timer;
 
 
-kutu.addEventListener('input', (e) => {
+if (kutu && oneriListesi) {
 
-    clearTimeout(timer);
+    kutu.addEventListener('input', (e) => {
 
-    timer = setTimeout(async () => {
+        clearTimeout(timer);
 
-        await veriHazir;
+        timer = setTimeout(async () => {
 
-        const q = e.target.value;
+            await veriHazir;
 
-        oneriListesi.innerHTML = '';
+            const q =
+                e.target.value.trim();
+
+            oneriListesi.innerHTML = '';
+
+            if (!q) return;
+
+
+            onerileriGetir(q).forEach(item => {
+
+                const li =
+                    document.createElement('li');
+
+                li.innerHTML =
+                    `${item.sozcuk}${
+                        item.okunus
+                            ? ` <span class="okunus">(${item.okunus})</span>`
+                            : ''
+                    }`;
+
+
+                li.addEventListener('click', () => {
+
+                    window.location.href =
+                        `sozluk.html?id=${item.id}`;
+                });
+
+
+                oneriListesi.appendChild(li);
+            });
+
+        }, 100);
+    });
+
+
+    // ==========================================
+    // ARAMA
+    // ==========================================
+
+    function aramayiCalistir() {
+
+        const q =
+            kutu.value.trim();
 
         if (!q) return;
 
-        onerileriGetir(q).forEach(item => {
+        const sonuclar =
+            onerileriGetir(q, 1);
 
-            const li = document.createElement('li');
+        if (sonuclar.length > 0) {
 
-            li.innerHTML =
-                `${item.sozcuk}${item.okunus
-                    ? ` <span class="okunus">(${item.okunus})</span>`
-                    : ''
-                }`;
-
-            li.addEventListener('click', () => {
-
-                window.location.href =
-                    `sozluk.html?id=${item.id}`;
-
-            });
-
-            oneriListesi.appendChild(li);
-
-        });
-
-    }, 100);
-
-});
-
-
-// ==========================================
-// ARAMA
-// ==========================================
-
-function aramayiCalistir() {
-
-    const q = kutu.value.trim();
-
-    if (!q) return;
-
-    const sonuclar =
-        onerileriGetir(q, 1);
-
-    if (sonuclar.length > 0) {
-
-        window.location.href =
-            `sozluk.html?id=${sonuclar[0].id}`;
-
+            window.location.href =
+                `sozluk.html?id=${sonuclar[0].id}`;
+        }
     }
 
-}
 
+    kutu.addEventListener('keydown', (e) => {
 
-kutu.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter') {
 
-    if (e.key === 'Enter') {
-
-        e.preventDefault();
-
-        aramayiCalistir();
-
-    }
-
-});
-
-
-document
-    .querySelector('.arama-buton')
-    .addEventListener('click', (e) => {
-
-        e.preventDefault();
-
-        aramayiCalistir();
-
+            e.preventDefault();
+            aramayiCalistir();
+        }
     });
+
+
+    const aramaButon =
+        document.querySelector('.arama-buton');
+
+    if (aramaButon) {
+
+        aramaButon.addEventListener('click', (e) => {
+
+            e.preventDefault();
+            aramayiCalistir();
+        });
+    }
+}
 
 
 // ==========================================
 // RASTGELE SÖZCÜK
 // ==========================================
 
-document
-    .getElementById("rastgele-sozcuk-linki")
-    .addEventListener("click", async (e) => {
+const rastgeleLink =
+    document.getElementById("rastgele-sozcuk-linki");
 
-        e.preventDefault();
+if (rastgeleLink) {
 
-        await veriHazir;
+    rastgeleLink.addEventListener(
+        "click",
+        async (e) => {
 
-        const veri = rastgeleSozcuk();
+            e.preventDefault();
 
-        window.location.href =
-            `sozluk.html?id=${veri.id}`;
+            await veriHazir;
 
-    });
+            const veri =
+                rastgeleSozcuk();
+
+            if (veri) {
+
+                window.location.href =
+                    `sozluk.html?id=${veri.id}`;
+            }
+        }
+    );
+}
 
     </script>
 </body>
