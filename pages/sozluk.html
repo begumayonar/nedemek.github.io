@@ -299,81 +299,112 @@
     }
 
 
-    // ==========================================
-    // AÇIKLAMA + DİĞER YAZIMLAR
-    // ==========================================
+// ==========================================
+// AÇIKLAMA + DİĞER YAZIMLAR
+// ==========================================
 
-    const aciklamaKutu =
-        document.getElementById("aciklama");
+const aciklamaKutu =
+    document.getElementById("aciklama");
 
-    const aciklamaBaslik =
-        document.getElementById("aciklama-baslik");
-
-
-    // Elemanlar HTML'de varsa işlemleri yap
-    if (aciklamaKutu && aciklamaBaslik) {
-
-        aciklamaKutu.innerHTML = "";
+const aciklamaBaslik =
+    document.getElementById("aciklama-baslik");
 
 
-        // Açıklamalar
-        const aciklamalar =
-            (veri.aciklama || [])
-                .filter(
-                    metin =>
-                        metin &&
-                        metin.trim() !== ""
-                );
+// Açıklama kutusu varsa temizle
+if (aciklamaKutu) {
+
+    aciklamaKutu.innerHTML = "";
+
+    // Açıklamalar
+    const aciklamalar =
+        Array.isArray(veri.aciklama)
+            ? veri.aciklama.filter(
+                metin =>
+                    metin &&
+                    metin.trim() !== ""
+            )
+            : veri.aciklama
+                ? [veri.aciklama]
+                : [];
 
 
-        // Diğer yazımlar
-        const digerYazimlar =
-            veri.digeryazimlar
-                ? veri.digeryazimlar.trim()
+    // Diğer yazımlar
+    const digerYazimlar =
+        typeof veri.digeryazimlar === "string"
+            ? veri.digeryazimlar.trim()
+            : "";
+
+
+    // Açıklamaları ekle
+    aciklamalar.forEach(metin => {
+
+        const p =
+            document.createElement("p");
+
+        const t =
+            metin.trim();
+
+        p.textContent =
+            t
+                ? t[0].toLocaleUpperCase("tr-TR") +
+                  t.slice(1)
                 : "";
 
-
-        // Açıklamaları ekle
-        aciklamalar.forEach(metin => {
-
-            const p =
-                document.createElement("p");
-
-            p.textContent =
-                ilkHarfBuyuk(metin);
-
-            aciklamaKutu.appendChild(p);
-        });
+        aciklamaKutu.appendChild(p);
+    });
 
 
-        // Diğer yazımlar
-        if (digerYazimlar) {
+    // Diğer yazımlar
+    if (digerYazimlar) {
 
-            const p =
-                document.createElement("p");
+        const p =
+            document.createElement("p");
 
-            p.textContent =
-                `Diğer Yazımlar: ${ilkHarfBuyuk(digerYazimlar)}`;
+        const t =
+            digerYazimlar.trim();
 
-            aciklamaKutu.appendChild(p);
-        }
+        const buyuk =
+            t[0].toLocaleUpperCase("tr-TR") +
+            t.slice(1);
 
+        p.textContent =
+            `Diğer Yazımlar: ${buyuk}`;
 
-        // İçerik yoksa kartı gizle
-        if (
-            aciklamalar.length === 0 &&
-            !digerYazimlar
-        ) {
-
-            aciklamaBaslik.style.display = "none";
-            aciklamaKutu.style.display = "none";
-
-        } else {
-
-            aciklamaBaslik.style.display = "flex";
-            aciklamaKutu.style.display = "flex";
-        }
+        aciklamaKutu.appendChild(p);
     }
+
+
+    // ==========================================
+    // KART BOŞSA GİZLE
+    // ==========================================
+
+    const bos =
+        aciklamalar.length === 0 &&
+        !digerYazimlar;
+
+
+    if (bos) {
+
+        // Başlık varsa gizle
+        if (aciklamaBaslik) {
+            aciklamaBaslik.style.display = "none";
+        }
+
+        // Kutu varsa gizle
+        aciklamaKutu.style.display = "none";
+
+    } else {
+
+        // Başlık varsa göster
+        if (aciklamaBaslik) {
+            aciklamaBaslik.style.display = "flex";
+        }
+
+        // Kutuyu göster
+        aciklamaKutu.style.display = "flex";
+    }
+}
+
 
 
     // ==========================================
