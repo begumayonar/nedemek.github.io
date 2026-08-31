@@ -577,3 +577,69 @@ section h2, section h3, section h4{
     align-items: center;
     gap: 8px;
 }
+
+.aciklama-baslik{
+    cursor: pointer;
+    user-select: none;
+    justify-content: space-between;
+    padding-right: 14px;
+}
+
+.aciklama-baslik .ok{
+    display: inline-block;
+    font-size: 0.9rem;
+    transition: transform .25s ease;
+}
+
+.aciklama-blok.acik .aciklama-baslik .ok{
+    transform: rotate(90deg);
+}
+
+.aciklama-icerik{
+    min-height: 0;
+    max-height: 0;
+    opacity: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    overflow: hidden;
+    transition: max-height .35s ease, opacity .25s ease, padding-top .35s ease, padding-bottom .35s ease;
+}
+
+.aciklama-blok.acik .aciklama-icerik{
+    max-height: 600px;
+    opacity: 1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#aciklama {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    min-height: 0;
+    padding: 14px 20px;
+}
+
+/* Her açıklama */
+#aciklama p {
+    margin: 0;
+    padding: 9px 12px;
+
+    color: #91fff4;
+    background-color: #102023e2;
+
+    border-left: 3px solid #40e0d0;
+    border-radius: 4px;
+
+    font-size: 0.95rem;
+    line-height: 1.45;
+
+    transition:
+        background-color 0.2s ease,
+        border-color 0.2s ease;
+}
+
+#aciklama p:hover {
+    background-color: #163033;
+    border-left-color: #91fff4;
+}
